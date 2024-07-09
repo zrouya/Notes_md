@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular Component Inputs-Outputs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d838b9841d6b40b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formulaires Angular.md",
+                "file": "Adress Resolution Protocol (ARP).md",
                 "mode": "source",
                 "source": false
               }
@@ -36,37 +23,24 @@
             "id": "35a30892925308c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Angular ngFor.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "897273b8fc4a09f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Angular ngIf.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "72b532fd56dec9d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Composants Angular - Données dynamiques.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -98,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "angular component",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Angular Component Inputs-Outputs.md",
+                "file": "Adress Resolution Protocol (ARP).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Angular Component Inputs-Outputs.md",
+                "file": "Adress Resolution Protocol (ARP).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Angular Component Inputs-Outputs.md"
+                "file": "Adress Resolution Protocol (ARP).md"
               }
             }
           }
@@ -199,47 +172,50 @@
   },
   "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "2024-07-09.md",
+    "gitrepo/Adress Resolution Protocol (ARP).md",
+    "Untitled.canvas",
     "Formulaires Angular.md",
     "Angular Component Inputs-Outputs.md",
-    "Composants Angular.md",
-    "Composants Angular - Données dynamiques.md",
-    "Angular ngIf.md",
-    "Angular ngFor.md",
-    "Métadonnées d'un composant Angular.md",
-    "Angular Signals.md",
-    "State managment Angular.md",
-    "Structure de fichiers d'une application Angular.md",
-    "ASP.NET Core.md",
-    "ASP.Net Core Controllers.md",
-    "ASP .Net Core MVC Views.md",
-    "ASP.Net Core ActionResult.md",
-    "Objectifs 2024 s28.md",
-    "Décorateurs en TypeScript.md",
-    "Objectifs 2024 s16.md",
-    "Templates/Objectifs hebdo.md",
-    "Objectifs 2024 s11.md",
-    "Objectifs 2024.md",
-    "ApplicationBuilder .Net Core.md",
-    "Test.md",
-    "Untitled 1.md",
-    "Templates",
+    "gitrepo/Templates/Objectifs hebdo.md",
+    "gitrepo/Templates",
+    "gitrepo/vCore Azure.md",
+    "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
+    "gitrepo/cmdlets PowerShell.md",
+    "gitrepo/Workers Swarm.md",
+    "gitrepo/Wireless Range Extenders (Répéteurs Wifi).md",
+    "gitrepo/Wireless Local Network (WLAN).md",
+    "gitrepo/Wireless Access Point (WAP).md",
+    "gitrepo/Windows Server.md",
+    "gitrepo/Windows PowerShell.md",
+    "gitrepo/Wide Area Network (WAN).md",
+    "gitrepo/Web Deploy.md",
+    "gitrepo/Volumes Docker.md",
+    "gitrepo/Virtual Private Network (VPN).md",
+    "gitrepo/Untitled.canvas",
+    "gitrepo/UNIX.md",
+    "gitrepo/UFS Layer.md",
+    "gitrepo/Types de shell.md",
+    "gitrepo/Types de messages ICMP.md",
+    "gitrepo/TypeScript.md",
+    "gitrepo/Topologies réseaux.md",
+    "gitrepo/Topologies de réseaux sans fils.md",
+    "gitrepo/Topologies de réseaux câblés.md",
+    "gitrepo/Topologie réseau mesh.md",
+    "gitrepo/Pasted image 20240614154759.png",
+    "gitrepo/Pasted image 20240411153145.png",
+    "gitrepo/Pasted image 20240410171909.png",
+    "gitrepo/Pasted image 20240410171009.png",
+    "gitrepo/Pasted image 20240409174852.png",
+    "gitrepo/Pasted image 20240409145401.png",
+    "gitrepo/Pasted image 20240405114000.png",
+    "gitrepo/Pasted image 20240327114819.png",
+    "gitrepo/Pasted image 20240321113810.png",
+    "gitrepo",
     "Nouveau dossier",
-    "Angular.md",
-    "Routing Angular.md",
-    "RouterOutlet Angular.md",
-    "Pasted image 20240617132927.png",
-    "Pasted image 20240614154759.png",
-    "Untitled.canvas",
-    "Pasted image 20240411153145.png",
-    "Pasted image 20240410171909.png",
-    "Pasted image 20240410171009.png",
-    "Pasted image 20240409174852.png",
-    "Pasted image 20240409145401.png",
+    "Templates",
     "Carrier Sense Multiple Access - Collision Avoidance (CSMA",
     "Carrier Sense Multiple Access - Collision Detection (CSMA",
-    "Pasted image 20240405114000.png",
-    "screenshot-www.udemy.com-2024.04.05-11_24_50.png",
-    "screenshot-www.udemy.com-2024.04.05-11_24_50.png.crdownload",
-    "Pasted image 20240327114819.png"
+    "screenshot-www.udemy.com-2024.04.05-11_24_50.png.crdownload"
   ]
 }

@@ -19,3 +19,5 @@ Pour consulter ce cache, il suffit d'utiliser la commande ``arp -a`` dans un ter
 ![[Pasted image 20240410171909.png]]
 
 Note : Sur la réponse données par Windows (à gauche), la mention **"type":"dynamic"** correspond au fait que ces correspondances **proviennent d'une réponse** faite à une **requête ARP** sur le réseau (il est en effet possible d'**ajouter manuellement** des correspondances dans ce cache, auquel cas ces entrées **ne seront pas de type "dynamic"**).
+
+Test update
