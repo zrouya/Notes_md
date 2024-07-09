@@ -1,0 +1,1 @@
+https://learn.microsoft.com/fr-fr/aspnet/aspnet/overview/owin-and-katana/an-overview-of-project-katana

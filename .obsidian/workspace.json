@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "39de75d22ab79a55",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0f2ef388014a251",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86315e070f7dc28e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular Component Inputs-Outputs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d838b9841d6b40b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formulaires Angular.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35a30892925308c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular ngFor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "897273b8fc4a09f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular ngIf.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72b532fd56dec9d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Composants Angular - Données dynamiques.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "288a8e15c8a847fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b60590f5e07daa24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94d9a3d98df21d83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e85768a37c52157f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "angular component",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ef13f9284b641ab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "572e81d9f75b48dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ed8ce187ddf557c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b07342d708167a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Angular Component Inputs-Outputs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "237fce71855910e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Angular Component Inputs-Outputs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "733adfa4214e64aa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9ef483951aa7bc09",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Angular Component Inputs-Outputs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "86315e070f7dc28e",
+  "lastOpenFiles": [
+    "Formulaires Angular.md",
+    "Angular Component Inputs-Outputs.md",
+    "Composants Angular.md",
+    "Composants Angular - Données dynamiques.md",
+    "Angular ngIf.md",
+    "Angular ngFor.md",
+    "Métadonnées d'un composant Angular.md",
+    "Angular Signals.md",
+    "State managment Angular.md",
+    "Structure de fichiers d'une application Angular.md",
+    "ASP.NET Core.md",
+    "ASP.Net Core Controllers.md",
+    "ASP .Net Core MVC Views.md",
+    "ASP.Net Core ActionResult.md",
+    "Objectifs 2024 s28.md",
+    "Décorateurs en TypeScript.md",
+    "Objectifs 2024 s16.md",
+    "Templates/Objectifs hebdo.md",
+    "Objectifs 2024 s11.md",
+    "Objectifs 2024.md",
+    "ApplicationBuilder .Net Core.md",
+    "Test.md",
+    "Untitled 1.md",
+    "Templates",
+    "Nouveau dossier",
+    "Angular.md",
+    "Routing Angular.md",
+    "RouterOutlet Angular.md",
+    "Pasted image 20240617132927.png",
+    "Pasted image 20240614154759.png",
+    "Untitled.canvas",
+    "Pasted image 20240411153145.png",
+    "Pasted image 20240410171909.png",
+    "Pasted image 20240410171009.png",
+    "Pasted image 20240409174852.png",
+    "Pasted image 20240409145401.png",
+    "Carrier Sense Multiple Access - Collision Avoidance (CSMA",
+    "Carrier Sense Multiple Access - Collision Detection (CSMA",
+    "Pasted image 20240405114000.png",
+    "screenshot-www.udemy.com-2024.04.05-11_24_50.png",
+    "screenshot-www.udemy.com-2024.04.05-11_24_50.png.crdownload",
+    "Pasted image 20240327114819.png"
+  ]
+}
