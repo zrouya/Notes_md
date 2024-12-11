@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular ngIf.md",
+                "file": "Exécution des conteneurs docker.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Angular ngIf"
+              "title": "Exécution des conteneurs docker"
             }
           },
           {
@@ -194,8 +195,9 @@
   },
   "active": "86315e070f7dc28e",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "UFS Layer.md",
     "Angular ngIf.md",
+    "Untitled.canvas",
     "Formulaires Angular.md",
     "Adress Resolution Protocol (ARP).md",
     "2024-07-09.md",
