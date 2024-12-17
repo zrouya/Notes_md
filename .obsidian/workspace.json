@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model Binding .NetCore.md",
+                "file": "OAuth 2.0 - OpenID.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model Binding .NetCore"
+              "title": "OAuth 2.0 - OpenID"
             }
           },
           {
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "urlen",
+                "query": "oAu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,8 +194,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Model Binding .NetCore.md",
     "Exécution des conteneurs docker.md",
     "UFS Layer.md",
     "Angular ngIf.md",
@@ -225,7 +226,6 @@
     "gitrepo/UFS Layer.md",
     "gitrepo/Types de shell.md",
     "gitrepo/Types de messages ICMP.md",
-    "gitrepo/TypeScript.md",
     "gitrepo/Pasted image 20240614154759.png",
     "gitrepo/Pasted image 20240411153145.png",
     "gitrepo/Pasted image 20240410171909.png",

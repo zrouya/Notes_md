@@ -16,7 +16,7 @@ Workflow dans le cas d'Azure :
 
 ## OpenID Connect
 
-OpenID Connect est une extension de OAuth 2.0 qui permet l'autentification de l'utilisateur en plus de l'autorisation. Il permet à une application de déléguer l'autentification à un fournisseur OpenID, qui renvoie un jeton d'identité à l'application après l'autentification de l'utilisateur.
+OpenID Connect est une extension de OAuth 2.0 qui permet l'authentification de l'utilisateur en plus de l'autorisation. Il permet à une application de déléguer l'authentification à un fournisseur OpenID, qui renvoie un jeton d'identité à l'application après l'authentification de l'utilisateur.
 
 ## Sécurité dans OAuth 2.0 et OpenID Connect
 
