@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAuth 2.0 - OpenID.md",
+                "file": "HTTP Trigger Azure Function.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth 2.0 - OpenID"
+              "title": "HTTP Trigger Azure Function"
             }
           },
           {
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "http",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,6 +196,9 @@
   },
   "active": "e85768a37c52157f",
   "lastOpenFiles": [
+    "HTTP(S).md",
+    "Requêtes HTTP.md",
+    "OAuth 2.0 - OpenID.md",
     "Model Binding .NetCore.md",
     "Exécution des conteneurs docker.md",
     "UFS Layer.md",
@@ -223,9 +226,6 @@
     "gitrepo/Virtual Private Network (VPN).md",
     "gitrepo/Untitled.canvas",
     "gitrepo/UNIX.md",
-    "gitrepo/UFS Layer.md",
-    "gitrepo/Types de shell.md",
-    "gitrepo/Types de messages ICMP.md",
     "gitrepo/Pasted image 20240614154759.png",
     "gitrepo/Pasted image 20240411153145.png",
     "gitrepo/Pasted image 20240410171909.png",
