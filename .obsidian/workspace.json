@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "openid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
