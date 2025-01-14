@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openid",
+                "query": "manage",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,7 +194,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86315e070f7dc28e",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "Authentification.md",
     "HTTP Trigger Azure Function.md",
