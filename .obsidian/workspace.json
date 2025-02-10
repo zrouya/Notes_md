@@ -15,8 +15,17 @@
               "state": {
                 "file": "OAuth 2.0 - OpenID.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "OAuth 2.0 - OpenID"
@@ -83,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "app registr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
