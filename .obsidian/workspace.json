@@ -30,36 +30,6 @@
               "icon": "lucide-file",
               "title": "OAuth 2.0 - OpenID"
             }
-          },
-          {
-            "id": "35a30892925308c3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "897273b8fc4a09f7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "72b532fd56dec9d2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ]
       }
@@ -92,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "app registr",
+                "query": "security",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,13 +173,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Créer une VM Azure.md",
+    "OAuth 2.0 - OpenID.md",
     "Authentification.md",
     "HTTP Trigger Azure Function.md",
     "HTTP(S).md",
     "Requêtes HTTP.md",
-    "OAuth 2.0 - OpenID.md",
     "Model Binding .NetCore.md",
     "Exécution des conteneurs docker.md",
     "UFS Layer.md",
@@ -233,7 +204,6 @@
     "gitrepo/Windows PowerShell.md",
     "gitrepo/Wide Area Network (WAN).md",
     "gitrepo/Web Deploy.md",
-    "gitrepo/Volumes Docker.md",
     "gitrepo/Untitled.canvas",
     "gitrepo/Pasted image 20240614154759.png",
     "gitrepo/Pasted image 20240411153145.png",
