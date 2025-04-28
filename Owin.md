@@ -1,5 +1,7 @@
 
-Couche d'abstraction entre les application Web .Net et les serveurs HTTP hôtes.
+Couche d'abstraction entre les application Web .Net Framework et les serveurs HTTP hôtes.
+A permis aux applications .Net de se découpler de IIS (via System.Web)
+
 Chronologiquement : 
 1. **System.Web** = l’ancien pipeline ASP .NET, lourd et couplé à IIS.
 2. **OWIN** = abstraction externe, plus légère, middleware-based, découplée de System.Web.

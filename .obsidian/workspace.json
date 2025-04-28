@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "owin",
+                "query": "kestrel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86315e070f7dc28e",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "OAuth 2.0 - OpenID.md",
     "Créer une VM Azure.md",
