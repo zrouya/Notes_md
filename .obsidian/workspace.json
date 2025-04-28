@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAuth 2.0 - OpenID.md",
+                "file": "Owin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OAuth 2.0 - OpenID"
+              "title": "Owin"
             }
           }
         ]
@@ -173,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "86315e070f7dc28e",
   "lastOpenFiles": [
-    "Créer une VM Azure.md",
     "OAuth 2.0 - OpenID.md",
+    "Créer une VM Azure.md",
     "Authentification.md",
     "HTTP Trigger Azure Function.md",
     "HTTP(S).md",
