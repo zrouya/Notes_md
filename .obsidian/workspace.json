@@ -30,8 +30,23 @@
               "icon": "lucide-file",
               "title": "Owin"
             }
+          },
+          {
+            "id": "b629ed896b6fbb34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CV - Descriptifs expériences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CV - Descriptifs expériences"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kestrel",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,8 +188,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "b629ed896b6fbb34",
   "lastOpenFiles": [
+    "Owin.md",
+    "CV - Descriptifs expériences.md",
     "OAuth 2.0 - OpenID.md",
     "Créer une VM Azure.md",
     "Authentification.md",
@@ -202,8 +219,6 @@
     "gitrepo/Wireless Access Point (WAP).md",
     "gitrepo/Windows Server.md",
     "gitrepo/Windows PowerShell.md",
-    "gitrepo/Wide Area Network (WAN).md",
-    "gitrepo/Web Deploy.md",
     "gitrepo/Untitled.canvas",
     "gitrepo/Pasted image 20240614154759.png",
     "gitrepo/Pasted image 20240411153145.png",
