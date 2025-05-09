@@ -1,7 +1,8 @@
 
 Couche d'abstraction entre les application Web .Net Framework et les serveurs HTTP hôtes.
-A permis aux applications .Net de se découpler de IIS (via System.Web)
+A permis aux applications .Net de se découpler de System.Web (et donc de **IIS**).
 
+Owin a introduit la notion de middleware, reprise par .Net Core par la suite.
 Chronologiquement : 
 1. **System.Web** = l’ancien pipeline ASP .NET, lourd et couplé à IIS.
 2. **OWIN** = abstraction externe, plus légère, middleware-based, découplée de System.Web.
