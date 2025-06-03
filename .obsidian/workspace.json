@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FromBody",
+                "query": "line: (code http",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86315e070f7dc28e",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "Owin.md",
     "CV - Descriptif Entoria.md",
