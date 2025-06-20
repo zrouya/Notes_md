@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line: (code http",
+                "query": "line: identi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
