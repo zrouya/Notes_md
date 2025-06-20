@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Model Binding .NetCore.md",
+                "file": "Azure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Model Binding .NetCore"
+              "title": "Azure"
             }
           }
         ]
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line: identi",
+                "query": "line: (identité",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,8 +173,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Model Binding .NetCore.md",
     "Owin.md",
     "CV - Descriptif Entoria.md",
     "CV - Descriptifs expériences.md",
@@ -184,7 +185,6 @@
     "HTTP Trigger Azure Function.md",
     "HTTP(S).md",
     "Requêtes HTTP.md",
-    "Model Binding .NetCore.md",
     "Exécution des conteneurs docker.md",
     "UFS Layer.md",
     "Angular ngIf.md",
