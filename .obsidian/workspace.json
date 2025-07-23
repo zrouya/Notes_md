@@ -11,24 +11,10 @@
             "id": "86315e070f7dc28e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Azure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Azure"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -175,6 +161,7 @@
   },
   "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Azure.md",
     "Model Binding .NetCore.md",
     "Owin.md",
     "CV - Descriptif Entoria.md",
@@ -203,7 +190,6 @@
     "gitrepo/Wireless Range Extenders (Répéteurs Wifi).md",
     "gitrepo/Wireless Local Network (WLAN).md",
     "gitrepo/Wireless Access Point (WAP).md",
-    "gitrepo/Windows Server.md",
     "gitrepo/Untitled.canvas",
     "gitrepo/Pasted image 20240614154759.png",
     "gitrepo/Pasted image 20240411153145.png",
