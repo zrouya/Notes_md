@@ -1,2 +1,7 @@
 
-Seuil de rentabilité : CA à par
+Seuil de rentabilité : CA à partir duquel la société devient rentable
+
+
+### IS
+
+- Penser à provisionner l'IS à hauteur de 
