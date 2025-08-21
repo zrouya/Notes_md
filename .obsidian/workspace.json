@@ -11,10 +11,14 @@
             "id": "86315e070f7dc28e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Linkedin/Sujets/Stratégie montée en compétence.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stratégie montée en compétence"
             }
           },
           {
@@ -23,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linkedin/Stratégie montée en compétence.md",
+                "file": "Linkedin/Sujets/Stratégie montée en compétence.md",
                 "mode": "source",
                 "source": false
               },
@@ -31,8 +35,7 @@
               "title": "Stratégie montée en compétence"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,10 +178,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "00f20905b85cafe8",
+  "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Switch réseau.md",
+    "Linkedin/Sujets/Stratégie montée en compétence.md",
+    "Linkedin/Sujets",
+    "Linkedin/Articles",
+    "Untitled",
     "ZR Conseil.md",
-    "Linkedin/Stratégie montée en compétence.md",
     "Untitled.md",
     "Linkedin/desktop.ini",
     "Linkedin",
@@ -207,7 +214,6 @@
     "gitrepo/vCore Azure.md",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/cmdlets PowerShell.md",
-    "gitrepo/Workers Swarm.md",
     "gitrepo/Untitled.canvas",
     "gitrepo/Pasted image 20240614154759.png",
     "gitrepo/Pasted image 20240411153145.png",
@@ -221,8 +227,6 @@
     "gitrepo",
     "Nouveau dossier",
     "Templates",
-    "Carrier Sense Multiple Access - Collision Avoidance (CSMA",
-    "Carrier Sense Multiple Access - Collision Detection (CSMA",
-    "screenshot-www.udemy.com-2024.04.05-11_24_50.png.crdownload"
+    "Carrier Sense Multiple Access - Collision Avoidance (CSMA"
   ]
 }
