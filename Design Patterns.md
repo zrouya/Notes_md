@@ -1,3 +1,3 @@
 
 
-[[Repository]]
+[[Repository - Design Patterns Comportementaux|Repository]]
