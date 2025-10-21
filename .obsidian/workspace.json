@@ -53,10 +53,14 @@
             "id": "b34467b08b55d911",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BNP Factor résiliation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BNP Factor résiliation"
             }
           }
         ],
@@ -206,6 +210,7 @@
   },
   "active": "b34467b08b55d911",
   "lastOpenFiles": [
+    "BNP Factor résiliation.md",
     "Repository - Design Patterns Comportementaux.md",
     "Design Patterns.md",
     "ARM Templates.md",
@@ -237,7 +242,6 @@
     "2024-07-09.md",
     "gitrepo/Adress Resolution Protocol (ARP).md",
     "Angular Component Inputs-Outputs.md",
-    "gitrepo/Templates/Objectifs hebdo.md",
     "gitrepo/Templates",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
