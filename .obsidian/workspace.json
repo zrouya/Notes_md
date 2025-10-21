@@ -48,9 +48,19 @@
               "icon": "lucide-file",
               "title": "Stratégie montée en compétence"
             }
+          },
+          {
+            "id": "b34467b08b55d911",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,10 +204,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3bc0f0b7a62218d",
+  "active": "b34467b08b55d911",
   "lastOpenFiles": [
-    "Design Patterns.md",
     "Repository - Design Patterns Comportementaux.md",
+    "Design Patterns.md",
     "ARM Templates.md",
     "Adress Resolution Protocol (ARP).md",
     "Linkedin/Sujets/Stratégie montée en compétence.md",
