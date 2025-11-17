@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adress Resolution Protocol (ARP).md",
+                "file": "Azure CLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adress Resolution Protocol (ARP)"
+              "title": "Azure CLI"
             }
           }
         ]
@@ -166,13 +166,13 @@
   },
   "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Adress Resolution Protocol (ARP).md",
     "Authentification.md",
     "ARM Templates.md",
     "Repository - Design Patterns Comportementaux.md",
     "Linkedin/Sujets/Stratégie montée en compétence.md",
     "BNP Factor résiliation.md",
     "Design Patterns.md",
-    "Adress Resolution Protocol (ARP).md",
     "Switch réseau.md",
     "Linkedin/Sujets",
     "Linkedin/Articles",
