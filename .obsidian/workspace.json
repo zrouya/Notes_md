@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: s",
+                "query": "container",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,6 +167,9 @@
   },
   "active": "e85768a37c52157f",
   "lastOpenFiles": [
+    "Azure Storage Accounts.md",
+    "Azure Blob Storage.md",
+    "Azure CLI.md",
     "IaC",
     "Adress Resolution Protocol (ARP).md",
     "Authentification.md",
@@ -196,8 +199,6 @@
     "Angular ngIf.md",
     "Untitled.canvas",
     "Formulaires Angular.md",
-    "2024-07-09.md",
-    "gitrepo/Adress Resolution Protocol (ARP).md",
     "gitrepo/Templates",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
