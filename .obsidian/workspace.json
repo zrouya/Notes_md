@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "94d9a3d98df21d83",
   "lastOpenFiles": [
     "Azure Storage Accounts.md",
     "Azure Blob Storage.md",
