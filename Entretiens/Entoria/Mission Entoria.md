@@ -13,4 +13,6 @@
 
 ### Mission
 
-- Mener les travaux d'analyse et de réalisation du projet de 
+- Mener les travaux d'analyse et de réalisation du projet de rationalisation
+- Encadrer l'équipe technique
+- 
