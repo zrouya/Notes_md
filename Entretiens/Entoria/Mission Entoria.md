@@ -15,4 +15,4 @@
 
 - Mener les travaux d'analyse et de réalisation du projet de rationalisation
 - Encadrer l'équipe technique
-- Industrialiser les process techniques
+- Industrialiser et sécuriser les process techniques
