@@ -10,3 +10,7 @@
 - Projet de rationalisation du SI, suite à un manque d'intégration de plusieurs acquisitions
 - Projet de migration vers le cloud
 - ~1000 ressources Azure
+
+### Mission
+
+- Mener les travaux d'analyse et de réalisation du projet de 
