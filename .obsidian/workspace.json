@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure CLI.md",
+                "file": "Entretiens/Entoria/Mission Entoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure CLI"
+              "title": "Mission Entoria"
             }
           }
         ]
@@ -166,8 +166,12 @@
   },
   "active": "86315e070f7dc28e",
   "lastOpenFiles": [
-    "Untitled.md",
     "Azure CLI.md",
+    "Entretiens/Entoria/Mission Entoria.md",
+    "Entretiens/Entoria",
+    "Entretiens/Medtronic",
+    "Entretiens",
+    "Untitled.md",
     "Azure Storage Accounts.md",
     "Azure Blob Storage.md",
     "IaC",
@@ -196,7 +200,6 @@
     "Requêtes HTTP.md",
     "Exécution des conteneurs docker.md",
     "UFS Layer.md",
-    "Angular ngIf.md",
     "Untitled.canvas",
     "gitrepo/Templates",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
@@ -210,9 +213,6 @@
     "gitrepo/Pasted image 20240405114000.png",
     "gitrepo/Pasted image 20240327114819.png",
     "gitrepo/Pasted image 20240321113810.png",
-    "gitrepo",
-    "Nouveau dossier",
-    "Templates",
-    "Carrier Sense Multiple Access - Collision Avoidance (CSMA"
+    "gitrepo"
   ]
 }
