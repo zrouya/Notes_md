@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Mission Entoria"
             }
+          },
+          {
+            "id": "50c3e6f486702781",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mission Entoria - Oriante.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mission Entoria - Oriante"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,10 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86315e070f7dc28e",
+  "active": "50c3e6f486702781",
   "lastOpenFiles": [
-    "Azure CLI.md",
+    "Mission Entoria - Oriante.md",
     "Entretiens/Entoria/Mission Entoria.md",
+    "Azure CLI.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
@@ -199,7 +215,6 @@
     "HTTP(S).md",
     "Requêtes HTTP.md",
     "Exécution des conteneurs docker.md",
-    "UFS Layer.md",
     "Untitled.canvas",
     "gitrepo/Templates",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
