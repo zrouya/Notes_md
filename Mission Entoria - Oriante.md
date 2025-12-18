@@ -14,4 +14,9 @@
 	- Base commune de données, distribuée dans tout le SI, et servant les golden data
 
 
-##
+### Réalisations
+
+- Intégration de briques techniques à l'APIM
+- Mise en place d'un broker de messages centralisé pour les flux de data dans le SI
+- Projet CDH / GraphQL
+- 
