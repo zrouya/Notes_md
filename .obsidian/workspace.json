@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/Terragrunt.md",
+                "file": "Protocole IP (Internet Protocol).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terragrunt"
+              "title": "Protocole IP (Internet Protocol)"
             }
           }
         ],
@@ -181,8 +181,14 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
-    "IaC/Terraform.md",
+    "Repository - Design Patterns Comportementaux.md",
+    "Réseaux informatiques.md",
+    "Topologies réseaux.md",
+    "Topologies de réseaux sans fils.md",
+    "Topologies de réseaux câblés.md",
+    "Réseaux informatiques logiques.md",
     "IaC/Terragrunt.md",
+    "IaC/Terraform.md",
     "Untitled 1.md",
     "Mission Entoria - Oriante.md",
     "Entretiens/Entoria/Mission Entoria.md",
@@ -197,7 +203,6 @@
     "Adress Resolution Protocol (ARP).md",
     "Authentification.md",
     "ARM Templates.md",
-    "Repository - Design Patterns Comportementaux.md",
     "Linkedin/Sujets/Stratégie montée en compétence.md",
     "BNP Factor résiliation.md",
     "Design Patterns.md",
@@ -210,11 +215,6 @@
     "Azure.md",
     "Model Binding .NetCore.md",
     "Owin.md",
-    "CV - Descriptif Entoria.md",
-    "CV - Descriptifs expériences.md",
-    "OAuth 2.0 - OpenID.md",
-    "Créer une VM Azure.md",
-    "HTTP Trigger Azure Function.md",
     "Untitled.canvas",
     "gitrepo/Templates",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
