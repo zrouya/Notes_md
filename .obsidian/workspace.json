@@ -35,8 +35,7 @@
               "title": "Modèle OSI"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,8 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50c3e6f486702781",
+  "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "Modèle OSI.md",
     "Couche de transport du modèle OSI.md",
     "Protocole TCP.md",
     "Réseaux Docker Overlay.md",
@@ -210,7 +210,6 @@
     "ARM Templates.md",
     "Linkedin/Sujets/Stratégie montée en compétence.md",
     "BNP Factor résiliation.md",
-    "Design Patterns.md",
     "Linkedin/Sujets",
     "Linkedin/Articles",
     "Linkedin/desktop.ini",
