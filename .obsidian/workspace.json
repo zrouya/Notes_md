@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entretiens/Entoria/Mission Entoria.md",
+                "file": "outils/yq.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mission Entoria"
+              "title": "yq"
             }
           },
           {
@@ -58,7 +58,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -169,17 +169,20 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false
     }
   },
   "active": "86315e070f7dc28e",
   "lastOpenFiles": [
+    "IaC/Terragrunt.md",
+    "IaC/Terraform.md",
+    "Entretiens/Entoria/Mission Entoria.md",
     "Modèle OSI.md",
     "Couche de transport du modèle OSI.md",
     "Protocole TCP.md",
@@ -192,11 +195,8 @@
     "Topologies de réseaux sans fils.md",
     "Topologies de réseaux câblés.md",
     "Réseaux informatiques logiques.md",
-    "IaC/Terragrunt.md",
-    "IaC/Terraform.md",
     "Untitled 1.md",
     "Mission Entoria - Oriante.md",
-    "Entretiens/Entoria/Mission Entoria.md",
     "Azure CLI.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
