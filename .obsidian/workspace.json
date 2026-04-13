@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86315e070f7dc28e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "outils/yq.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "yq"
-            }
-          },
-          {
             "id": "50c3e6f486702781",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modèle OSI.md",
+                "file": "bash/mapfile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modèle OSI"
+              "title": "mapfile"
             }
           }
         ]
@@ -178,12 +164,16 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "86315e070f7dc28e",
+  "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "bash/error-accumulation-pattern.md",
+    "snippets/validation-tags-azure-gitlab.md",
+    "Modèle OSI.md",
+    "bash-heredoc-gitlab-ci.md",
+    "outils/yq.md",
     "IaC/Terragrunt.md",
     "IaC/Terraform.md",
     "Entretiens/Entoria/Mission Entoria.md",
-    "Modèle OSI.md",
     "Couche de transport du modèle OSI.md",
     "Protocole TCP.md",
     "Réseaux Docker Overlay.md",
@@ -206,10 +196,6 @@
     "Azure Blob Storage.md",
     "IaC",
     "Adress Resolution Protocol (ARP).md",
-    "Authentification.md",
-    "ARM Templates.md",
-    "Linkedin/Sujets/Stratégie montée en compétence.md",
-    "BNP Factor résiliation.md",
     "Linkedin/Sujets",
     "Linkedin/Articles",
     "Linkedin/desktop.ini",
