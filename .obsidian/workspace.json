@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adress Resolution Protocol (ARP).md",
+                "file": "IaC/atmos-component-function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adress Resolution Protocol (ARP)"
+              "title": "atmos-component-function"
             }
           }
         ]
@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "Adress Resolution Protocol (ARP).md",
     "bash/mapfile.md",
     "bash/error-accumulation-pattern.md",
     "snippets/validation-tags-azure-gitlab.md",
@@ -194,7 +195,6 @@
     "Entretiens",
     "Untitled.md",
     "Azure Storage Accounts.md",
-    "Azure Blob Storage.md",
     "IaC",
     "Linkedin/Sujets",
     "Linkedin/Articles",
