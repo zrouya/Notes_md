@@ -166,6 +166,8 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "IaC/opentofu-import.md",
+    "IaC/atmos-component-function.md",
     "Adress Resolution Protocol (ARP).md",
     "bash/mapfile.md",
     "bash/error-accumulation-pattern.md",
@@ -193,8 +195,6 @@
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
-    "Untitled.md",
-    "Azure Storage Accounts.md",
     "IaC",
     "Linkedin/Sujets",
     "Linkedin/Articles",
