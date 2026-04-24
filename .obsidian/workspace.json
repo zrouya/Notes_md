@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,7 +164,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "50c3e6f486702781",
+  "active": "94d9a3d98df21d83",
   "lastOpenFiles": [
     "_index/iac.md",
     "IaC/opentofu-import.md",
