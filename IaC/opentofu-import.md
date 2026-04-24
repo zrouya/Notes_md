@@ -66,4 +66,3 @@ vars:
 
 - [[atmos-component-function]]
 - [[atmos-terraform-output]]
-- [[azure-naming-convention]]

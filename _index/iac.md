@@ -23,5 +23,4 @@ Atmos, OpenTofu, Azure.
 
 ## Azure
 
-- [[azure-naming-convention]] — Pattern `ent-az-we-<env>-pfs-<domain>-<type>-<id>`
 - [[azure-containerapp-sql-access]] — Couches réseau / auth / authz pour Container App → SQL Server, ce qui est TF vs T-SQL

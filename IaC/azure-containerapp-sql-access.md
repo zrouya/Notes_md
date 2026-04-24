@@ -88,4 +88,3 @@ ALTER ROLE db_datawriter ADD MEMBER [nom-managed-identity];
 ## Voir aussi
 
 - [[atmos-blueprint-pattern]]
-- [[azure-naming-convention]]
