@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/atmos-stack-composition.md",
+                "file": "IaC/azure-containerapp-sql-access.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "atmos-stack-composition"
+              "title": "azure-containerapp-sql-access"
             }
           }
         ]
@@ -164,9 +164,10 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "94d9a3d98df21d83",
+  "active": "50c3e6f486702781",
   "lastOpenFiles": [
     "_index/iac.md",
+    "IaC/atmos-stack-composition.md",
     "IaC/opentofu-import.md",
     "IaC/azure-containerapp-sql-access.md",
     "IaC/azure-naming-convention.md",
@@ -191,7 +192,6 @@
     "Topologies réseaux.md",
     "Topologies de réseaux sans fils.md",
     "Topologies de réseaux câblés.md",
-    "Réseaux informatiques logiques.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
