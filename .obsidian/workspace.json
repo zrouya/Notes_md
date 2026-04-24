@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/azure-containerapp-sql-access.md",
+                "file": "IaC/azure-naming-convention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "azure-containerapp-sql-access"
+              "title": "azure-naming-convention"
             }
           }
         ]
@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "IaC/azure-containerapp-sql-access.md",
     "_index/iac.md",
     "IaC/atmos-component-function.md",
     "IaC/opentofu-import.md",
@@ -191,7 +192,6 @@
     "Topologies de réseaux câblés.md",
     "Réseaux informatiques logiques.md",
     "Untitled 1.md",
-    "Mission Entoria - Oriante.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
