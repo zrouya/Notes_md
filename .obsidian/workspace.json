@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index/azure.md",
+                "file": "IaC/atmos-ci-dynamic-stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "azure"
+              "title": "atmos-ci-dynamic-stack"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,6 +166,8 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "_index/iac.md",
+    "_index/azure.md",
     "IaC/atmos-deploy-ordering.md",
     "IaC/atmos-ci-dynamic-stack.md",
     "IaC/atmos-describe-dependents.md",
@@ -184,7 +185,6 @@
     "azure/apim-cache-policies.md",
     "azure/apim-caching.md",
     "IaC/azure-containerapp-sql-access.md",
-    "_index/azure.md",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
@@ -193,7 +193,6 @@
     "azure/managed-identity-system-assigned.md",
     "azure/managed-identity-system-assigned.md.tmp.17488.1777062815109",
     "azure",
-    "_index/iac.md",
     "IaC/atmos-stack-composition.md",
     "IaC/opentofu-import.md",
     "IaC/azure-naming-convention.md",
