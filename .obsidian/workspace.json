@@ -165,8 +165,10 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "azure/apim-cache-policies.md",
+    "azure/apim-caching.md",
     "IaC/azure-containerapp-sql-access.md",
     "_index/azure.md",
     "_index/azure.md.tmp.17488.1777062839989",
@@ -196,8 +198,6 @@
     "Protocole TCP.md",
     "Réseaux Docker Overlay.md",
     "Protocole IPSec.md",
-    "Protocole IP (Internet Protocol).md",
-    "Repository - Design Patterns Comportementaux.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
