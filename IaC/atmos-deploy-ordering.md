@@ -60,7 +60,7 @@ atmos workflow deploy-all --file stacks/workflows/deploy.yaml
 ```
 
 **Avantages :** natif Atmos, pas de code CI custom.  
-**Inconvénient :** le fichier workflow doit être injecté ou versionné dans devops-templates.
+**Inconvénient :** le fichier workflow doit être injecté ou versionné dans le repo IaC central.
 
 ## Option C — `settings.depends_on` + tri topologique
 

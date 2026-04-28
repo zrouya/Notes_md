@@ -16,6 +16,10 @@ Atmos, OpenTofu, Azure.
 - [[atmos-terraform-output]] — `!terraform.output` pour outputs Terraform, ordre de déploiement
 
 - [[atmos-blueprint-pattern]] — Blueprint pattern : dossier blueprints/, instanciation multiple, limite import non paramétré, module monolithique de lien
+- [[atmos-describe-query]] — Filtrer la sortie de `describe stacks` avec des expressions yq, lister les composants concrets
+- [[atmos-describe-dependents]] — `describe dependents`, `settings.depends_on`, limitation : déclaration explicite requise
+- [[atmos-ci-dynamic-stack]] — Pattern CI : assemblage dynamique d'un fichier stack depuis un config projet, deep merge yq
+- [[atmos-deploy-ordering]] — 3 stratégies d'ordonnancement des composants (deploy_order, Workflows, depends_on)
 
 ## OpenTofu / Terraform
 

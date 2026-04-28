@@ -30,6 +30,16 @@ value=$(echo "$YAML_VAR" | yq eval ".\"$key\"" - | sed 's/^"//;s/"$//')
 - Retourne `null` si une clé est absente — tester avec `[ "$value" = "null" ]`
 - Installation Alpine : `apk add --no-cache yq`
 
+## Deep merge de plusieurs fichiers YAML
+
+```bash
+# Fusionner header.yaml et override.yaml (override a priorité)
+yq eval-all '. as $item ireduce ({}; . *+ $item)' header.yaml override.yaml > merged.yaml
+
+# *+ : deep merge — maps fusionnés récursivement, arrays concaténés
+# Ordre : le dernier fichier a la priorité sur les clés communes
+```
+
 ## Voir aussi
 
 - [[bash-heredoc-gitlab-ci]]
