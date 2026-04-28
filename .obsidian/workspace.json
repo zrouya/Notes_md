@@ -167,6 +167,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "azure/apim-cache-bonnes-pratiques.md",
     "azure/apim-cache-policies.md",
     "azure/apim-caching.md",
     "IaC/azure-containerapp-sql-access.md",
@@ -197,7 +198,6 @@
     "Couche de transport du modèle OSI.md",
     "Protocole TCP.md",
     "Réseaux Docker Overlay.md",
-    "Protocole IPSec.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
