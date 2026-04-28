@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "azure cli",
+                "query": "atmos auth",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,7 +165,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "50c3e6f486702781",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "outils/yq.md",
     "IaC/atmos-ci-dynamic-stack.md",
