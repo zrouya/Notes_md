@@ -167,6 +167,8 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "_index/cache.md",
+    "cache/invalidation-etag.md",
     "cache/invalidation-event-driven.md",
     "cache/invalidation-tags.md",
     "cache/invalidation-versioning.md",
@@ -197,8 +199,6 @@
     "bash/error-accumulation-pattern.md",
     "snippets/validation-tags-azure-gitlab.md",
     "Modèle OSI.md",
-    "bash-heredoc-gitlab-ci.md",
-    "outils/yq.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
