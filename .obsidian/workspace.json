@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "azure/apim-rate-limiting.md",
     "azure/apim-cache-bonnes-pratiques.md",
     "azure/apim-cache-policies.md",
     "azure/apim-caching.md",
@@ -197,7 +198,6 @@
     "azure",
     "IaC/atmos-stack-composition.md",
     "IaC/opentofu-import.md",
-    "IaC/azure-naming-convention.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
