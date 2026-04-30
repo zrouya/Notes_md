@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/apim-cache-bonnes-pratiques.md",
+                "file": "azure/apim-cache-policies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "apim-cache-bonnes-pratiques"
+              "title": "apim-cache-policies"
             }
           }
         ]
@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "azure/apim-cache-bonnes-pratiques.md",
     "azure/apim-cache-policies.md",
     "azure/apim-caching.md",
     "_index/cache.md",
@@ -185,7 +186,6 @@
     "cache/invalidation-ttl.md",
     "cache/invalidation-strategies.md",
     "cache",
-    "azure/apim-cache-bonnes-pratiques.md",
     "IaC/azure-containerapp-sql-access.md",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md",
