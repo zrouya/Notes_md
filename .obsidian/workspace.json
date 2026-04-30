@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/atmos-overview.md",
+                "file": "azure/apim-cache-bonnes-pratiques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "atmos-overview"
+              "title": "apim-cache-bonnes-pratiques"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -165,8 +164,12 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "azure/apim-cache-policies.md",
+    "azure/apim-caching.md",
+    "_index/cache.md",
+    "IaC/atmos-overview.md",
     "outils/yq.md",
     "IaC/atmos-ci-dynamic-stack.md",
     "_index/iac.md",
@@ -174,7 +177,6 @@
     "IaC/atmos-deploy-ordering.md",
     "IaC/atmos-describe-dependents.md",
     "IaC/atmos-describe-query.md",
-    "_index/cache.md",
     "cache/invalidation-etag.md",
     "cache/invalidation-event-driven.md",
     "cache/invalidation-tags.md",
@@ -184,8 +186,6 @@
     "cache/invalidation-strategies.md",
     "cache",
     "azure/apim-cache-bonnes-pratiques.md",
-    "azure/apim-cache-policies.md",
-    "azure/apim-caching.md",
     "IaC/azure-containerapp-sql-access.md",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md",
@@ -198,7 +198,6 @@
     "IaC/atmos-stack-composition.md",
     "IaC/opentofu-import.md",
     "IaC/azure-naming-convention.md",
-    "IaC/atmos-component-function.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
