@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index/iac.md",
+                "file": "Hot Chocolate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iac"
+              "title": "Hot Chocolate"
             }
           }
         ]
@@ -166,7 +166,9 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "GraphQL DataLoader.md",
     "_index/graphql.md",
+    "_index/iac.md",
     "IaC/atmos-ci-dynamic-stack.md",
     "_index/azure.md",
     "azure/apim-cache-policies.md",
@@ -176,7 +178,6 @@
     "_index/cache.md",
     "IaC/atmos-overview.md",
     "outils/yq.md",
-    "_index/iac.md",
     "IaC/atmos-deploy-ordering.md",
     "IaC/atmos-describe-dependents.md",
     "IaC/atmos-describe-query.md",
@@ -197,7 +198,6 @@
     "azure/managed-identity-system-assigned.md",
     "azure/managed-identity-system-assigned.md.tmp.17488.1777062815109",
     "azure",
-    "IaC/atmos-stack-composition.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
