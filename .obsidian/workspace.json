@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "_index/graphql.md",
     "IaC/atmos-ci-dynamic-stack.md",
     "_index/azure.md",
     "azure/apim-cache-policies.md",
@@ -197,7 +198,6 @@
     "azure/managed-identity-system-assigned.md.tmp.17488.1777062815109",
     "azure",
     "IaC/atmos-stack-composition.md",
-    "IaC/opentofu-import.md",
     "Entretiens/Entoria",
     "Entretiens/Medtronic",
     "Entretiens",
