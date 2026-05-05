@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphQL.md",
+                "file": "GraphQL DataLoader.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GraphQL"
+              "title": "GraphQL DataLoader"
             }
           }
         ]
@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "GraphQL.md",
     "_index/graphql.md",
     "Hot Chocolate.md",
     "GraphQL DataLoader.md",
@@ -194,7 +195,6 @@
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
-    "azure/managed-identity-user-assigned.md",
     "azure/managed-identity-user-assigned.md.tmp.17488.1777062823951",
     "azure/managed-identity-system-assigned.md.tmp.17488.1777062815109",
     "azure",
