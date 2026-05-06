@@ -91,3 +91,4 @@ Pour les fichiers contenant des directives Go templates pures (ex: blocs `{{ def
 - [[atmos-overview]]
 - [[atmos-component-function]]
 - [[atmos-terraform-output]]
+- [[atmos-datasources]]

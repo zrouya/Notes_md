@@ -166,6 +166,7 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "IaC/atmos-datasources.md",
     "GraphQL DataLoader.md",
     "GraphQL.md",
     "_index/graphql.md",
@@ -193,7 +194,6 @@
     "cache",
     "IaC/azure-containerapp-sql-access.md",
     "_index/azure.md.tmp.17488.1777062839989",
-    "azure/managed-identity-comparaison.md",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
     "azure/managed-identity-user-assigned.md.tmp.17488.1777062823951",
     "azure/managed-identity-system-assigned.md.tmp.17488.1777062815109",
