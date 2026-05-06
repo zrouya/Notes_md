@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GraphQL DataLoader.md",
+                "file": "_index/azure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GraphQL DataLoader"
+              "title": "azure"
             }
           }
         ]
@@ -166,10 +166,10 @@
   },
   "active": "50c3e6f486702781",
   "lastOpenFiles": [
+    "GraphQL DataLoader.md",
     "GraphQL.md",
     "_index/graphql.md",
     "Hot Chocolate.md",
-    "GraphQL DataLoader.md",
     "_index/iac.md",
     "IaC/atmos-ci-dynamic-stack.md",
     "_index/azure.md",
