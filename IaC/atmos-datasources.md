@@ -52,31 +52,62 @@ Idéale quand le même fichier est partagé entre plusieurs stacks.
 
 ---
 
-## Option 2 — `readFile` inline (chemin dynamique)
+## Option 2 — `file.Read` inline (chemin dynamique)
 
 ```yaml
 vars:
-  # JSON parsé → objet
-  policy: '{{ readFile "./stacks/catalog/apimapi/policy.json" | fromJson }}'
-
-  # Contenu brut → string
-  policy_raw: '{{ readFile "./stacks/catalog/apimapi/policy.json" }}'
+  # Contenu brut → string (chemin relatif au base_path de atmos.yaml)
+  swagger_content: '{{ file.Read "stacks/templates/myapp/projectConfig/swagger.json" }}'
 
   # Chemin construit depuis une var de stack
-  env_config: '{{ readFile (printf "./configs/%s.json" .vars.environment) | fromJson }}'
+  swagger_content: '{{ file.Read (printf "stacks/%s" .vars.swagger_path) }}'
 ```
 
-Le chemin est relatif au `base_path` déclaré dans `atmos.yaml` (généralement `./`).
+> **Chemin** : relatif au `base_path` de `atmos.yaml` (généralement `./`, là où atmos est lancé).
 
 ---
 
-## XML
+## Pattern — Déléguer la lecture dans `_defaults.yaml.tmpl`
 
+Pour centraliser la logique dans le template du domaine plutôt que dans chaque projet :
+
+**`stacks/templates/myapp/projectConfig/sireneApim_dev.yaml`** (projet) :
 ```yaml
 vars:
-  # Valeur d'un nœud XPath
-  conn_string: '{{ datasource "app-config" | xmlPath "//connectionString" }}'
+  swagger_path: templates/myapp/projectConfig/swagger.json
+  api_policy_path: templates/myapp/projectConfig/apimPolicy.xml  # optionnel
 ```
+
+**`stacks/templates/myapp/_defaults.yaml.tmpl`** (template du domaine) :
+```yaml
+vars:
+  api_policy_path: ""   # défaut — override dans le projet si besoin
+  swagger_content: '{{ file.Read (printf "stacks/%s" .vars.swagger_path) }}'
+  api_policy_xml: '{{ if .vars.api_policy_path }}{{ file.Read (printf "stacks/%s" .vars.api_policy_path) }}{{ end }}'
+```
+
+- Les variables `swagger_content` et `api_policy_xml` sont passées au module Terraform.
+- La valeur `api_policy_path: ""` garantit que le template ne plante pas si un projet ne définit pas de policy.
+- `{{ if .vars.api_policy_path }}` est évalué à `false` sur une string vide → `api_policy_xml = ""`.
+
+---
+
+## ⚠️ Piège : contenu multilignes et parsing YAML
+
+Dans les fichiers `.yaml.tmpl`, Atmos **rend les templates Go en premier** (substitution de texte), puis parse le YAML résultant.
+
+**❌ Bloc scalaire `|` — casse le YAML après rendu :**
+```yaml
+swagger_content: |
+  {{ file.Read "stacks/myapp/swagger.json" }}
+```
+Après rendu, le contenu multilignes du fichier s'insère à la position du `{{ }}`. Seule la première ligne hérite de l'indentation du template ; les suivantes sont à col 0 → le bloc scalaire YAML est cassé.
+
+**✅ Chaîne single-quoted — fonctionne :**
+```yaml
+swagger_content: '{{ file.Read "stacks/myapp/swagger.json" }}'
+```
+À l'intérieur de `'...'`, YAML traite `{` comme un caractère littéral (pas un flow mapping). Atmos rend ensuite le template → la valeur de la variable est le contenu du fichier (multilignes inclus), sans re-parsing YAML.
 
 ---
 
@@ -84,11 +115,11 @@ vars:
 
 | Fonction | Description |
 |---|---|
-| `readFile "path"` | Lit le fichier comme string |
+| `file.Read "path"` | Lit le fichier comme string (gomplate) |
+| `readFile "path"` | Alias Sprig (même effet) |
 | `fromJson` | Parse une string JSON → objet |
 | `toJSON` | Sérialise un objet → string JSON |
 | `fromYaml` | Parse une string YAML → objet |
-| `xmlPath "xpath"` | Extrait un nœud XML via XPath |
 
 ## Voir aussi
 

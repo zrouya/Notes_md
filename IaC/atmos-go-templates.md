@@ -82,9 +82,35 @@ resource_name: "prefix-{{ .vars.environment }}-suffix"
 
 ## Fichiers `.yaml.tmpl`
 
-Pour les fichiers contenant des directives Go templates pures (ex: blocs `{{ define }}`), renommer en `.yaml.tmpl`. Atmos skip le parsing YAML initial et rend le template en premier.
+Pour les fichiers contenant des directives Go templates pures (ex: blocs `{{ define }}`), renommer en `.yaml.tmpl`. Atmos **rend le template en premier** (substitution de texte), puis parse le YAML résultant.
 
 **Limite** : les `define` restent locaux au fichier, même en `.yaml.tmpl`.
+
+### Conséquence sur le contenu multilignes
+
+Le rendu template-first crée un piège avec les blocs scalaires YAML `|` :
+
+```yaml
+# ❌ Casse le YAML après rendu si le fichier est multilignes
+swagger_content: |
+  {{ file.Read "stacks/myapp/swagger.json" }}
+```
+
+Seule la 1ère ligne hérite de l'indentation du template ; les lignes suivantes sont à col 0, ce qui sort du bloc scalaire → erreur YAML `did not find expected key`.
+
+```yaml
+# ✅ Chaîne single-quoted : { est littéral, pas un flow mapping
+swagger_content: '{{ file.Read "stacks/myapp/swagger.json" }}'
+```
+
+À l'intérieur de `'...'`, YAML traite `{` comme du texte brut. Atmos rend ensuite le template Go et la valeur finale est le contenu du fichier (multilignes compris).
+
+### validate vs describe
+
+| Commande | Comportement |
+|---|---|
+| `atmos validate stacks` | Valide le YAML brut (avant rendu) — les `{{ }}` dans `'...'` passent |
+| `atmos describe stacks` | Rend les templates puis parse le YAML — teste le résultat final |
 
 ## Voir aussi
 
