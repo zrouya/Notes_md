@@ -24,6 +24,23 @@ Les fonctions Sprig (`printf`, etc.) avec `templates.settings.sprig.enabled: tru
 web_app_name: '{{ printf "ent-az-we-%s-pfs-%s-app-%s" .vars.environment .vars.domain .vars.resource_identifier }}'
 ```
 
+### Dériver une var de composant depuis une autre var
+
+Pattern utile pour "aliaser" une var dans un composant abstrait/défaut, à partir d'une var définie dans les stacks enfants :
+
+```yaml
+# Dans un _defaults.yaml (composant abstrait ou concret)
+components:
+  terraform:
+    apimapi:
+      vars:
+        # version_set_name prendra la valeur de api_name, définie dans la stack enfant
+        version_set_name: "{{ .vars.api_name }}"
+        version_set_display_name: "{{ .vars.display_name }}"
+```
+
+`.vars` est le contexte **final mergé** du composant — il inclut les vars globales de toutes les stacks de la chaîne d'import, y compris les stacks enfants qui ont importé ce fichier.
+
 ## Ce qui ne fonctionne pas ❌
 
 ### Vars intermédiaires contenant des templates (double-pass)
