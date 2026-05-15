@@ -25,6 +25,12 @@ Notes sur l'Infrastructure as Code : Atmos, OpenTofu/Terraform, Azure.
 
 - [[opentofu-import]] — Import de ressources existantes dans l'état
 
+## Atmos — Authentification Azure
+
+- [[atmos-azure-auth]] — Pipe d'auth complet, provider kinds, pièges MSAL et conflit subscription/tenant
+- [[atmos-azure-backend]] — Backend azurerm : `use_azuread_auth`, RBAC requis, provisionnement auto du container
+- [[azure-oidc-workload-identity]] — Workload Identity Federation GitLab→Azure : flux, config Atmos, pipeline sans secret
+
 ## Azure
 
 - [[azure-containerapp-sql-access]] — Accès SQL depuis un Container App
