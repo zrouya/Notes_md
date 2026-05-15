@@ -4,48 +4,61 @@ tags: [iac, atmos, azure, authentification]
 
 # Atmos — Authentification Azure
 
-Atmos gère l'auth Azure via un bloc `auth:` dans `atmos.yaml`, exécuté comme pre-hook avant chaque `terraform plan/apply`.
+L'auth Azure dans un pipeline Atmos repose sur la session `az login` et la credential chain du provider azurerm — sans bloc `auth:` dans `atmos.yaml`.
 
-## Pipe d'authentification
+## Pipe d'authentification (solution retenue)
 
 ```
-az login (CI pipeline)
-    │  établit la session CLI + cache MSAL dans $AZURE_CONFIG_DIR/.azure/
+az login --service-principal --tenant $tenantId
+    │  établit la session CLI + cache MSAL dans $AZURE_CONFIG_DIR
     ▼
-Atmos pre-hook  (atmos auth terraform pre-hook)
-    │  lit la session via le provider azure-cli
+az account set --subscription $subId
+    │  définit la subscription active dans la session
+    ▼
+atmos terraform plan <component> -s <stack>
+    │  (pas de pre-hook — bloc auth: supprimé)
     ▼
 OpenTofu — azurerm backend + provider
-    │  utilise AzureCLICredential (Go Azure SDK)
-    │  appelle az account get-access-token en interne
+    │  credential chain : lit ARM_SUBSCRIPTION_ID puis session CLI
+    │  appelle az account get-access-token (sans flags explicites)
     ▼
 Azure (ARM / Blob Storage)
 ```
 
-## Configuration dans atmos.yaml
+## Variables d'environnement requises dans le pipeline
 
-```yaml
-auth:
-  default: azure-dev
-  providers:
-    azure-cli:
-      kind: azure/cli
-      spec:
-        location: "westeurope"
-        # NE PAS mettre tenant_id si ARM_SUBSCRIPTION_ID est aussi défini
-        # → provoque az account get-access-token --subscription X --tenant Y (invalide)
+```bash
+export AZURE_CONFIG_DIR=/tmp/azure-cli-cache   # chemin stable pour le cache MSAL
+export ARM_SUBSCRIPTION_ID="$devSubscriptionId" # subscription pour le provider azurerm
 
-  identities:
-    azure-dev:
-      default: true
-      kind: azure/subscription
-      via:
-        provider: azure-cli
-      principal:
-        subscription_id: !env ARM_SUBSCRIPTION_ID
+# NE PAS exporter ARM_TENANT_ID
+# → le tenant est porté par la session az login, pas par une variable
 ```
 
-## Provider kinds disponibles
+## Pourquoi ne pas utiliser le bloc auth: d'Atmos
+
+Le bloc `auth:` déclenche un pre-hook (`atmos auth terraform pre-hook`) qui appelle en interne :
+
+```bash
+az account get-access-token --subscription $ARM_SUBSCRIPTION_ID --tenant $ARM_TENANT_ID
+```
+
+La CLI Azure **refuse** cette combinaison de flags — c'est une limitation de `az account get-access-token`. Il faut l'un ou l'autre, pas les deux.
+
+Source : `hashicorp/go-azure-helpers` — `azure_cli_token.go` construit systématiquement `--subscription` depuis `ARM_SUBSCRIPTION_ID` et ajoute `--tenant` si `ARM_TENANT_ID` est défini.
+
+## Piège : cache MSAL instable en CI
+
+`az login` écrit le cache dans `$HOME/.azure/`. Si `$HOME` diffère entre steps du pipeline (runners Docker), le token est introuvable.
+
+**Fix** : définir `AZURE_CONFIG_DIR` à un chemin stable avant `az login`.
+
+```bash
+export AZURE_CONFIG_DIR=/tmp/azure-cli-cache
+az login --service-principal -u "$client_id" -p "$client_secret" --tenant "$tenant_id"
+```
+
+## Provider kinds (pour référence, si auth: réactivé)
 
 | Kind | Usage |
 |---|---|
@@ -53,33 +66,9 @@ auth:
 | `azure/oidc` | CI sans secret (Workload Identity Federation) |
 | `azure/device-code` | Auth interactive navigateur |
 
-## Pièges connus
-
-### Conflit `--subscription` + `--tenant`
-
-Si `ARM_TENANT_ID` **et** `ARM_SUBSCRIPTION_ID` sont tous deux définis en env, le Go Azure SDK construit :
-
-```bash
-az account get-access-token --subscription X --tenant Y
-# → ERROR: Please specify only one of subscription and tenant, not both
-```
-
-**Fix** : ne pas exposer `ARM_TENANT_ID` comme variable d'environnement dans le pipeline.  
-Le tenant est déjà implicite dans la session `az login --tenant $tenantId`.
-
-### Cache MSAL instable en CI
-
-`az login` écrit le cache dans `$HOME/.azure/`. Si `$HOME` diffère entre steps du pipeline (runners Docker), le token est introuvable.
-
-**Fix** : fixer `AZURE_CONFIG_DIR` à un chemin stable **avant** `az login`, identique pour tout le job.
-
-```bash
-export AZURE_CONFIG_DIR=/tmp/azure-cli-cache
-az login --service-principal -u "$client_id" -p "$client_secret" --tenant "$tenant_id"
-```
-
 ## Voir aussi
 
 - [[atmos-azure-backend]]
+- [[azurerm-credential-chain]]
 - [[azure-oidc-workload-identity]]
 - [[atmos-overview]]
