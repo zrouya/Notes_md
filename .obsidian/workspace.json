@@ -181,6 +181,7 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "gitlab-ci/runner-executors.md",
     "IaC/_index-iac.md",
     "IaC/atmos-azure-auth.md",
     "IaC/azure-rbac-planes.md",
@@ -206,7 +207,6 @@
     "_index/cache.md",
     "IaC/atmos-overview.md",
     "outils/yq.md",
-    "IaC/atmos-deploy-ordering.md",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
