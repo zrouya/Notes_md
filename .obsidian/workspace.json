@@ -181,6 +181,8 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "IaC/atmos-azure-backend.md",
+    "IaC/atmos-azure-auth.md",
     "gitlab-ci/pattern-iac-centralise.md",
     "gitlab-ci/types-pipelines-declenches.md",
     "gitlab-ci/pipeline-downstream-variables.md",
@@ -205,8 +207,6 @@
     "IaC/atmos-describe-query.md",
     "cache/invalidation-etag.md",
     "cache/invalidation-event-driven.md",
-    "cache/invalidation-tags.md",
-    "cache/invalidation-versioning.md",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
