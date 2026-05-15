@@ -6,6 +6,11 @@ tags: [index, gitlab-ci]
 
 Map of Content pour les notes GitLab CI.
 
+## Runner
+
+- [[runner-executors]] — Shell executor vs Docker executor, comparaison et identification
+- [[docker-socket-monte]] — Monter `/var/run/docker.sock` pour accéder au daemon Docker hôte depuis un job
+
 ## Patterns de jobs
 
 - [[bash-heredoc-gitlab-ci]] — Exécuter un script bash strict via heredoc dans un job
