@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IR 2026.md",
+                "file": "IaC/atmos-azure-auth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IR 2026"
+              "title": "atmos-azure-auth"
             }
           }
         ],
@@ -181,6 +181,8 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "IaC/_index-iac.md",
+    "IR 2026.md",
     "IaC/azure-oidc-workload-identity.md",
     "IaC/atmos-azure-backend.md",
     "IaC/atmos-azure-auth.md",
@@ -188,7 +190,6 @@
     "gitlab-ci/types-pipelines-declenches.md",
     "gitlab-ci/pipeline-downstream-variables.md",
     "_index/azure.md",
-    "IR 2026.md",
     "IaC/atmos-datasources.md",
     "GraphQL DataLoader.md",
     "GraphQL.md",
@@ -206,7 +207,6 @@
     "IaC/atmos-deploy-ordering.md",
     "IaC/atmos-describe-dependents.md",
     "IaC/atmos-describe-query.md",
-    "cache/invalidation-etag.md",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
