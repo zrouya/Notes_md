@@ -181,6 +181,7 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "IaC/azure-rbac-planes.md",
     "IaC/azurerm-credential-chain.md",
     "IaC/_index-iac.md",
     "IR 2026.md",
@@ -206,7 +207,6 @@
     "IaC/atmos-overview.md",
     "outils/yq.md",
     "IaC/atmos-deploy-ordering.md",
-    "IaC/atmos-describe-dependents.md",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",

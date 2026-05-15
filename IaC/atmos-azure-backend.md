@@ -6,7 +6,7 @@ tags: [iac, atmos, azure, terraform, backend]
 
 Configuration du backend azurerm pour stocker l'état OpenTofu dans Azure Blob Storage.
 
-## Configuration de base
+## Configuration minimale (key-based — fonctionne avec Owner/Contributor)
 
 ```yaml
 # stacks/mixins/backend.yaml
@@ -18,15 +18,30 @@ terraform:
       storage_account_name: "monstorageaccount"
       container_name: "{{ .vars.project_identifier }}"
       key: "{{ .component }}/terraform.tfstate"
-      use_azuread_auth: true   # recommandé : Azure AD RBAC au lieu des access keys
 ```
 
-## `use_azuread_auth: true`
+Le backend liste les access keys du storage via ARM (management plane) → requiert `Owner` ou `Contributor` sur le storage account.
 
-- Utilise un token Azure AD pour accéder au blob (via `AzureCLICredential`)
-- Évite de lister les storage account access keys (méthode legacy)
-- Équivalent à la variable d'env `ARM_USE_AZUREAD=true` — les deux sont interchangeables, inutile de définir les deux
-- **Prérequis** : le Service Principal doit avoir le rôle `Storage Blob Data Contributor` sur le storage account (pas seulement `Contributor`)
+## Configuration Azure AD (use_azuread_auth)
+
+```yaml
+      use_azuread_auth: true   # accès data plane via token AD
+```
+
+- Évite l'usage des access keys (meilleure sécurité)
+- **Prérequis strict** : rôle `Storage Blob Data Contributor` sur le storage account
+- `Owner` ou `Contributor` **ne suffisent pas** — ce sont des rôles management plane uniquement
+- Sans ce rôle data plane → `403 AuthorizationPermissionMismatch`
+
+Voir [[azure-rbac-planes]] pour la distinction management plane / data plane.
+
+## Choisir entre les deux modes
+
+| Critère | Key-based (défaut) | `use_azuread_auth: true` |
+|---|---|---|
+| Rôle requis | `Owner` / `Contributor` | `Storage Blob Data Contributor` |
+| Sécurité | Accès via clé partagée | Token AD éphémère |
+| Compatibilité | Universelle | Nécessite rôle data plane |
 
 ## `auto_generate_backend_file: true`
 
@@ -36,7 +51,6 @@ Défini dans `atmos.yaml`. Génère le fichier `backend.tf.json` localement avan
 ## Provisionnement automatique du container
 
 ```yaml
-# backend.yaml
 terraform:
   provision:
     backend:
@@ -46,14 +60,9 @@ terraform:
 Atmos peut créer le container blob s'il n'existe pas (introduit en v1.204.0).  
 Initialement conçu pour S3 — le support Azure est moins documenté, à valider par un test.
 
-## Rôles RBAC nécessaires sur le storage account
-
-| Rôle | Utilité |
-|---|---|
-| `Storage Blob Data Contributor` | Lecture/écriture du state blob (requis avec `use_azuread_auth`) |
-| `Contributor` (resource group) | Gestion des ressources ARM |
-
 ## Voir aussi
 
 - [[atmos-azure-auth]]
+- [[azure-rbac-planes]]
+- [[azurerm-credential-chain]]
 - [[atmos-overview]]
