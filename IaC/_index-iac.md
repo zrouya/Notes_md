@@ -29,7 +29,8 @@ Notes sur l'Infrastructure as Code : Atmos, OpenTofu/Terraform, Azure.
 
 - [[atmos-azure-auth]] — Pipe d'auth final (sans bloc auth:), variables requises, pièges MSAL
 - [[azurerm-credential-chain]] — Ordre de priorité des méthodes d'auth azurerm, piège ARM_TENANT_ID + ARM_SUBSCRIPTION_ID
-- [[atmos-azure-backend]] — Backend azurerm : `use_azuread_auth`, RBAC requis, provisionnement auto du container
+- [[atmos-azure-backend]] — Backend azurerm : key-based vs Azure AD auth, prérequis RBAC, provisionnement auto du container
+- [[azure-rbac-planes]] — Management plane vs data plane : pourquoi Owner ne suffit pas pour accéder aux blobs
 - [[azure-oidc-workload-identity]] — Workload Identity Federation GitLab→Azure : flux, config Atmos, pipeline sans secret
 
 ## Azure
