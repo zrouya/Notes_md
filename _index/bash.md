@@ -21,3 +21,12 @@ Map of Content pour les notes bash.
 ## Patterns
 
 - [[error-accumulation-pattern]] — Collecter toutes les erreurs avant de quitter
+
+## Parsing texte
+
+- [[grep-o]] — Extraire uniquement la partie correspondante avec `grep -o`, parsing JSON sans jq
+- [[tr]] — Transformer ou supprimer des caractères (`tr -d`)
+
+## Regex POSIX
+
+- [[regex-posix]] — Classes `[[:space:]]`, quantificateurs `*`, négation `[^x]`, ancres `$`
