@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entretiens/Patterns entretien.md",
+                "file": "Entretiens/Entoria/Mission Entoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Patterns entretien"
+              "title": "Mission Entoria"
             }
           }
         ],
@@ -181,6 +181,7 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "Entretiens/Patterns entretien.md",
     "_index/bash.md.tmp.28744.efaf62439338",
     "bash/tr.md",
     "bash/tr.md.tmp.28744.68a7ffd90f7f",
@@ -189,7 +190,6 @@
     "bash/grep-o.md",
     "bash/grep-o.md.tmp.28744.c70b2ed90e37",
     "IaC/atmos-azure-backend.md",
-    "Entretiens/Patterns entretien.md",
     "gitlab-ci/docker-socket-monte.md",
     "gitlab-ci/runner-executors.md",
     "IaC/_index-iac.md",
@@ -216,7 +216,6 @@
     "azure/managed-identity-user-assigned.md.tmp.17488.1777062823951",
     "azure/managed-identity-system-assigned.md.tmp.17488.1777062815109",
     "azure",
-    "Entretiens/Entoria",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
