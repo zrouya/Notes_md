@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/atmos-azure-backend.md",
+                "file": "Entretiens/Patterns entretien.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "atmos-azure-backend"
+              "title": "Patterns entretien"
             }
           }
         ],
@@ -181,6 +181,8 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "IaC/atmos-azure-backend.md",
+    "Entretiens/Patterns entretien.md",
     "gitlab-ci/docker-socket-monte.md",
     "gitlab-ci/runner-executors.md",
     "IaC/_index-iac.md",
@@ -189,7 +191,6 @@
     "IaC/azurerm-credential-chain.md",
     "IR 2026.md",
     "IaC/azure-oidc-workload-identity.md",
-    "IaC/atmos-azure-backend.md",
     "gitlab-ci/pattern-iac-centralise.md",
     "gitlab-ci/types-pipelines-declenches.md",
     "gitlab-ci/pipeline-downstream-variables.md",
@@ -206,7 +207,6 @@
     "azure/apim-cache-bonnes-pratiques.md",
     "azure/apim-caching.md",
     "_index/cache.md",
-    "IaC/atmos-overview.md",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
