@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "atmos auth",
+                "query": "tee",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,7 +180,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "d0a0adb9a8899215",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "Entretiens/Patterns entretien.md",
     "_index/bash.md.tmp.28744.efaf62439338",

@@ -7,6 +7,11 @@
 - [[apim-cache-policies]] — Politiques cache-lookup, cache-store, cache-remove-value et leurs paramètres
 - [[apim-cache-bonnes-pratiques]] — Bonnes pratiques, limites, et approche ETag manuelle
 
+## Monitoring & Observability
+
+- [[appinsights-principe]] — Principe général d'Application Insights : connection string, flux de données, SDK vs codeless
+- [[appinsights-auto-instrumentation]] — Auto-instrumentation codeless sur Azure Container Apps (.NET et Java sans modifier le code)
+
 ## Identity & IAM
 
 - [[managed-identity-system-assigned]] — Identité liée au cycle de vie d'une ressource, non partageable

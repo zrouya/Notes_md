@@ -24,6 +24,7 @@ Notes sur l'Infrastructure as Code : Atmos, OpenTofu/Terraform, Azure.
 ## OpenTofu / Terraform
 
 - [[opentofu-import]] — Import de ressources existantes dans l'état
+- [[terraform-dynamic-blocks]] — Blocs imbriqués conditionnels/répétés avec `dynamic`
 
 ## Atmos — Authentification Azure
 
