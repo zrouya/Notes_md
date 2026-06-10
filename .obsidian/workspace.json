@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entretiens/Entoria/Mission Entoria.md",
+                "file": "git/git-rebase.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mission Entoria"
+              "title": "git-rebase"
             }
           }
         ],
@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,8 +179,9 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "Entretiens/Entoria/Mission Entoria.md",
     "Entretiens/Patterns entretien.md",
     "_index/bash.md.tmp.28744.efaf62439338",
     "bash/tr.md",
