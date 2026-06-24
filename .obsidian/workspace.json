@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Point Dougs - 20260622.md",
+                "file": "tls/diffie-hellman-ephemere.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Point Dougs - 20260622"
+              "title": "diffie-hellman-ephemere"
             }
           }
         ],
@@ -193,9 +193,11 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "94d9a3d98df21d83",
+  "active": "3914f328d4975057",
   "lastOpenFiles": [
     "_index/tls.md",
+    "tls/https-vue-ensemble.md",
+    "Point Dougs - 20260622.md",
     "outils/openssl.md",
     "tls/securite-https-hsts-pinning-mitm.md",
     "tls/securite-https-hsts-pinning-mitm.md.tmp.55952.cb5733bbc2a4",
@@ -209,11 +211,9 @@
     "tls/autorite-certification.md",
     "tls/certificat-x509.md",
     "tls/cryptographie-hybride.md",
-    "tls/https-vue-ensemble.md",
     "tls/https-vue-ensemble.md.tmp.55952.35b5d9056938",
     "tls",
     "git/git-rebase.md",
-    "Point Dougs - 20260622.md",
     "Entretiens/Entoria/Mission Entoria.md",
     "Entretiens/Patterns entretien.md",
     "_index/bash.md.tmp.28744.efaf62439338",
