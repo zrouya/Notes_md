@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "go vet",
+                "query": "vet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
