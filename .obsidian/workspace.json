@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "outils/clr-profiler.md",
+                "file": "Point Dougs - 20260622.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "clr-profiler"
+              "title": "Point Dougs - 20260622"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vet",
+                "query": "file: doug",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -194,8 +194,9 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e85768a37c52157f",
+  "active": "3914f328d4975057",
   "lastOpenFiles": [
+    "outils/clr-profiler.md",
     "IaC/appinsights-auto-instrumentation.md",
     "IaC/appinsights-principe.md",
     "outils/java-agent.md",
@@ -228,7 +229,6 @@
     "bash/grep-o.md",
     "bash/grep-o.md.tmp.28744.c70b2ed90e37",
     "IaC/atmos-azure-backend.md",
-    "gitlab-ci/docker-socket-monte.md",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
     "azure/managed-identity-comparaison.md.tmp.17488.1777062833931",
