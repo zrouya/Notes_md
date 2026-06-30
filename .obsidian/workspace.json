@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tee",
+                "query": "go vet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,7 +194,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "3914f328d4975057",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "IaC/appinsights-auto-instrumentation.md",
     "IaC/appinsights-principe.md",
