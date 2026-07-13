@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Point Dougs - 20260622.md",
+                "file": "Entretiens/Entoria/Mission Entoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Point Dougs - 20260622"
+              "title": "Mission Entoria"
             }
           }
         ],
@@ -193,8 +193,9 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "94d9a3d98df21d83",
+  "active": "3914f328d4975057",
   "lastOpenFiles": [
+    "Point Dougs - 20260622.md",
     "outils/clr-profiler.md",
     "IaC/appinsights-auto-instrumentation.md",
     "IaC/appinsights-principe.md",
@@ -202,7 +203,6 @@
     "tls/diffie-hellman-ephemere.md",
     "_index/tls.md",
     "tls/https-vue-ensemble.md",
-    "Point Dougs - 20260622.md",
     "outils/openssl.md",
     "tls/securite-https-hsts-pinning-mitm.md",
     "tls/securite-https-hsts-pinning-mitm.md.tmp.55952.cb5733bbc2a4",
