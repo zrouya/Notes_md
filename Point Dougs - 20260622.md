@@ -21,3 +21,4 @@
 	- au total, on peut allouer environ 23m2 => 25% de toutes les charges
 - Peut-être rétroactif depuis le 1er janvier 2026
 - Voir le terme "régime micro foncier" (a noter que les loyers versés par la sociéte sont tout de même imposés sur le revenu, avec un abattement de 30% si loyers < 15k à l'année)
+- Catégorie d'imputation Dougs : "Loyer"
