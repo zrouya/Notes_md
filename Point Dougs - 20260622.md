@@ -19,4 +19,4 @@
 	- Calcul au prorata de la surface mise à disposition
 	- Intégration des parties communes
 	- au total, on peut allouer environ 23m2 => 25% de toutes les charges
-
+- Peut-être rétroactif depuis 
