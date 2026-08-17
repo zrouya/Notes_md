@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: doug",
+                "query": "terra",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,7 +196,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "3914f328d4975057",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "Entretiens/Entoria/Mission Entoria - Devops.md",
     "Entretiens/Entoria/Mission Entoria.md",
