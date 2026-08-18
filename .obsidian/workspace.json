@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "azure-oidc-workload-identity"
             }
+          },
+          {
+            "id": "3e46483789bbb0d3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notes de version 1.13.7"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -196,7 +208,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "3914f328d4975057",
+  "active": "3e46483789bbb0d3",
   "lastOpenFiles": [
     "Point Dougs - 20260622.md",
     "Entretiens/Entoria/Mission Entoria - Devops.md",
