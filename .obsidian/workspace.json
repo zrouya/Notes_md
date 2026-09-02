@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/azure-oidc-workload-identity.md",
+                "file": "_index/azure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "azure-oidc-workload-identity"
+              "title": "azure"
             }
           }
         ],
@@ -105,8 +105,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,6 +197,7 @@
   },
   "active": "3914f328d4975057",
   "lastOpenFiles": [
+    "IaC/azure-oidc-workload-identity.md",
     "Point Dougs - 20260622.md",
     "Entretiens/Entoria/Mission Entoria - Devops.md",
     "Entretiens/Entoria/Mission Entoria.md",
@@ -229,7 +229,6 @@
     "bash/tr.md.tmp.28744.68a7ffd90f7f",
     "bash/regex-posix.md",
     "bash/regex-posix.md.tmp.28744.3dbcde6d0a5d",
-    "bash/grep-o.md",
     "bash/grep-o.md.tmp.28744.c70b2ed90e37",
     "cache",
     "_index/azure.md.tmp.17488.1777062839989",
