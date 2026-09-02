@@ -197,6 +197,8 @@
   },
   "active": "3914f328d4975057",
   "lastOpenFiles": [
+    "azure/apim-rate-limiting.md",
+    "_index/azure.md",
     "IaC/azure-oidc-workload-identity.md",
     "Point Dougs - 20260622.md",
     "Entretiens/Entoria/Mission Entoria - Devops.md",
@@ -225,9 +227,7 @@
     "git/git-rebase.md",
     "Entretiens/Patterns entretien.md",
     "_index/bash.md.tmp.28744.efaf62439338",
-    "bash/tr.md",
     "bash/tr.md.tmp.28744.68a7ffd90f7f",
-    "bash/regex-posix.md",
     "bash/regex-posix.md.tmp.28744.3dbcde6d0a5d",
     "bash/grep-o.md.tmp.28744.c70b2ed90e37",
     "cache",
