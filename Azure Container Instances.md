@@ -7,7 +7,7 @@ Lors de la création d'une Container Instance, une [[Docker registry|source d'im
 	- Un serveur Web Linux (Alpine)
 	- Un serveur Web Windows
 - [[Azure Container Registry]] (il faut pour cela avoir **activé le user admin** de cette ressource)
-- Other registry (par défaut, [[DockerHub]])
+- Other registry (par défaut, [[DockerHUB]])
 
 Une Container Instance peut implémenter un type de **réseau public** (il se voit affecter dans ce cas une **IP publique**, et possiblement un **nom DNS**), **réseau privé** (on spécifie **un VNP**, ainsi qu'un **sous-réseau**), ou **aucun réseau**.
 

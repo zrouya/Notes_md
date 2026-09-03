@@ -46,4 +46,3 @@ variables:
 ## Voir aussi
 
 - [[runner-executors]]
-- [[gitlab-ci-pull-policy]]

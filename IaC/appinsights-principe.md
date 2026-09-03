@@ -44,5 +44,4 @@ App (SDK ou agent)
 ## Voir aussi
 
 - [[appinsights-auto-instrumentation]]
-- [[appinsights-agent-injection]]
 - [[azure-containerapp-sql-access]]

@@ -36,4 +36,3 @@ Ou tester en lançant un job : si `docker pull` échoue avec
 ## Voir aussi
 
 - [[docker-socket-monte]]
-- [[gitlab-ci-pull-policy]]

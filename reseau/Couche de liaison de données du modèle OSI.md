@@ -11,4 +11,4 @@ La couche de liaison de données tient son nom de son rôle de **traduction des 
 
 Elle est constituée de 2 sous-couches : 
 - La couche **Logical Link Control (LLC)** : responsable de la **gestion des erreurs** et du **contrôle de flux** des trames.
-- La couche **Media Access Control (MAC)** : responsable de l'**adressage physique** ([[Adresses MAC]]), et de la **topologie logique** ([[Ethernet]], [[Carrier Sense Multiple Access - Collision Detection (CSMA/CD)|CSMA/CD]], [[Carrier Sense Multiple Access - Collision Avoidance (CSMA/CA)|CSMA/CA]]).
+- La couche **Media Access Control (MAC)** : responsable de l'**adressage physique** ([[Adresses MAC]]), et de la **topologie logique** ([[Ethernet]], [[Carrier Sense Multiple Access - Collision Detection (CSMA-CD)|CSMA/CD]], [[Carrier Sense Multiple Access - Collision Avoidance (CSMA-CA)|CSMA/CA]]).
