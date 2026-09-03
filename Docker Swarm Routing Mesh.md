@@ -5,7 +5,7 @@ Il s'agit d'un élément crucial de Docker Swarm, pour la **haute disponibilité
 
 ### Routage entre conteneurs (tâches)
 
-Chaque service Docker Swarm est accessible via son **nom DNS**. Pour effectuer le routage d'un paquet destiné à un service Docker Swarm vers une tâche correspondante, Docker Swarm utilise des [[Adresses IP Vituelles (VIP)|IP virtuelles]], qui assurent le **load balancing** vers l'ensemble des tâches exécutant le service. 
+Chaque service Docker Swarm est accessible via son **nom DNS**. Pour effectuer le routage d'un paquet destiné à un service Docker Swarm vers une tâche correspondante, Docker Swarm utilise des [[Adresses IP Virtuelles (VIP)|IP virtuelles]], qui assurent le **load balancing** vers l'ensemble des tâches exécutant le service. 
 
 ![[screenshot-www.udemy.com-2024.04.05-11_24_50.png]]
 
