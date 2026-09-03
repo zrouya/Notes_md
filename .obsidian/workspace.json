@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git-rebase.md",
+                "file": "reseau/encapsulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git-rebase"
+              "title": "encapsulation"
             }
           }
         ],
@@ -181,8 +181,10 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "94d9a3d98df21d83",
+  "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "_index/reseau.md",
+    "Couche de liaison de données du modèle OSI.md",
     "reseau/Application-Specific Integrated Circuitery (ASIC).md",
     "reseau/Ethernet.md",
     "reseau/Carrier Sense Multiple Access - Collision Detection (CSMA-CD).md",
@@ -207,8 +209,6 @@
     "reseau/Secure shell (SSH).md",
     "reseau/Réseaux informatiques logiques.md",
     "reseau/Réseaux informatiques.md",
-    "reseau/Routeurs réseaux.md",
-    "reseau/Routage réseau.md",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Modèle OSI.md.tmp.35404.23ba5c69840d",
     "Firewall.md.tmp.35404.f9a7c3378c86",
