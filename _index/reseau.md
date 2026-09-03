@@ -20,6 +20,16 @@ Fil conducteur recommandé : [[Modèle OSI]] → [[encapsulation]] → [[cidr-no
 | [[Couche applicative du modèle OSI]] | L7 — protocoles applicatifs |
 | [[Paquets (couche réseau)]] | Unité de la couche 3 |
 | [[Segments (couche transport)]] | Unité de la couche 4 |
+| [[Frames (couche liaison de données)]] | Unité de la couche 2 |
+
+## Couche 2 — accès au support
+
+| Note | Description |
+|------|-------------|
+| [[Ethernet]] | La norme du réseau filaire |
+| [[Carrier Sense Multiple Access - Collision Detection (CSMA-CD)\|CSMA/CD]] | Détection de collision — Ethernet partagé, obsolète en commuté |
+| [[Carrier Sense Multiple Access - Collision Avoidance (CSMA-CA)\|CSMA/CA]] | Évitement de collision — Wi-Fi, nœud caché, RTS/CTS |
+| [[Adresses MAC]] | Adressage physique |
 
 ## Adressage
 
@@ -47,6 +57,24 @@ Fil conducteur recommandé : [[Modèle OSI]] → [[encapsulation]] → [[cidr-no
 | [[Types de messages ICMP]] | Codes — dont `Fragmentation Needed` |
 | [[Protocole IPSec]] | Chiffrement au niveau IP |
 | [[Virtual Private Network (VPN)]] | Tunnel chiffré entre réseaux |
+
+## Protocoles applicatifs
+
+| Note | Description |
+|------|-------------|
+| [[Secure shell (SSH)]] | Accès distant chiffré — port 22 |
+| [[File Transfert Protocol (FTP)]] | Transfert de fichiers — ports 20/21 |
+| [[Remote Desktop Protocol (RDP)]] | Bureau à distance — port 3389 |
+
+Pour HTTP, voir la rubrique dédiée plus bas.
+
+## Étendue des réseaux
+
+| Note | Description |
+|------|-------------|
+| [[Réseaux informatiques]] · [[Réseaux informatiques logiques]] | Notions de base, segmentation logique |
+| [[Wide Area Network (WAN)]] | Réseau étendu |
+| [[Wireless Local Network (WLAN)]] | Réseau local sans fil |
 
 ## Ports et transport
 
@@ -98,7 +126,8 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index/tls|index T
 | [[Routage réseau]] | Table de routage, plus long préfixe |
 | [[Firewall]] | Filtrage — `DROP` vs `REJECT` |
 | [[Bastion]] | Point d'entrée d'administration |
-| [[Carte d'interface réseau]] · [[Interface réseau]] | NIC et interfaces logiques |
+| [[Carte d'interface réseau]] · [[Interface réseau]] · [[Network Adapter (Interface) Card]] | NIC et interfaces logiques |
+| [[Application-Specific Integrated Circuitery (ASIC)]] | Puce dédiée — ce qui rend un switch rapide |
 
 ## Topologies
 
@@ -107,7 +136,6 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index/tls|index T
 | [[Topologies réseaux]] | Vue d'ensemble |
 | [[Topologies de réseaux câblés]] | [[Topologie réseau bus\|bus]], [[Topologie réseau en anneau\|anneau]], [[Topologie réseau en étoile\|étoile]], [[Topologie réseau en arbre\|arbre]], [[Topologie réseau mesh\|mesh]] |
 | [[Topologies de réseaux sans fils]] | [[Topologie réseau ad hoc\|ad hoc]], [[Topologie réseau infrastructure\|infrastructure]] |
-| [[Réseaux informatiques]] · [[Réseaux informatiques logiques]] | LAN/WAN, segmentation logique |
 
 ## Réseau Docker
 
