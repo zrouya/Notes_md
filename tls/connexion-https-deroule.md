@@ -27,9 +27,15 @@ De `https://example.com` tapé dans le navigateur jusqu'à l'affichage de la pag
 DNS → TCP → TLS handshake → [tunnel chiffré] → HTTP req/resp
 ```
 
+## Le coût
+
+Les étapes 1 à 3 consomment **3 allers-retours** avant le premier octet utile. Détail du budget et leviers de réduction : [[cout-rtt-connexion-https]].
+
 ## Voir aussi
 
 - [[https-vue-ensemble]]
 - [[handshake-tls-1-2]]
 - [[handshake-tls-1-3]]
 - [[reprise-session-0-rtt]]
+- [[cout-rtt-connexion-https]]
+- [[http-versions]] — ce que l'ALPN négocie à l'étape 3

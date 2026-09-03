@@ -1,14 +1,46 @@
+---
+tags: [reseau, ip, subnet]
+---
 
-1. **Définition** :
-    
-    - Le masque de sous-réseau est une combinaison de bits utilisée pour diviser les adresses IP en deux parties : l'identifiant de réseau et l'identifiant d'hôte.
+# Masque de sous-réseau
 
-2. **Fonction** :
-    
-    - Il permet de déterminer la taille d'un sous-réseau et de distinguer quels bits de l'adresse IP représentent le réseau et lesquels représentent les hôtes au sein de ce réseau.
+Combinaison de bits qui divise une [[Adresse IP|adresse IP]] en deux parties : l'identifiant de **réseau** et l'identifiant d'**hôte**.
 
-3. **Utilité** :
-    
-    - Le masque de sous-réseau est essentiel pour l'acheminement des paquets de données. Il aide à déterminer si une destination est sur le même réseau ou si le paquet doit être envoyé à travers un [[Routage réseau|routeur]] pour atteindre un réseau différent.
+Le masque ne se transmet jamais dans un paquet — c'est une donnée **locale** à chaque interface, utilisée pour décider où envoyer.
 
-En résumé, le masque de sous-réseau aide à déterminer l'appartenance d'une adresse IP à un réseau spécifique.
+## Principe
+
+Les bits à `1` marquent la partie réseau, ceux à `0` la partie hôte. Ils sont toujours **contigus**, d'où la notation [[cidr-notation|CIDR]] `/n` qui les compte.
+
+```
+adresse   192.168.1.10
+masque    255.255.255.0    = /24
+          11111111.11111111.11111111.00000000
+          |______ reseau ___________|_ hote _|
+```
+
+## À quoi il sert concrètement
+
+Une machine applique le masque à **sa propre adresse** et à **celle de la destination** :
+
+- résultats **identiques** → même réseau, livraison directe sur le lien
+- résultats **différents** → envoi à la [[Passerelle réseau|passerelle]], puis [[Routage réseau|routage]]
+
+C'est ce test, et rien d'autre, qui décide si un paquet sort du réseau local.
+
+## Masques courants
+
+| Masque | CIDR | Hôtes utilisables |
+|--------|------|-------------------|
+| 255.255.255.255 | `/32` | 1 (route hôte) |
+| 255.255.255.248 | `/29` | 6 |
+| 255.255.255.0 | `/24` | 254 |
+| 255.255.0.0 | `/16` | 65 534 |
+
+Deux adresses par bloc sont toujours réservées (réseau et diffusion) : d'où le `- 2`.
+
+## Voir aussi
+
+- [[cidr-notation]] — calcul détaillé et plages privées
+- [[Sous-réseau]] · [[Routage réseau]]
+- [[IPv4]]
