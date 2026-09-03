@@ -34,23 +34,9 @@
               "icon": "lucide-file",
               "title": "git-rebase"
             }
-          },
-          {
-            "id": "3914f328d4975057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Couche de liaison de données du modèle OSI.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Couche de liaison de données du modèle OSI"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,9 +181,34 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "3914f328d4975057",
+  "active": "94d9a3d98df21d83",
   "lastOpenFiles": [
-    "_index/_accueil.md",
+    "reseau/Wireless Local Network (WLAN).md",
+    "reseau/Wide Area Network (WAN).md",
+    "reseau/Virtual Private Network (VPN).md",
+    "reseau/Types de messages ICMP.md",
+    "reseau/Topologies réseaux.md",
+    "reseau/Topologies de réseaux sans fils.md",
+    "reseau/Topologies de réseaux câblés.md",
+    "reseau/Topologie réseau mesh.md",
+    "reseau/Topologie réseau infrastructure.md",
+    "reseau/Topologie réseau en étoile.md",
+    "reseau/Topologie réseau en arbre.md",
+    "reseau/Topologie réseau en anneau.md",
+    "reseau/Topologie réseau bus.md",
+    "reseau/Topologie réseau ad hoc.md",
+    "reseau/Switch réseau.md",
+    "reseau/Sous-réseau.md",
+    "reseau/Segments (couche transport).md",
+    "reseau/Secure shell (SSH).md",
+    "reseau/Réseaux informatiques logiques.md",
+    "reseau/Réseaux informatiques.md",
+    "reseau/Routeurs réseaux.md",
+    "reseau/Routage réseau.md",
+    "reseau/Round Robin DNS.md",
+    "reseau/Requêtes HTTP.md",
+    "reseau/Remote Desktop Protocol (RDP).md",
+    "reseau/Protocole UDP.md",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Modèle OSI.md.tmp.35404.23ba5c69840d",
     "Firewall.md.tmp.35404.f9a7c3378c86",
@@ -208,31 +219,6 @@
     "HTTP(S).md.tmp.35404.1d2f6ca4dde5",
     "Domain Name System (DNS).md.tmp.35404.5b386482a6ba",
     "Cession TCP.md.tmp.35404.eec701a278b0",
-    "_index/reseau.md",
-    "reseau/dns-ttl-migration.md",
-    "reseau/diagnostic-par-couche.md",
-    "reseau/http-versions.md",
-    "reseau/cout-rtt-connexion-https.md",
-    "reseau/ports-ephemeres-time-wait.md",
-    "reseau/cidr-notation.md",
-    "reseau/mtu-fragmentation.md",
-    "reseau/encapsulation.md",
-    "reseau/erreurs-connexion-econnrefused.md",
-    "Carrier Sense Multiple Access - Collision Avoidance (CSMA/CA).md",
-    "Couche de liaison de données du modèle OSI.md",
-    "Carrier Sense Multiple Access - Collision Detection (CSMA/CD).md",
-    "Modèle OSI.md",
-    "Couche physique du modèle OSI.md",
-    "Couche réseau du modèle OSI.md",
-    "Adress Resolution Protocol (ARP).md",
-    "Adresse IP.md",
-    "Adresses IP Virtuelles (VIP).md",
-    "_index/azure.md",
-    "azure/apim-rate-limiting.md",
-    "IaC/azure-oidc-workload-identity.md",
-    "Point Dougs - 20260622.md",
-    "Entretiens/Entoria/Mission Entoria - Devops.md",
-    "Entretiens/Entoria/Mission Entoria.md",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
