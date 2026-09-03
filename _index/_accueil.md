@@ -36,6 +36,6 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 
 ## Convention du vault
 
-- Les notes **thématiques récentes** vivent dans un dossier par domaine (`reseau/`, `tls/`, `azure/`…) en `kebab-case`.
-- Les notes **historiques** sont à la racine, en `Titre Long`.
-- Chaque domaine a un index dans `_index/`, référencé ici.
+- Un **dossier par domaine** (`reseau/`, `tls/`, `azure/`, `bash/`, `gitlab-ci/`…), chacun avec son index dans `_index/`.
+- Deux styles de noms y cohabitent : `kebab-case` pour les notes récentes, `Titre Long` pour les notes historiques. Les liens Obsidian se résolvant **par nom de fichier et non par chemin**, un déplacement de note ne casse aucun lien.
+- Le reste de la racine attend d'être classé par domaine — `reseau/` a été consolidé le 2026-09-03, les notes Docker, .NET et Angular sont encore à la racine.
