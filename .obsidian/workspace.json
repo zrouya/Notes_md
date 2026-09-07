@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tls/cryptographie-hybride.md",
+                "file": "git/git-checkout-vs-switch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cryptographie-hybride"
-            }
-          },
-          {
-            "id": "071fe9e5d5b49285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rdv Bilan 2025-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rdv Bilan 2025-2026"
+              "title": "git-checkout-vs-switch"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,7 +181,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "071fe9e5d5b49285",
+  "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
     "tls/cryptographie-hybride.md",
     "Rdv Bilan 2025-2026.md",
