@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git-checkout-vs-switch.md",
+                "file": "git/git-switch-create-branch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git-checkout-vs-switch"
+              "title": "git-switch-create-branch"
             }
           }
         ],
@@ -183,6 +183,9 @@
   },
   "active": "d0a0adb9a8899215",
   "lastOpenFiles": [
+    "git/git-push-set-upstream.md",
+    "git/git-switch-create-branch.md",
+    "git/git-checkout-vs-switch.md",
     "tls/cryptographie-hybride.md",
     "Rdv Bilan 2025-2026.md",
     "tls/https-vue-ensemble.md",
@@ -206,9 +209,6 @@
     "reseau/Topologie réseau infrastructure.md",
     "reseau/Topologie réseau en étoile.md",
     "reseau/Topologie réseau en arbre.md",
-    "reseau/Topologie réseau en anneau.md",
-    "reseau/Topologie réseau bus.md",
-    "reseau/Topologie réseau ad hoc.md",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Modèle OSI.md.tmp.35404.23ba5c69840d",
     "Firewall.md.tmp.35404.f9a7c3378c86",
