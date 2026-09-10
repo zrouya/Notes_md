@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git-push-set-upstream.md",
+                "file": "Agent OpenTelemetry Azure Container Apps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git-push-set-upstream"
+              "title": "Agent OpenTelemetry Azure Container Apps"
             }
           }
         ],
@@ -197,10 +197,12 @@
   },
   "active": "f9b5eedcc30750d9",
   "lastOpenFiles": [
+    "_index/tls.md",
+    "Agent OpenTelemetry Azure Container Apps.md",
+    "git/git-push-set-upstream.md",
     "POC Observabilité SI hybride.md",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
     "git/git-switch-create-branch.md",
-    "git/git-push-set-upstream.md",
     "git/git-checkout-vs-switch.md",
     "tls/cryptographie-hybride.md",
     "Rdv Bilan 2025-2026.md",
@@ -222,8 +224,6 @@
     "reseau/Topologies de réseaux sans fils.md",
     "reseau/Topologies de réseaux câblés.md",
     "reseau/Topologie réseau mesh.md",
-    "reseau/Topologie réseau infrastructure.md",
-    "reseau/Topologie réseau en étoile.md",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Modèle OSI.md.tmp.35404.23ba5c69840d",
     "Firewall.md.tmp.35404.f9a7c3378c86",
