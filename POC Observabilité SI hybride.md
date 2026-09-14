@@ -61,9 +61,13 @@ Grille de sélection : stacks traversées · hops Azure/OnPrem contrôlés · pa
 
 ## Voir aussi
 
-- [[OpenTelemetry]]
-- [[OpenTelemetry Collector]]
-- [[Agent OpenTelemetry Azure Container Apps]]
-- [[Observabilité - métriques, logs et traces]]
-- [[Cardinalité des métriques]]
-- [[Vendor lock-in]]
+**Fondations & concepts**
+- [[OpenTelemetry]] · [[OpenTelemetry Collector]] · [[Agent OpenTelemetry Azure Container Apps]]
+- [[Observabilité - métriques, logs et traces]] · [[Corrélation de traces distribuées]] · [[Cardinalité des métriques]] · [[Vendor lock-in]]
+
+**Briques Azure (couche 0)**
+- [[Log Analytics]] · [[Application Insights]] · [[APM (Application Performance Monitoring)]] · [[Diagnostic settings Azure Monitor]]
+- [[Table ApiManagementGatewayLogs]] · [[Tables AppRequests et AppDependencies]] · [[Coût de Log Analytics]]
+
+**Visualisation & backends neutres**
+- [[Grafana]] · [[Grafana Tempo]] · [[Stack LGTM]]
