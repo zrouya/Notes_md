@@ -35,4 +35,5 @@ Collector volontairement bridé : pas de pipeline custom, pas de tail sampling, 
 
 - [[opentelemetry]]
 - [[opentelemetry-collector]]
+- [[container-apps-app-logs]] — L'autre canal : logs console/système
 - [[appinsights-auto-instrumentation]]
