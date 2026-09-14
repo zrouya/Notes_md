@@ -11,6 +11,7 @@
 
 > Concepts transverses (OpenTelemetry, Grafana, Tempo, piliers…) : voir [[_index/observabilite|l'index Observabilité]].
 
+- [[azure-monitor-cartographie]] — **Vue d'ensemble** : ombrelle Azure Monitor, stores vs sources vs produits, confusions à dissiper
 - [[appinsights-principe]] — Principe général d'Application Insights : connection string, flux de données, SDK vs codeless
 - [[appinsights-auto-instrumentation]] — Auto-instrumentation codeless sur Azure Container Apps (.NET et Java sans modifier le code)
 - [[container-apps-otel-agent]] — Agent OpenTelemetry managé au niveau de l'Environment : routage par signal, contraintes

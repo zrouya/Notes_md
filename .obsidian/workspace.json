@@ -197,6 +197,7 @@
   },
   "active": "f9b5eedcc30750d9",
   "lastOpenFiles": [
+    "azure/azure-monitor-cartographie.md",
     "_index/observabilite.md",
     "azure/container-apps-otel-agent.md",
     "azure/log-analytics-cout.md",
@@ -223,7 +224,6 @@
     "outils/openssl.md",
     "_index/tls.md",
     "git/git-push-set-upstream.md",
-    "POC Observabilité SI hybride.md",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Modèle OSI.md.tmp.35404.23ba5c69840d",
