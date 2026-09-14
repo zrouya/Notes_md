@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenTelemetry.md",
+                "file": "_index/azure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenTelemetry"
+              "title": "azure"
             }
           }
         ],
@@ -105,8 +105,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,9 +197,10 @@
   },
   "active": "f9b5eedcc30750d9",
   "lastOpenFiles": [
+    "_index/_accueil.md",
+    "OpenTelemetry.md",
     "OpenTelemetry Collector.md",
     "Agent OpenTelemetry Azure Container Apps.md",
-    "OpenTelemetry.md",
     "outils/openssl.md",
     "_index/tls.md",
     "git/git-push-set-upstream.md",
@@ -224,7 +224,6 @@
     "reseau/Wide Area Network (WAN).md",
     "reseau/Virtual Private Network (VPN).md",
     "reseau/Types de messages ICMP.md",
-    "reseau/Topologies réseaux.md",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Modèle OSI.md.tmp.35404.23ba5c69840d",
     "Firewall.md.tmp.35404.f9a7c3378c86",
