@@ -1,5 +1,10 @@
+---
+tags: [azure, appinsights, tracing, kql, monitoring]
+---
 
-Les deux tables d'[[Application Insights]] qui portent le tracing distribué.
+# Tables AppRequests et AppDependencies
+
+Les deux tables d'[[appinsights-principe|Application Insights]] qui portent le tracing distribué.
 
 > **`AppRequests` = les appels *reçus*. `AppDependencies` = les appels *émis*.**
 
@@ -7,7 +12,7 @@ Les deux tables d'[[Application Insights]] qui portent le tracing distribué.
 
 Chaque service instrumenté produit :
 - une ligne **`AppRequests`** à chaque requête **reçue** ;
-- une ligne **`AppDependencies`** à chaque appel **sortant** (autre service HTTP, SQL, Service Bus, cache…).
+- une ligne **`AppDependencies`** à chaque appel **sortant** (HTTP, SQL, Service Bus, cache…).
 
 Ça s'alterne : *reçu → émis → reçu → émis*. Chaque dépendance émise devient la requête reçue du service suivant.
 
@@ -20,7 +25,7 @@ Chaque service instrumenté produit :
 
 ## Reconstruire une trace
 
-Réunir les deux tables sur un même `OperationId` (voir [[Corrélation de traces distribuées]]) et ordonner par temps → le waterfall.
+Réunir les deux tables sur un même `OperationId` (voir [[correlation-traces-distribuees]]) et ordonner par temps → le waterfall.
 
 ```kql
 union AppRequests, AppDependencies
@@ -32,9 +37,9 @@ union AppRequests, AppDependencies
 
 ## vs GatewayLogs
 
-`AppDependencies` porte le détail *« quelle requête SQL, où, en combien de temps »* — ce que [[Table ApiManagementGatewayLogs]] replie dans `BackendTime`.
+`AppDependencies` porte le détail *« quelle requête SQL, où, en combien de temps »* — ce que [[apim-gateway-logs]] replie dans `BackendTime`.
 
 ## Voir aussi
 
-- [[Corrélation de traces distribuées]]
-- [[Application Insights]]
+- [[correlation-traces-distribuees]]
+- [[appinsights-principe]]

@@ -12,7 +12,8 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 |-------|---------|
 | [[_index/reseau\|Réseau]] | OSI, adressage, DNS, TCP/UDP, HTTP, diagnostic |
 | [[_index/tls\|TLS / HTTPS]] | Handshakes, certificats, chaîne de confiance |
-| [[_index/azure\|Azure]] | APIM, Entra, managed identities |
+| [[_index/azure\|Azure]] | APIM, Entra, managed identities, monitoring |
+| [[_index/observabilite\|Observabilité]] | Piliers, OpenTelemetry, Grafana, Tempo, APM |
 | [[_index/iac\|IaC]] | Terraform, Atmos, backends |
 
 ## Développement
@@ -38,4 +39,4 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 
 - Un **dossier par domaine** (`reseau/`, `tls/`, `azure/`, `bash/`, `gitlab-ci/`…), chacun avec son index dans `_index/`.
 - Deux styles de noms y cohabitent : `kebab-case` pour les notes récentes, `Titre Long` pour les notes historiques. Les liens Obsidian se résolvant **par nom de fichier et non par chemin**, un déplacement de note ne casse aucun lien.
-- Le reste de la racine attend d'être classé par domaine — `reseau/` a été consolidé le 2026-09-03, les notes Docker, .NET et Angular sont encore à la racine.
+- Le reste de la racine attend d'être classé par domaine — `reseau/` a été consolidé le 2026-09-03, `observabilite/` le 2026-09-14 ; les notes Docker, .NET et Angular sont encore à la racine.

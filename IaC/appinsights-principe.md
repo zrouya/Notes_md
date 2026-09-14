@@ -44,4 +44,7 @@ App (SDK ou agent)
 ## Voir aussi
 
 - [[appinsights-auto-instrumentation]]
+- [[appinsights-tables-requests-dependencies]] — Les tables `AppRequests` / `AppDependencies`
+- [[log-analytics]] — Le magasin où App Insights écrit (modèle workspace-based)
+- [[apm]] — App Insights est l'APM d'Azure
 - [[azure-containerapp-sql-access]]
