@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,10 +209,10 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "e3b2b53222197d2f",
+  "active": "b11de13fffa040fe",
   "lastOpenFiles": [
-    "azure/container-apps-otel-agent.md",
     "observabilite/opentelemetry-collector.md",
+    "azure/container-apps-otel-agent.md",
     "azure/azure-monitor-cartographie.md",
     "observabilite/opentelemetry.md",
     "observabilite/apm.md",
