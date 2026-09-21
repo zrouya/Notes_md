@@ -1,8 +1,8 @@
 
 A partir de la version 16 d'Angular, le [[State managment Angular|State Managment]] des composants peut être implémenté par des Signals, une feature reposant sur des souscriptions à des événements de mise à jour de données.
-Les classes de type ViewModel (ou tout autre objet incluant des données consommées par les composants Angular) sont wrappées dans un trackable data container, un Signal.
+Les classes de type ViewModel (ou tout autre objet incluant des données consommées par les composants Angular) sont wrappées dans un **trackable data container**, un Signal.
 
-Le code pris en exemple [[Composants Angular - Données dynamiques|ici]] se réécrit alors : 
+Le code pris en exemple [[Composants Angular - Data Binding|ici]] se réécrit alors : 
 
 ```typescript
 using { signal, computed } from '@angular/core'
@@ -23,7 +23,9 @@ export class UserComponent {
 	});
 	
 	imagePath = computed(() => { 'assets/Users/' + currentUser().avatar; });
-
+	// ou alors :
+	imagePath = 'assets/Users/' + currentUser().asReadonly().avatar;
+	
 	onSelectUser() {
 		// Pour mettre à jour la valeur d'un Signal, on appelle la fonction set
 		currentUser.set(new User() { id: 2, name: 'Alice', avatar:'Alice.png'});

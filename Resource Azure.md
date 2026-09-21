@@ -1,6 +1,6 @@
 
 Une ressource Azure désigne tout **service** qui peut être utilisé dans l'écosystème **Azure**. Par exemple :
-- Machines virtuelles
+- [[Machines virtuelles Azure|Machines virtuelles]]
 - Azure App service
 - Azure Kubernetes service
 - Azure blob storage

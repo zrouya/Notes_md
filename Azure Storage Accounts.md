@@ -8,9 +8,13 @@ Les Azure Storage Accounts sont un type de [[Resource Azure|ressources]] Azure o
 
 Les différents type de storage account sont :
 - **Standard General Purpose V2** : type de compte standard pour les blobs, les partages de fichiers, les files d'attente et les tables.
-- **Premium block blobs**
-- **Premium Files share**
-- **Premium page blobs**
+- **Premium block blobs** : compte optimisé pour le storage de blobs
+- **Premium Files share** : compte optimisé pour le storage de fichiers
+- **Premium page blobs** : compte optimisé pour le storage de pages
 
-Pour les différents types de blobs, voir [la documentation](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-pageblob-overview).
+Une **option de redondance** doit également être définie, en fonction des besoin en **haute disponibilité** : 
+![[Pasted image 20240808153431.png]]
+
+
+Les [[Azure Storage Accounts Authorization|autorisations]] d'accès aux différents services du Storage Account peuvent être configurées de différentes manières (anonymous acces, Access Keys, Shared Access Signature...)
 

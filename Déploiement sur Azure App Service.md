@@ -14,7 +14,7 @@ Azure prend en charge le déploiement automatisé directement à partir de plusi
 Il existe quelques options pour pusher le code manuellement sur Azure :
 
 - **Git** : Les applications **web App Service** proposent une URL Git à ajouter en tant que dépôt distant. Le code pushé est automatiquement déployé.
-- **CLI** : `az webapp up` permet d’empaqueter une application et de la déployer. Peut créer une application web App Service si ce n’est pas déjà fait.
+- **[[Azure CLI|CLI]]** : `az webapp up` permet d’empaqueter une application et de la déployer. Peut créer une application web App Service si ce n’est pas déjà fait.
 - **Déploiement ZIP** : utilisation de `curl` ou un utilitaire HTTP similaire pour envoyer un fichier zip des fichiers d’application à App Service.
 - **FTP/S**
 

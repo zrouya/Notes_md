@@ -12,12 +12,14 @@ De nombreux **runtimes et langages** sont disponibles :
 - **Custom Handler** : solution pour héberger du code d'une **stack non nativement gérée** par Azure Function App. Voir [configuration d'un Custom Handler](https://learn.microsoft.com/en-us/azure/azure-functions/functions-custom-handlers). 
 
 Lors de la création de la ressource correspondante, plusieurs éléments doivent être spécifiés : 
-- Un [[Azure Storage Account|storage account]] pour la **persistance des données**
+- Un [[Azure Storage Accounts|storage account]] pour la **persistance des données**
 - Le **système d'exploitation** hébergeant la ou les fonctions
 - Un **type de plan** : 
 	- **Consumption (serverless)** : on ne paie qu'à l'utilisation de la fonction
+	- **Flex Consumption**
 	- **Functions premium** 
-	- **[[Azure Plan App Service|Plan App Service]]**
+	- **App Service** : intégration de la function à un [[Azure App Service Plan|Plan App Service]] (en termes tarification également)
+	- **Container App Environment** 
 
 Une fois la ressource créée, on peut y ajouter des [[Azure Functions|fonctions]] via la section **Functions/Functions** du portail Azure.
 

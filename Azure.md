@@ -12,11 +12,11 @@ Voici quelques-uns des services Azure les plus importants :
     
     - [[Machines virtuelles Azure|Virtual Machines (VMs)]] : Serveurs virtuels configurables pour une grande variété d'applications.
     - **Azure Kubernetes Service (AKS)** : Gestion de conteneurs pour faciliter le déploiement, la gestion et les opérations des applications basées sur conteneurs.
-    - **[[Azure App Services|App Services]]** : Plateforme pour héberger des applications web et des API sans se soucier de l'infrastructure sous-jacente.
+    - **[[Azure App Service|App Services]]** : Plateforme pour héberger des applications web et des API sans se soucier de l'infrastructure sous-jacente.
 
 2. **Stockage** :
     
-    - **Azure Blob Storage** : Stockage d'objets pour les gros volumes de données non structurées.
+    - **[[Azure Blob Storage]]** : Stockage d'objets pour les gros volumes de données non structurées.
     - **Azure File Storage** : Stockage de fichiers basé sur SMB et NFS accessible à partir de n'importe où.
     - **Azure Queue Storage** : Stockage de files d'attente pour la communication entre les composants de l'application.
 

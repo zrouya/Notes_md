@@ -1,5 +1,5 @@
 
-Une Azure Web app est une [[Resource Azure|ressource]] Azure représentant une application web.
+Une Azure Web app est une [[Resource Azure|ressource]] Azure permettant l'hébergement d'une application web, sous forme [[Platform as a Service (PaaS)|PaaS]] (Platform as a Service).
 
 Azure propose un grand nombre de fonctionnalités pour le management d'une Web app : 
 - [[Déploiement sur Azure App Service|Déploiement]]

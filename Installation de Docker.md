@@ -1,5 +1,6 @@
 
-L'installation de [[Docker]] diffère selon la destination souhaitée (OS, Local/Serveur?, ....)
+L'installation de [[Docker]] diffère selon la destination souhaitée (OS, Local/Serveur?, ....).
+Voir https://docs.docker.com/engine/install/
 
 - Docker Engine est le binaire qui permet l'exécution des conteneurs (dockerd ou Docker deamon). Nécessite un kernel Linux.
 - Docker CLI permet d'envoyer des commandes Docker à l'instance de Docker Engine voulue.

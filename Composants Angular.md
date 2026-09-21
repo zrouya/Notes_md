@@ -17,7 +17,7 @@ ng generate component [path]/[name]
 ng g c [path]/[name]
 ```
 
-La classe composant qui est créée gère les [[Composants Angular - Données dynamiques|données]] dynamiques affichées dans son template.
+La classe composant qui est créée gère les [[Composants Angular - Data Binding|données]] dynamiques affichées dans son template.
 
 Pour des composants modulaires et réutilisables, il est possible de définir des [[Angular Component Inputs-Outputs|Inputs - Outputs]].
 

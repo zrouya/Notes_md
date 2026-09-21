@@ -7,4 +7,4 @@
 
 	HTTP Digest Authentication améliore la sécurité de HTTP Basic Authentication en envoyant un hachage du mot de passe, au lieu du mot de passe lui-même. Cependant, il est encore vulnérable aux attaques par force brute et aux attaques de collision si un algorithme de hachage faible est utilisé.
 
-3. [[OAuth 2.0 - OpenID|OAuth / OpenID]]
+3. [[OAuth 2.0 - OpenID Connect|OAuth / OpenID]]

@@ -45,7 +45,9 @@ New-AzResourceGroupDeployment -ResourceGroupName myGroup `
 -TemplateFile template.json
 ```
 
-- Via le **portail Azure**, il suffit de créer une ressource de type **Custom deployment**
+- Via le **portail Azure**, il suffit de sélectionner la méthode **Template deployment** dans la section "Create a resource".
 	- "**Build your own template in the editor**" -> copier coller le template dans le champ, ou uploader le fichier de template
 	- Ajouter un **resource group** existant, ou en créer un nouveau
+	Azure créera alors les ressources correspondantes, ainsi qu'une **ressource temporaire** (visible dans la section **Deployments** du [[Resource group Azure|resource group]]), pour **suivre l'état** du déploiement.
+
 Note : lors de la création d'un custom deployment, le portail Azure propose également des templates types permettant de créer des ressources complexes, comme les [[Création de VM Azure via ARM Templates|machines virtuelles]].

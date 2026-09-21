@@ -1,5 +1,5 @@
 
-Azure permet de gérer les **noms de domaines** relatifs à une [[Azure Web Application|Web app]] Azure.
+Azure permet de gérer les **[[Domain Name System (DNS)|noms de domaines]]** relatifs à une [[Azure Web Application|Web app]] Azure.
 Il est par exemple possible d'ajouter un nom de domaine à une application, via la section **Settings/Custom domains** du portail Azure.
 
 Il suffit pour cela d'ajouter les [[DNS record|enregistrements DNS]] (DNS records) correspondants : 

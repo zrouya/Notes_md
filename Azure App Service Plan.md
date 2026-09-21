@@ -1,5 +1,5 @@
 
-Un plan App Service définit un **ensemble de ressources de calcul** nécessaires à l’exécution d’une application web.
+Un App Service Plan définit un **ensemble de ressources de calcul** nécessaires à l’exécution d’une application web.
 
 Une ou plusieurs applications peuvent être configurées pour s’exécuter sur les mêmes ressources informatiques (ou dans le même plan App Service).
 
@@ -7,8 +7,8 @@ Une ou plusieurs applications peuvent être configurées pour s’exécuter sur 
 
 - Système d’exploitation (Windows, Linux)
 - Région (USA Ouest, USA Est, etc.)
-- Nombre d’instances de machine virtuelle
-- Taille des instances de machine virtuelle (petite, moyenne ou grande)
+- **Nombre d’instances** de machine virtuelle
+- **Taille des instances** de machine virtuelle (petite, moyenne ou grande)
 - [[Niveaux tarifaires Azure App Service|Niveau tarifaire]] (Gratuit, Partagé, De base, Standard, Premium, PremiumV2, PremiumV3, Isolé, IsoléV2)
 
 Ainsi, le plan App Service est l’**unité d’échelle** des applications App Service.

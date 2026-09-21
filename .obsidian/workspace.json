@@ -8,42 +8,121 @@
         "type": "tabs",
         "children": [
           {
-            "id": "86315e070f7dc28e",
+            "id": "b19cd278d0fff123",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formulaires Angular.md",
+                "file": "Azure Function App.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Azure Function App"
             }
           },
           {
-            "id": "35a30892925308c3",
+            "id": "feffed10f5be0c56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OAuth OpenID Connect - Application Registration.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OAuth OpenID Connect - Application Registration"
             }
           },
           {
-            "id": "897273b8fc4a09f7",
+            "id": "d85ddbf20b739182",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Azure App Service.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Azure App Service"
             }
           },
           {
-            "id": "72b532fd56dec9d2",
+            "id": "bdd89bb98e141389",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OAuth 2 - Authorization Code.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OAuth 2 - Authorization Code"
+            }
+          },
+          {
+            "id": "df616a390cc395db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpendID Connect Microsoft - Web Application.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OpendID Connect Microsoft - Web Application"
+            }
+          },
+          {
+            "id": "29394a34b2627daa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ASP.Net Core Controllers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ASP.Net Core Controllers"
+            }
+          },
+          {
+            "id": "ef6b303cf1c51a46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Commandes git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commandes git"
+            }
+          },
+          {
+            "id": "411b7903691ef3e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CV"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -63,7 +142,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -72,13 +153,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file: CV",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -86,10 +169,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formulaires Angular.md",
+                "file": "Azure Function App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +203,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Azure Function App"
             }
           },
           {
@@ -126,10 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formulaires Angular.md",
+                "file": "Azure Function App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Azure Function App"
             }
           },
           {
@@ -140,7 +230,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -149,8 +241,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formulaires Angular.md"
-              }
+                "file": "Azure Function App.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Azure Function App"
             }
           }
         ]
@@ -170,47 +264,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86315e070f7dc28e",
+  "active": "411b7903691ef3e8",
   "lastOpenFiles": [
-    "Adress Resolution Protocol (ARP).md",
-    "2024-07-09.md",
-    "gitrepo/Adress Resolution Protocol (ARP).md",
+    "Commandes git.md",
+    "CV.md",
+    "ASP.Net Core Controllers.md",
+    "ASP.Net Core ActionResult.md",
+    "Création de VM Azure via ARM Templates.md",
+    "Model Validation .NetCore.md",
+    "Model Binding .NetCore.md",
+    "Azure Storage Shared Access Signatures (SAS).md",
+    "Azure CLI.md",
+    "Azure Container App.md",
+    "Azure Access Control (IAM - Identity and access management).md",
+    "Autoscaling Azure App Service.md",
+    "Kubernetes.md",
+    "Azure Container Instances.md",
+    "Azure Role Assignment.md",
+    "Azure Application Object.md",
+    "OAuth 2.0 - OpenID Connect.md",
+    "Azure App Service.md",
+    "Azure App Service Plan.md",
+    "Niveaux tarifaires Azure App Service.md",
+    "Créer une VM Azure.md",
+    "Network security group (NSG) Azure.md",
+    "SQL elastic pool Azure.md",
+    "Security principals.md",
+    "Azure Managed Identities.md",
+    "HTTP Trigger Azure Function.md",
+    "Pasted image 20240829154702.png",
+    "Pasted image 20240827095354.png",
+    "Pasted image 20240827094942.png",
+    "Pasted image 20240827094910.png",
+    "OAuth 2.0 - Public",
+    "Oauth.svg",
+    "Pasted image 20240815163935.png",
+    "Pasted image 20240815105828.png",
+    "Pasted image 20240814191938.png",
+    "Pasted image 20240814191848.png",
+    "Pasted image 20240814191810.png",
     "Untitled.canvas",
-    "Formulaires Angular.md",
-    "Angular Component Inputs-Outputs.md",
-    "gitrepo/Templates/Objectifs hebdo.md",
     "gitrepo/Templates",
-    "gitrepo/vCore Azure.md",
-    "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
-    "gitrepo/cmdlets PowerShell.md",
-    "gitrepo/Workers Swarm.md",
-    "gitrepo/Wireless Range Extenders (Répéteurs Wifi).md",
-    "gitrepo/Wireless Local Network (WLAN).md",
-    "gitrepo/Wireless Access Point (WAP).md",
-    "gitrepo/Windows Server.md",
-    "gitrepo/Windows PowerShell.md",
-    "gitrepo/Wide Area Network (WAN).md",
-    "gitrepo/Web Deploy.md",
-    "gitrepo/Volumes Docker.md",
-    "gitrepo/Virtual Private Network (VPN).md",
     "gitrepo/Untitled.canvas",
-    "gitrepo/UNIX.md",
-    "gitrepo/UFS Layer.md",
-    "gitrepo/Types de shell.md",
-    "gitrepo/Types de messages ICMP.md",
-    "gitrepo/TypeScript.md",
-    "gitrepo/Topologies réseaux.md",
-    "gitrepo/Topologies de réseaux sans fils.md",
-    "gitrepo/Topologies de réseaux câblés.md",
-    "gitrepo/Pasted image 20240614154759.png",
-    "gitrepo/Pasted image 20240411153145.png",
-    "gitrepo/Pasted image 20240410171909.png",
-    "gitrepo/Pasted image 20240410171009.png",
-    "gitrepo/Pasted image 20240409174852.png",
-    "gitrepo/Pasted image 20240409145401.png",
-    "gitrepo/Pasted image 20240405114000.png",
-    "gitrepo/Pasted image 20240327114819.png",
-    "gitrepo/Pasted image 20240321113810.png",
     "gitrepo",
     "Nouveau dossier",
     "Templates",

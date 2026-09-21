@@ -18,3 +18,6 @@ az webapp log config --name dockerapp55000 --resource-group app-grp --docker-con
 # Enable the log stream
 az webapp log tail --name dockerapp55000 --resource-group app-grp
 ```
+
+La **liste complète** des commandes Azure CLI est disponible ici : 
+https://learn.microsoft.com/fr-fr/cli/azure/reference-index?view=azure-cli-latest

@@ -1,5 +1,5 @@
 
-Un Azure Container Group est un regroupement de conteneurs Azure, qui partagent **le même hôte**.
+Un Azure Container Group est un regroupement de [[Azure Container Instances|container instances]] Azure, qui partagent **le même hôte**.
 Lorsqu'une ressource [[Azure Container Instances]] crée une instance de conteneur, elle le crée toujours au sein d'un **Container Group**.
 Par exemple, via [[Azure CLI]], pour créer un **conteneur unique**, utiliser la commande (avec exemples de paramètres) : 
 ```bash

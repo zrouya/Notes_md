@@ -39,7 +39,6 @@ Template du composant parent :
 
 Depuis la version 16 d'Angular, et l'arrivée de la feature [[Angular Signals|Signals]], la syntaxe diffère (ainsi que l'implémentation technique) :
 
-
 ```typescript
 import { Component, input, output } from '@angular/core';
 

@@ -1,5 +1,5 @@
 
-Les emplacements de déploiement (deployment slots) Azure permettent d'**attacher à une Web app** un ou plusieurs **environnements de déploiement** facilement.
+Les emplacements de déploiement (deployment slots) Azure permettent d'**attacher à [[Azure Web Application|une Web app]]** un ou plusieurs **environnements de déploiement** facilement.
 
 **Plutôt** que de créer **plusieurs Web app Azure** pour chacun des environnements, et de **déployer chaque version** sur l'environnement correspondant, il est préférable de **créer plusieurs slots** de déploiement **pour une seule Web app**.
 

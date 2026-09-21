@@ -9,4 +9,4 @@ Parmi les rôles proposés à l'ajout, sélectionner le rôle "**Web Server (IIS
 
 ![[Pasted image 20240229155543.png]]
 
-Il est possible, à partir de là, de [[Déploiement d'une webapp sur une VM Azure IIS|configurer le déploiment]] automatique d'application Web sur ce serveur IIS
+Il est possible, à partir de là, de [[Déploiement d'une webapp sur une VM Azure IIS|configurer le déploiment]] automatique d'**applications Web** sur ce serveur IIS

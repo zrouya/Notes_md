@@ -7,3 +7,5 @@ En activant un **Admin user**, on définit un **profil de connexion** au registr
 
 ![[Pasted image 20240327114819.png]]
 
+Rappel : pour se logger au Azure Container Registry, il faut d'abord s'y logger :
+``docker login [LoginServerName]``, puis entrer le nom du Admin User et son mot de passe

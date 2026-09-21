@@ -1,6 +1,6 @@
 
 Les modules [[Angular|angular]] sont des conteneurs pour différentes parties de l'application, comme les [[Composants Angular|composants]], les [[Directives Angular|directives]], et les [[Services Angular|services]].
-Le module racine est appelé `AppModule`. Ce module est obligatoire, même s'il n'est pas obligé se s'appeler `AppModule`.
+Le module racine est appelé `AppModule` par convention (ce n'est pas une nécessité). Ce module était  obligatoire avant les **Standalone** components.
 
 
 Voici à quoi ressemble généralement un `AppModule` :
@@ -30,4 +30,25 @@ export class AppModule { }
 
 Le composant spécifié dans le tableau `bootstrap` est le composant racine de l'application. Dans la plupart des applications, cela sera le composant `AppComponent`.
 
-Bien que ce soit une convention de nommer le module racine `AppModule`, vous pouvez le nommer différemment si vous le souhaitez. Cependant, vous devrez vous assurer que le fichier `main.ts` (qui est le point d'entrée de l'application) bootstrap le bon module.
+Bien que ce soit une convention de nommer le module racine `AppModule`, il est possible de spécifier un autre module racine qui servira à bootstaper l'application (dans le fichier ``main.ts``).
+
+Pour les modules autres que le module racine, la configuration est sensiblement la même, sauf que l'option bootstrap n'est pas nécessaire :
+```typescript
+import { NgModule } from '@angular/core';
+import { SomeComponent } from './app.component';
+
+@NgModule({
+	declarations: [
+		SomeComponent 
+	], 
+	imports: [
+		BrowserModule
+	],
+	exports: [],
+	providers: []
+})
+
+export class SomeModule { }
+```
+
+``exports``: Liste des composants, directives, pipes, .... qui sont rendus accessibles "de l'extérieur", c'est à dire au sein du module ou composant qui utilise ce module.
