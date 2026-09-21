@@ -21,6 +21,7 @@ Point d'entrée du vault. Chaque domaine ci-dessous a son propre `_index.md`, qu
 ## Autres dossiers
 
 - `_attachments/` — images et captures d'écran collées dans les notes (pas de MOC, purement technique)
+- `_meta/` — configuration/tooling du vault (dont la commande Claude Code `/obsidian` versionnée pour portabilité entre machines)
 - `Templates/` — templates Obsidian existants (inchangé)
 
 ## Non classés
