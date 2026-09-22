@@ -234,16 +234,17 @@
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false
+      "bases:Créer une nouvelle base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94d9a3d98df21d83",
+  "active": "f9b5eedcc30750d9",
   "lastOpenFiles": [
+    "azure/container-apps-app-logs.md",
     "azure/apim-gateway-logs.md",
     "azure/diagnostic-settings.md",
     "azure/log-analytics.md",
     "azure/azure-monitor-cartographie.md",
-    "azure/container-apps-app-logs.md",
     "azure/container-apps-otel-agent.md",
     "observabilite/opentelemetry-collector.md",
     "observabilite/opentelemetry.md",
