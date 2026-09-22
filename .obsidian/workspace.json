@@ -147,8 +147,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -238,7 +237,7 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "9c6b3165e6875eae",
+  "active": "94d9a3d98df21d83",
   "lastOpenFiles": [
     "azure/apim-gateway-logs.md",
     "azure/diagnostic-settings.md",
