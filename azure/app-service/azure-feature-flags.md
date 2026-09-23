@@ -19,7 +19,7 @@ Il est ensuite possible de **modifier l'état du flag** directement via le porta
 
 ## Utilisation en ASP.NET Core
 
-Une fois le flag créé, il est possible de récupérer sa valeur au sein du code de la Web application, par exemple pour [[ASP.NET Core]] :
+Une fois le flag créé, il est possible de récupérer sa valeur au sein du code de la Web application, par exemple pour [[asp-net-core]] :
 
 - **Configurer** le service *AppConfiguration* de l'application de manière à utiliser les feature flags :
 	```csharp

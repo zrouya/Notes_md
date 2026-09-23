@@ -4,7 +4,7 @@ tags: [angular, routing, fondamentaux]
 
 # Routing Angular
 
-Le système de routage d'[[angular|Angular]] est un mécanisme qui permet de naviguer d'une vue à une autre dans une application tout en gérant l'état de navigation.
+Le système de routage d'[[angular-overview|Angular]] est un mécanisme qui permet de naviguer d'une vue à une autre dans une application tout en gérant l'état de navigation.
 
 ## Concepts clés
 

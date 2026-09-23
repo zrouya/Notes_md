@@ -4,7 +4,7 @@ tags: [docker, compose, yaml]
 
 # Fichier Docker compose
 
-Un fichier Docker Compose est un fichier [[Fichier yaml|yaml]] qui permet de **configurer l'exécution** d'un groupe de conteneurs. Il permet également de [[docker-compose-build|configurer le build]] de l'image.
+Un fichier Docker Compose est un fichier [[fichier-yaml|yaml]] qui permet de **configurer l'exécution** d'un groupe de conteneurs. Il permet également de [[docker-compose-build|configurer le build]] de l'image.
 
 ## Exemple
 
@@ -48,7 +48,7 @@ volumes:
 ## Notes
 
 - Un fichier Docker Compose fait référence à la **version de Docker Compose** (première ligne ``version:``). La valeur par défaut est **version: 1** (spécifier une version différente si nécessaire).
-- Par défaut, ``docker compose up`` créera un **[[Gestion du réseau Docker|network Docker]] custom** hébergeant les containers exécutés.
+- Par défaut, ``docker compose up`` créera un **[[gestion-reseau-docker|network Docker]] custom** hébergeant les containers exécutés.
 - Il est possible de facilement gérer le **cycle de vie** d'une application en utilisant des [[extensions-de-docker-compose-files|extensions]] de fichiers Docker Compose, ou en spécifiant un **enchaînement** de fichiers Docker Compose à appliquer :
   - ``docker compose up -f composefile1.yml -f composefile2.yml`` effectuera un compose up en appliquant **d'abord le fichier 1**, **puis le 2** (le composefile2 **surcharge** le 1).
   - **Par défaut**, le fichier nommé ``docker-compose.override.yml`` **surchargera** le fichier ``docker-compose.yml``.

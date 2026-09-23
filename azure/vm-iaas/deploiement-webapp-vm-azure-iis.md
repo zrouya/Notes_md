@@ -4,11 +4,11 @@ tags: [azure, vm, iis]
 
 # Déploiement d'une webapp sur une VM Azure IIS
 
-Avec [[Internet Information Service (IIS)|IIS]] installé sur un [[Windows Server|serveur Windows]], il est possible de **configurer la publication** d'[[azure-web-application|applications]] depuis un poste de développement vers le serveur IIS hébergeant l'application.
+Avec [[internet-information-service-iis|IIS]] installé sur un [[windows-server|serveur Windows]], il est possible de **configurer la publication** d'[[azure-web-application|applications]] depuis un poste de développement vers le serveur IIS hébergeant l'application.
 
 ## Étapes de configuration
 
-1. Installer sur le serveur IIS le [[Management Service IIS|service de management]] de IIS, qui permet d'**automatiser** en grande partie les **actions de déploiement** d'applications.
+1. Installer sur le serveur IIS le [[management-service-iis|service de management]] de IIS, qui permet d'**automatiser** en grande partie les **actions de déploiement** d'applications.
 
 2. Configurer le Management Service pour **autoriser les connexions entrantes** :
 
@@ -18,7 +18,7 @@ Les connexions entrantes utilisent le **port 8172** par défaut. Le service doit
 
 3. Vérifier que la **bonne version** du **runtime** nécessaire à l'application est **installée** sur le serveur.
 
-4. Installer [[Web Deploy]] sur le **serveur**.
+4. Installer [[web-deploy]] sur le **serveur**.
 
 5. Sur le **poste de développement**, avec **Visual Studio** installé, vérifier que le compte de connexion à Azure est le bon (Tool -> Options -> Azure Service Authentication).
 
@@ -31,7 +31,7 @@ Les connexions entrantes utilisent le **port 8172** par défaut. Le service doit
 7. Une fois le Publish Profile créé, **valider la connexion** en éditant le profil de publication :
 	- "More actions" -> Edit, puis dans l'onglet "Connections", cliquer sur "Validate connection".
 	- Renseigner le **nom d'utilisateur et le mot de passe** de l'**utilisateur admin** (compte administrateur) de la VM (défini lors de la création de la VM dans le portail Azure).
-	- Accepter le [[Certificat SSL|certificat]].
+	- Accepter le [[certificat-ssl|certificat]].
 
 Une fois cette configuration implémentée, il suffit d'un clic droit -> "Publish" depuis Visual Studio pour déployer l'application sur la VM Azure IIS.
 

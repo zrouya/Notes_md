@@ -8,13 +8,13 @@ Azure Container Instances est un type de [[resource-azure|ressource]] Azure perm
 
 ## Sources d'image
 
-Lors de la création d'une Container Instance, une [[Docker registry|source d'image]] doit être spécifiée :
+Lors de la création d'une Container Instance, une [[docker-registry|source d'image]] doit être spécifiée :
 - Quickstart images : Azure propose des images de base
 	- Un conteneur "Hello World" Linux
 	- Un serveur Web Linux (Alpine)
 	- Un serveur Web Windows
 - [[azure-container-registry|Azure Container Registry]] (il faut pour cela avoir **activé le user admin** de cette ressource)
-- Other registry (par défaut, [[DockerHUB]])
+- Other registry (par défaut, [[dockerhub]])
 
 ## Réseau et monitoring
 

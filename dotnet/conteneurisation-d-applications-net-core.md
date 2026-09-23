@@ -4,7 +4,7 @@ tags: [dotnet, docker, deploiement]
 
 # Conteneurisation d'applications .NET Core
 
-Visual Studio (depuis la version 2017) gère le support de [[Docker]] et le développement d'applications [[dotnet-core|.NET Core]] conteneurisées.
+Visual Studio (depuis la version 2017) gère le support de [[docker-overview]] et le développement d'applications [[dotnet-core|.NET Core]] conteneurisées.
 
 - Lors de la **création** d'un projet .NET, l'option "**Enable Docker**" est disponible.
 - Pour un **projet déjà créé**, il est possible de faire un **click droit** sur le projet, puis **Add → Support Docker**.
@@ -39,9 +39,9 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "ContainerBasedApplication.dll"]
 ```
 
-Note : on utilise ici l'[[Images Docker|image]] **.NET sdk** pour **publier** l'application (générer les fichiers de l'application à partir du code source), alors que l'image "**asp.net**" sert au **runtime** de l'application (et est donc utilisée comme image de base). Cette [[Build multi-stage d'images Docker|séparation]] rend la **conteneurisation** plus **flexible**, **légère** et **sécurisée**.
+Note : on utilise ici l'[[images-docker|image]] **.NET sdk** pour **publier** l'application (générer les fichiers de l'application à partir du code source), alors que l'image "**asp.net**" sert au **runtime** de l'application (et est donc utilisée comme image de base). Cette [[build-multi-stage-images-docker|séparation]] rend la **conteneurisation** plus **flexible**, **légère** et **sécurisée**.
 
 ## Voir aussi
 
 - [[dotnet-core]]
-- [[Docker]]
+- [[docker-overview]]

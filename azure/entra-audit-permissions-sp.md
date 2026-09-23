@@ -51,4 +51,4 @@ az rest --method GET --url "https://graph.microsoft.com/v1.0/servicePrincipals/$
 
 - [[entra-graph-permissions]]
 - [[entra-app-registration-vs-enterprise-app]]
-- [[Azure CLI]]
+- [[azure-cli]]

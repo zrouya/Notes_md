@@ -18,7 +18,7 @@ La [[commandes-docker|commande]] ``docker container run <image>`` (ou ``docker r
 
 ## Gestion des données persistantes
 
-Les containers Docker étant, par principe, **[[Immutable Infrastructure|immutables]]** et **éphémères**, se pose le problème des **données persistantes (persistent data)**.
+Les containers Docker étant, par principe, **[[immutable-infrastructure|immutables]]** et **éphémères**, se pose le problème des **données persistantes (persistent data)**.
 
 Les **données manipulées par un conteneur** lors de son cycle de vie (le [[ufs-layer|layer UFS]] correspondant) ne sont pas **perdues** lorsque le conteneur est stoppé, **uniquement lorsqu'il est supprimé**.
 

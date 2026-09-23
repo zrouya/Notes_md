@@ -4,7 +4,7 @@ tags: [docker, swarm, reseau]
 
 # Docker Swarm Routing Mesh
 
-Le **Routing Mesh** est une fonctionnalité [[Réseaux Docker Overlay|réseau]] de [[docker-swarm|Docker Swarm]], qui permet de router les paquets destinés à un [[services-docker-swarm|service]] Docker Swarm à travers le réseau overlay, vers un [[noeuds-swarm|nœud]] exécutant la [[tasks-docker-swarm|tâche]] correspondante, sans se soucier de quel nœud va effectivement traiter le paquet. Il s'agit d'un élément crucial de Docker Swarm, pour la **haute disponibilité**, la **balance de charge**, et la **tolérance aux pannes** dans des applications distribuées.
+Le **Routing Mesh** est une fonctionnalité [[reseaux-docker-overlay|réseau]] de [[docker-swarm|Docker Swarm]], qui permet de router les paquets destinés à un [[services-docker-swarm|service]] Docker Swarm à travers le réseau overlay, vers un [[noeuds-swarm|nœud]] exécutant la [[tasks-docker-swarm|tâche]] correspondante, sans se soucier de quel nœud va effectivement traiter le paquet. Il s'agit d'un élément crucial de Docker Swarm, pour la **haute disponibilité**, la **balance de charge**, et la **tolérance aux pannes** dans des applications distribuées.
 
 ## Routage entre conteneurs (tâches)
 

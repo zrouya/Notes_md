@@ -92,7 +92,7 @@ Pour HTTP, voir la rubrique dédiée plus bas.
 | [[DNS record]] | Types A, AAAA, CNAME, MX, TXT, NS, SRV |
 | [[dns-ttl-migration]] | TTL, stratégie de bascule, piège TCP/53 |
 | [[Round Robin DNS]] | Répartition de charge par le DNS |
-| [[DNS Docker]] | Résolution entre conteneurs |
+| [[dns-docker]] | Résolution entre conteneurs |
 
 ## HTTP
 

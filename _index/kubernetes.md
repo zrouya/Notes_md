@@ -4,5 +4,5 @@ tags: [index, kubernetes]
 
 # Kubernetes — Map of Content
 
-- [[kubernetes]] — placeholder
+- [[kubernetes-overview]] — placeholder
 - [[clusters-kubernetes]] — placeholder

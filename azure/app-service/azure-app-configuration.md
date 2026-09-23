@@ -8,7 +8,7 @@ Azure App Configuration est une [[resource-azure|ressource]] Azure permettant de
 
 ## Intégration .NET
 
-Pour une application [[ASP.NET Core|ASP .Net Core]], il est possible, via le package Nuget Microsoft.Extensions.Configuration.**AzureAppConfiguration**, d'accéder à la Config Azure via sa **connection string** (voir la section "**Settings/Access keys**" de la ressource App Configuration).
+Pour une application [[asp-net-core|ASP .Net Core]], il est possible, via le package Nuget Microsoft.Extensions.Configuration.**AzureAppConfiguration**, d'accéder à la Config Azure via sa **connection string** (voir la section "**Settings/Access keys**" de la ressource App Configuration).
 Dans le code de build de l'application, utiliser la méthode ``ConfigureAppConfiguration`` pour lier la configuration de l'application à la Azure App Configuration :
 
 ![[Pasted image 20240318173243.png]]

@@ -4,7 +4,7 @@ tags: [angular, composants, data-binding]
 
 # Composants Angular — Données dynamiques
 
-Un composant [[angular|Angular]] rend son template en gérant les données dynamiques via plusieurs moyens : string interpolation, property binding, attribute binding, event binding et class binding.
+Un composant [[angular-overview|Angular]] rend son template en gérant les données dynamiques via plusieurs moyens : string interpolation, property binding, attribute binding, event binding et class binding.
 
 ## Exemple
 

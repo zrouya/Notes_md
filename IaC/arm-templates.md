@@ -4,7 +4,7 @@ tags: [iac, azure, arm]
 
 # ARM Templates
 
-Les Templates ARM sont des **fichiers json** permettant d'**automatiser** auprès d'[[azure-resource-manager-arm|ARM]] la création et la gestion de [[Resource Azure|ressources]] Azure.
+Les Templates ARM sont des **fichiers json** permettant d'**automatiser** auprès d'[[azure-resource-manager-arm|ARM]] la création et la gestion de [[resource-azure|ressources]] Azure.
 
 ## Structure
 
@@ -44,7 +44,7 @@ Exemple, pour la simple création d'un storage account :
 Une fois le fichier créé, il suffit de **déployer** les **ressources** correspondantes dans Azure.
 
 Par exemple :
-- Avec [[Azure PowerShell]] (a exécuter à l'emplacement du fichier template.json):
+- Avec [[azure-powershell]] (a exécuter à l'emplacement du fichier template.json):
 
 ```powershell
 Connect-AzAccount

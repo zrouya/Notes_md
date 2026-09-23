@@ -4,7 +4,7 @@ tags: [azure, powershell, administration]
 
 # Commandes PowerShell Azure
 
-Les commandes Azure PowerShell sont classées par [[Modules Powershell|modules]].
+Les commandes Azure PowerShell sont classées par [[modules-powershell|modules]].
 
 ## Modules par type de ressource
 

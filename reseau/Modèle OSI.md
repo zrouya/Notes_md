@@ -8,7 +8,7 @@ Le modèle OSI est composé de sept couches, chacune ayant des fonctions spécif
 	- gRPC
 	- ...
 2. **Couche de présentation (layer 6)** : Traduit les données pour assurer l'interprétation correcte entre les systèmes.
-	- [[Encodage|Encodage]]
+	- [[encodage|Encodage]]
 	- Sérialisation/Désérialisation
 	- Compression/Décompression
 	- ...

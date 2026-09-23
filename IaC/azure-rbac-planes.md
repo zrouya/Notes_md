@@ -41,4 +41,4 @@ This request is not authorized to perform this operation using this permission.
 
 - [[atmos-azure-backend]]
 - [[azurerm-credential-chain]]
-- [[Azure Entra (anciennement Azure Active Directory)]]
+- [[azure-entra]]

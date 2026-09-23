@@ -4,9 +4,9 @@ tags: [azure, powershell, administration]
 
 # Azure PowerShell
 
-Azure PowerShell est un [[Modules Powershell|module]] [[Windows PowerShell|PowerShell]] permettant de se connecter à un compte [[azure-presentation|Azure]] et de **gérer** les ressources Azure correspondantes, via des [[cmdlets PowerShell]] ou des **fichiers de scripts** PowerShell.
+Azure PowerShell est un [[modules-powershell|module]] [[windows-powershell|PowerShell]] permettant de se connecter à un compte [[azure-presentation|Azure]] et de **gérer** les ressources Azure correspondantes, via des [[cmdlets-powershell]] ou des **fichiers de scripts** PowerShell.
 
-Il est multi-plateformes, mais sur des environnements autres que Windows il nécessite l'installation de PowerShell (alors que [[azure-cli|Azure CLI]] est exécutable sur [[Bash]]).
+Il est multi-plateformes, mais sur des environnements autres que Windows il nécessite l'installation de PowerShell (alors que [[azure-cli|Azure CLI]] est exécutable sur [[bash-overview]]).
 
 ## Exemples de scripts
 

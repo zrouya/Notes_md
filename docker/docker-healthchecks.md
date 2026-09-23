@@ -13,7 +13,7 @@ Cette fonctionnalité est disponible :
 - Dans les [[docker-files|Docker files]]
 - Dans les fichiers [[fichier-docker-compose|Docker compose]]
 - En option lors de la **création** ou de la **mise à jour** des [[services-docker-swarm|services]] Docker Swarm (commandes ``docker service create`` et ``docker service update``)
-- Au sein des [[Fichier yaml|fichiers yaml]] permettant de créer des [[docker-swarm-stacks|stacks]] Docker Swarm
+- Au sein des [[fichier-yaml|fichiers yaml]] permettant de créer des [[docker-swarm-stacks|stacks]] Docker Swarm
 
 Une fois les **Healthchecks configurés** (par l'une ou l'autre des manières ci-dessus), la commande ``docker container ls`` indiquera pour chaque conteneur son statut, et la commande ``docker container inspect`` indiquera les retours des 5 derniers Healthchecks du conteneur.
 

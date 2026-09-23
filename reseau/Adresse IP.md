@@ -5,7 +5,7 @@ Il s'agit d'une donnée de la [[Couche réseau du modèle OSI|couche 3]] (résea
 
 Elles permettent la communication **entre 2 réseaux** via des [[Routeurs réseaux|routeurs]], et sont donc relatives au **Wide Area Network (WAN)**.
 
-Elles peuvent être statiques, ou dynamiques (affectées par un [[Serveur DHCP|DHCP]])
+Elles peuvent être statiques, ou dynamiques (affectées par un [[serveur-dhcp|DHCP]])
 
 Elles sont de 2 types :
 - [[IPv4]]  ex : 192.255.0.1

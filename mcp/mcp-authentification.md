@@ -42,5 +42,5 @@ Beaucoup de serveurs internes se contentent d'un bearer statique ou d'une clé d
 ## Voir aussi
 
 - [[mcp-transports]]
-- [[OAuth 2.0 - OpenID]]
+- [[oauth-2-0-openid]]
 - [[mcp-conception-outils]]

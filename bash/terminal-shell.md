@@ -43,4 +43,4 @@ Le terminal est une interface utilisateur en ligne de commande (CLI) permettant 
 ## Voir aussi
 
 - [[types-de-shell]]
-- [[bash]]
+- [[bash-overview]]

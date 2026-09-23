@@ -4,7 +4,7 @@ tags: [docker, reseau]
 
 # Drivers réseau Docker
 
-Un driver réseau Docker est un **plugin** ou une technologie qui permet de **gérer les réseaux** de conteneurs [[Docker]]. Ces drivers définissent les règles et la manière dont la communication réseau se déroule dans l'environnement Docker.
+Un driver réseau Docker est un **plugin** ou une technologie qui permet de **gérer les réseaux** de conteneurs [[docker-overview]]. Ces drivers définissent les règles et la manière dont la communication réseau se déroule dans l'environnement Docker.
 
 ## Types de drivers
 
@@ -14,7 +14,7 @@ Il existe plusieurs types de drivers réseau dans Docker, chacun adapté à des 
 
 2. **Host** : Ce driver retire l'isolation entre les conteneurs Docker et le système hôte, en attachant directement le conteneur au réseau de l'hôte. Cela signifie que les conteneurs partagent l'espace de noms réseau de l'hôte.
 
-3. **[[reseaux-docker-overlay|Overlay]]** : Ce driver permet de connecter plusieurs daemons Docker entre eux, permettant ainsi aux conteneurs exécutés sur des hôtes Docker différents de communiquer entre eux. Il est souvent utilisé dans des environnements [[Docker Swarm]] pour gérer la communication entre les conteneurs sur différents hôtes.
+3. **[[reseaux-docker-overlay|Overlay]]** : Ce driver permet de connecter plusieurs daemons Docker entre eux, permettant ainsi aux conteneurs exécutés sur des hôtes Docker différents de communiquer entre eux. Il est souvent utilisé dans des environnements [[docker-swarm]] pour gérer la communication entre les conteneurs sur différents hôtes.
 
 4. **Macvlan** : Permet aux conteneurs de paraître comme des périphériques physiques sur le réseau, avec leur propre adresse MAC. Utile dans les cas où vous avez besoin que les conteneurs soient directement accessibles dans le réseau sans passer par le routage NAT du hôte Docker.
 

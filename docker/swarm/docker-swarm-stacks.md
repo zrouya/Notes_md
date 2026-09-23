@@ -4,7 +4,7 @@ tags: [docker, swarm, compose]
 
 # Docker Swarm Stacks
 
-Les Stacks [[docker-swarm|Docker Swarm]] fournissent des fonctionnalités similaires à [[docker-compose|Docker Compose]], mais au niveau d'un swarm. Alors que Docker Compose permet de gérer des conteneurs Docker via un fichier yaml, les Stacks Docker Swarm permettent de **spécifier** la **configuration** complète d'un **swarm** au sein d'un [[Fichier yaml|fichier yaml]], qui est ensuite consommé pour initialiser le swarm.
+Les Stacks [[docker-swarm|Docker Swarm]] fournissent des fonctionnalités similaires à [[docker-compose|Docker Compose]], mais au niveau d'un swarm. Alors que Docker Compose permet de gérer des conteneurs Docker via un fichier yaml, les Stacks Docker Swarm permettent de **spécifier** la **configuration** complète d'un **swarm** au sein d'un [[fichier-yaml|fichier yaml]], qui est ensuite consommé pour initialiser le swarm.
 
 La commande ``docker stack deploy -c nomDeMonFichierYaml.yml nomDuStack`` permet de **déployer** un stack.
 

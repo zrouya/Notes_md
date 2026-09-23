@@ -9,7 +9,7 @@ Le Management Service est une feature IIS permettant de gérer à distance le se
 ## Fonctionnalités
 
 - **Gérer à distance** le [[internet-information-service-iis|serveur IIS]] (configuration, gestion des paramètres de sécurité...).
-- Fournir des **fonctionnalités de sécurité** pour la gestion à distance (connexions [[SSL]], authentification par certificats...).
+- Fournir des **fonctionnalités de sécurité** pour la gestion à distance (connexions [[ssl]], authentification par certificats...).
 - **Gérer les autorisations** pour les droits d'accès au serveur.
 - **Automatiser la publication** et le **déploiement** d'applications web sur un serveur IIS, **sans interruption de service**.
 

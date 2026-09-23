@@ -4,7 +4,7 @@ tags: [angular, directives, fondamentaux]
 
 # Directives Angular
 
-Les directives sont l'un des principaux éléments constitutifs d'[[angular|Angular]]. Elles sont utilisées pour ajouter du comportement à un élément DOM existant. Angular en distingue trois types.
+Les directives sont l'un des principaux éléments constitutifs d'[[angular-overview|Angular]]. Elles sont utilisées pour ajouter du comportement à un élément DOM existant. Angular en distingue trois types.
 
 ## Directives de composants
 

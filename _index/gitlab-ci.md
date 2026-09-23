@@ -13,7 +13,7 @@ Map of Content pour les notes GitLab CI.
 
 ## Patterns de jobs
 
-- [[bash-heredoc-gitlab-ci]] — Exécuter un script bash strict via heredoc dans un job
+- [[bash-heredoc-job]] — Exécuter un script bash strict via heredoc dans un job
 
 ## Pipelines & Triggers
 

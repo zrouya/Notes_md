@@ -4,7 +4,7 @@ tags: [angular, modules, fondamentaux]
 
 # Modules Angular
 
-Les modules [[angular|Angular]] sont des conteneurs pour différentes parties de l'application, comme les [[composants-angular|composants]], les [[directives-angular|directives]] et les [[services-angular|services]]. Le module racine, obligatoire, est conventionnellement appelé `AppModule`.
+Les modules [[angular-overview|Angular]] sont des conteneurs pour différentes parties de l'application, comme les [[composants-angular|composants]], les [[directives-angular|directives]] et les [[services-angular|services]]. Le module racine, obligatoire, est conventionnellement appelé `AppModule`.
 
 ## Exemple d'AppModule
 
@@ -35,7 +35,7 @@ Bien qu'il soit conventionnel de nommer le module racine `AppModule`, il peut po
 
 ## Voir aussi
 
-- [[angular]]
+- [[angular-overview]]
 - [[composants-angular]]
 - [[directives-angular]]
 - [[services-angular]]

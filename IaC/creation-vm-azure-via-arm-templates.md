@@ -4,7 +4,7 @@ tags: [iac, azure, arm]
 
 # Création de VM Azure via ARM Templates
 
-Pour obtenir un [[arm-templates|template ARM]] type pour la création d'une [[Machines virtuelles Azure|machine virtuelle]] Azure, il est possible, via **portail Azure**, de créer une ressource de type **Custom deployment**, et de sélectionner l'option correspondante dans "**Common templates**", puis **Edit template**.
+Pour obtenir un [[arm-templates|template ARM]] type pour la création d'une [[machines-virtuelles-azure|machine virtuelle]] Azure, il est possible, via **portail Azure**, de créer une ressource de type **Custom deployment**, et de sélectionner l'option correspondante dans "**Common templates**", puis **Edit template**.
 
 ## Exemple : VM Linux
 

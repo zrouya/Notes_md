@@ -4,7 +4,7 @@ tags: [docker, installation]
 
 # Installation de Docker
 
-L'installation de [[docker|Docker]] diffère selon la destination souhaitée (OS, local ou serveur, ...). Docker Engine est le binaire qui permet l'exécution des conteneurs (``dockerd``, ou Docker daemon) et nécessite un kernel Linux ; Docker CLI permet d'envoyer des commandes Docker à l'instance de Docker Engine voulue.
+L'installation de [[docker-overview|Docker]] diffère selon la destination souhaitée (OS, local ou serveur, ...). Docker Engine est le binaire qui permet l'exécution des conteneurs (``dockerd``, ou Docker daemon) et nécessite un kernel Linux ; Docker CLI permet d'envoyer des commandes Docker à l'instance de Docker Engine voulue.
 
 ## Installation locale
 
@@ -14,5 +14,5 @@ Sur Windows (10+), il est possible de configurer une machine virtuelle Linux (h�
 
 ## Voir aussi
 
-- [[docker]]
+- [[docker-overview]]
 - [[docker-daemon]]

@@ -18,7 +18,7 @@ Pour installer un Web Server sur un [[windows-server|serveur Windows]] — en l'
 
 ## Déploiement
 
-- Une fois le rôle ajouté, il est possible de [[Déploiement d'une webapp sur une VM Azure IIS|configurer le déploiement]] automatique d'applications Web sur ce serveur IIS.
+- Une fois le rôle ajouté, il est possible de [[deploiement-webapp-vm-azure-iis|configurer le déploiement]] automatique d'applications Web sur ce serveur IIS.
 
 ## Voir aussi
 

@@ -4,7 +4,7 @@ tags: [iac, azure, arm]
 
 # Azure Resource Manager (ARM)
 
-Azure Resource Manager (ARM) est le **service** de **déploiement** et de **gestion** d'[[Azure]]. Il fournit une **couche de gestion** qui permet de **créer**, de **mettre à jour**, et de **supprimer** des [[Resource Azure|ressouces]] Azure.
+Azure Resource Manager (ARM) est le **service** de **déploiement** et de **gestion** d'[[azure-presentation]]. Il fournit une **couche de gestion** qui permet de **créer**, de **mettre à jour**, et de **supprimer** des [[resource-azure|ressouces]] Azure.
 
 ## Fonctionnalités
 
@@ -12,7 +12,7 @@ Le **contrôle d'accès**, les **verrous** et les **étiquettes**, sont des fonc
 
 ![[Pasted image 20240409145401.png]]
 
-Il est possible de faire des requêtes à ARM via le **portail Azure**, les **outils CLI** comme [[Azure PowerShell]] ou [[Azure CLI]], ou d'automatiser ces actions de gestion via les [[arm-templates|ARM Templates]].
+Il est possible de faire des requêtes à ARM via le **portail Azure**, les **outils CLI** comme [[azure-powershell]] ou [[azure-cli]], ou d'automatiser ces actions de gestion via les [[arm-templates|ARM Templates]].
 
 ## Voir aussi
 

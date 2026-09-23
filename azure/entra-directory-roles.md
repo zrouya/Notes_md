@@ -30,4 +30,4 @@ Répond à : *qu'est-ce que cette identité peut faire dans l'annuaire, quel que
 - [[entra-graph-permissions]]
 - [[entra-permissions-vs-roles]]
 - [[azure-rbac-planes]]
-- [[Azure Entra (anciennement Azure Active Directory)]]
+- [[azure-entra]]

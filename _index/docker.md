@@ -6,7 +6,7 @@ tags: [index, docker]
 
 ## Fondamentaux
 
-- [[docker]] — vue d'ensemble, workflow build/ship/run
+- [[docker-overview]] — vue d'ensemble, workflow build/ship/run
 - [[installation-de-docker]] — Docker Engine, CLI, Docker Desktop, WSL
 - [[docker-daemon]] — le daemon `dockerd`
 - [[commandes-docker]] — structure des commandes directes / de management

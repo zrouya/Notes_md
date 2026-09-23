@@ -6,7 +6,7 @@ tags: [index, angular]
 
 ## Fondamentaux / TypeScript
 
-- [[angular]] — Vue d'ensemble du framework : modules, composants, directives, services, routing, data binding, DI
+- [[angular-overview]] — Vue d'ensemble du framework : modules, composants, directives, services, routing, data binding, DI
 - [[typescript]] — Sur-ensemble de JavaScript, langage principal d'Angular
 - [[decorateurs-en-typescript]] — Syntaxe `@`, métadonnées, équivalent des attributs C#
 - [[structure-de-fichiers-d-une-application-angular]] — Arborescence `src/`, assets, environments, `angular.json`

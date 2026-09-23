@@ -4,7 +4,7 @@ tags: [docker, volumes, stockage]
 
 # Gestion des données Docker
 
-Il est possible de consulter l'ensemble de l'espace disque occupé par les images, conteneurs, volumes, et build cache [[docker|Docker]] en exécutant la commande ``docker system df``.
+Il est possible de consulter l'ensemble de l'espace disque occupé par les images, conteneurs, volumes, et build cache [[docker-overview|Docker]] en exécutant la commande ``docker system df``.
 
 ## Libérer de l'espace disque
 

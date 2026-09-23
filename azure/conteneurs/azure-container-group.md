@@ -15,7 +15,7 @@ az container create --resource-group myResourceGroup --name mycontainer --image 
 
 ## Container group multi-conteneurs
 
-Pour créer un Container group avec **plusieurs conteneurs**, il faut créer un [[Fichier yaml|fichier yaml]], à passer en paramètre de la commande ``az container create --resource-group myResourceGroup --file monFichier.yaml``.
+Pour créer un Container group avec **plusieurs conteneurs**, il faut créer un [[fichier-yaml|fichier yaml]], à passer en paramètre de la commande ``az container create --resource-group myResourceGroup --file monFichier.yaml``.
 Ce fichier doit avoir la structure suivante :
 
 ```yaml

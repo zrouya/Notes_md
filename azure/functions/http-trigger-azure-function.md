@@ -8,7 +8,7 @@ La création d'une [[azure-functions|Azure Function]] de type HTTP trigger gén�
 
 ## Exemple en C#
 
-Par exemple, pour une fonction Azure écrite en C#, Azure générera un fichier **run.csx** ([[CSharp Script]]), qu'il est possible d'**éditer**, de **tester**, et d'**exécuter** directement via le portail (à partir de la section "**Developer/Code + Test**", puis l'onglet "**Test/Run**") :
+Par exemple, pour une fonction Azure écrite en C#, Azure générera un fichier **run.csx** ([[csharp-script]]), qu'il est possible d'**éditer**, de **tester**, et d'**exécuter** directement via le portail (à partir de la section "**Developer/Code + Test**", puis l'onglet "**Test/Run**") :
 
 ```csharp
 // Import de la librairie externe Newtonsoft.Json

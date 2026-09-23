@@ -4,7 +4,7 @@ tags: [angular, composants, fondamentaux]
 
 # Composants Angular
 
-Les composants sont les blocs de base d'une application [[angular|Angular]]. Un composant contrôle une partie de l'écran appelée vue.
+Les composants sont les blocs de base d'une application [[angular-overview|Angular]]. Un composant contrôle une partie de l'écran appelée vue.
 
 ## Anatomie d'un composant
 

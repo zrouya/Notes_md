@@ -8,7 +8,7 @@ Les différents shells partagent la même fonction de base — interpréter des 
 
 ## Shells UNIX historiques
 
-- **Bourne Shell (sh)** : shell original des systèmes [[UNIX]], réputé pour sa simplicité et son efficacité, mais manquant de fonctionnalités interactives modernes.
+- **Bourne Shell (sh)** : shell original des systèmes [[unix]], réputé pour sa simplicité et son efficacité, mais manquant de fonctionnalités interactives modernes.
 - **C Shell (csh)** : syntaxe proche du langage C, fonctionnalités de scripting avancées, alias de commandes et historique avancé.
 - **Korn Shell (ksh)** : compromis entre sh et csh, bon équilibre entre scripting et facilité d'utilisation, populaire pour l'administration système.
 
@@ -25,4 +25,4 @@ Les différents shells partagent la même fonction de base — interpréter des 
 ## Voir aussi
 
 - [[terminal-shell]]
-- [[UNIX]]
+- [[unix]]

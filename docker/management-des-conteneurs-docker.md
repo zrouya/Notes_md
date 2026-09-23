@@ -15,7 +15,7 @@ Docker fournit un ensemble de commandes permettant de **monitorer** et **d'inter
 
 ## Interagir avec des conteneurs
 
-Pour obtenir un [[Types de shell|shell]] au sein d'un conteneur, il est possible :
+Pour obtenir un [[types-de-shell|shell]] au sein d'un conteneur, il est possible :
 
 - d'exécuter le conteneur en mode interactif : ``docker container run -it [Image] [Command]``
 - de démarrer un conteneur existant en mode interactif : ``docker container start -ai [Container] [Command]``
@@ -24,7 +24,7 @@ Pour obtenir un [[Types de shell|shell]] au sein d'un conteneur, il est possible
 **Notes :**
 - Dans les 2 premiers cas, la commande passée en paramètre est la **commande principale** du conteneur, ce qui signifie que **le conteneur sera stoppé quand cette commande sera finie** (comme c'est le cas avec un ``docker run`` classique, sauf que dans ce cas-là, il s'agit de la commande spécifiée par l'[[images-docker|image]]).
 - Dans le cas de la commande ``docker container exec``, on exécute une commande additionnelle sur le conteneur, qui ne sera pas stoppé à la fin de celle-ci (car sa commande principale est celle définie par son image, ou au ``docker run``).
-- L'option ``-it`` est en fait une double option : ``-i --interactive``, qui branche le **flux stdin** du conteneur, et l'option ``-t --tty`` qui alloue un pseudo tty, comme [[Bash|bash]].
+- L'option ``-it`` est en fait une double option : ``-i --interactive``, qui branche le **flux stdin** du conteneur, et l'option ``-t --tty`` qui alloue un pseudo tty, comme [[bash-overview|bash]].
 
 ## Voir aussi
 

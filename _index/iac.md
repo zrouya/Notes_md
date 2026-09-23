@@ -1,31 +1,46 @@
 ---
-tags: [index, iac]
+tags: [index, iac, moc]
 ---
 
-# Index — IaC (Infrastructure as Code)
+# IaC — Map of Content
 
-Atmos, OpenTofu, Azure.
+Notes sur l'Infrastructure as Code : Atmos, OpenTofu/Terraform, Azure.
 
 ## Atmos
 
-- [[atmos-overview]] — Vue d'ensemble, commandes, configuration atmos.yaml
-- [[atmos-stack-composition]] — Architecture mixins / catalog / templates, héritage de composants
-- [[atmos-stack-discovery]] — included_paths, excluded_paths, name_template, project-config pattern
-- [[atmos-go-templates]] — Rendu single-pass, ce qui fonctionne / ne fonctionne pas, .yaml.tmpl
-- [[atmos-datasources]] — Injecter du contenu JSON/XML depuis des fichiers externes (gomplate datasources, readFile)
-- [[atmos-component-function]] — `atmos.Component` pour accès cross-composant sans déploiement
-- [[atmos-terraform-output]] — `!terraform.output` pour outputs Terraform, ordre de déploiement
-
-- [[atmos-blueprint-pattern]] — Blueprint pattern : dossier blueprints/, instanciation multiple, limite import non paramétré, module monolithique de lien
-- [[atmos-describe-query]] — Filtrer la sortie de `describe stacks` avec des expressions yq, lister les composants concrets
-- [[atmos-describe-dependents]] — `describe dependents`, `settings.depends_on`, limitation : déclaration explicite requise
-- [[atmos-ci-dynamic-stack]] — Pattern CI : assemblage dynamique d'un fichier stack depuis un config projet, deep merge yq
-- [[atmos-deploy-ordering]] — 3 stratégies d'ordonnancement des composants (deploy_order, Workflows, depends_on)
+- [[atmos-overview]] — Vue d'ensemble : structure, commandes de base
+- [[atmos-stack-composition]] — Composition des stacks : imports, catalog, mixins, templates
+- [[atmos-stack-discovery]] — `included_paths`, `excluded_paths`, `name_template`
+- [[atmos-component-function]] — Composants abstraits, `inherits`, `metadata.type`
+- [[atmos-blueprint-pattern]] — Pattern blueprint pour stacks multi-composants
+- [[atmos-go-templates]] — Go templates dans les manifests : Sprig, gomplate, pièges `.yaml.tmpl`
+- [[atmos-datasources]] — Lire des fichiers (JSON, XML) et injecter leur contenu dans des vars
+- [[atmos-terraform-output]] — Récupérer les outputs Terraform entre composants
+- [[atmos-describe-query]] — `atmos describe stacks` : filtres, requêtes
+- [[atmos-describe-dependents]] — Identifier les composants dépendants
+- [[atmos-deploy-ordering]] — Ordre de déploiement, dépendances
+- [[atmos-ci-dynamic-stack]] — Génération dynamique de stacks en CI
 
 ## OpenTofu / Terraform
 
-- [[opentofu-import]] — Import de ressources existantes, modes lifecycle, ARM IDs
+- [[opentofu-import]] — Import de ressources existantes dans l'état
+- [[terraform-dynamic-blocks]] — Blocs imbriqués conditionnels/répétés avec `dynamic`
+
+## ARM Templates
+
+- [[azure-resource-manager-arm]] — Service de déploiement et gestion des ressources Azure
+- [[arm-templates]] — Fichiers json déclaratifs, structure, déploiement via PowerShell ou portail
+- [[creation-vm-azure-via-arm-templates]] — Template type pour une VM Linux via le portail Azure
+- [[creer-copies-ressources-arm-template]] — Propriété `copy:` et `copyIndex()` pour dupliquer une ressource
+
+## Atmos — Authentification Azure
+
+- [[atmos-azure-auth]] — Pipe d'auth final (sans bloc auth:), variables requises, pièges MSAL
+- [[azurerm-credential-chain]] — Ordre de priorité des méthodes d'auth azurerm, piège ARM_TENANT_ID + ARM_SUBSCRIPTION_ID
+- [[atmos-azure-backend]] — Backend azurerm : key-based vs Azure AD auth, prérequis RBAC, provisionnement auto du container
+- [[azure-rbac-planes]] — Management plane vs data plane : pourquoi Owner ne suffit pas pour accéder aux blobs
+- [[azure-oidc-workload-identity]] — Workload Identity Federation GitLab→Azure : flux, config Atmos, pipeline sans secret
 
 ## Azure
 
-- [[azure-containerapp-sql-access]] — Couches réseau / auth / authz pour Container App → SQL Server, ce qui est TF vs T-SQL
+- [[azure-containerapp-sql-access]] — Accès SQL depuis un Container App

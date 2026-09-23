@@ -33,7 +33,7 @@ Le VPN par défaut (bridge ou docker0) n'**implémente pas de DNS**, il est donc
 
 - ``docker container port [Container]`` permet de voir le mappage défini par la commande précédente (option --publish)
 
-- La commande ``docker container inspect [Container]`` retourne un json qui contient entre autres des informations réseau sur le conteneur ([[Option --format|formatter]] l'output pour extraire les informations. ex : ``docker container inspect --format {{.NetworkSettings.IPAddress}} myContainer``).
+- La commande ``docker container inspect [Container]`` retourne un json qui contient entre autres des informations réseau sur le conteneur ([[option-format|formatter]] l'output pour extraire les informations. ex : ``docker container inspect --format {{.NetworkSettings.IPAddress}} myContainer``).
 
 - Pour les bridges VPN :
 	- ``docker network ls``

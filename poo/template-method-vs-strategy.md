@@ -56,4 +56,4 @@ render(new ReportSpec(DEFAULT_HEADER, () -> "CA : 42k", EMPTY_FOOTER));
 
 - [[open-recursion]]
 - [[composition-delegation]]
-- [[Design Patterns]]
+- [[design-patterns]]

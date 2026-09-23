@@ -31,4 +31,4 @@ Contrat d'autorisation entre une **application cliente** et une **API ressource*
 - [[entra-permissions-vs-roles]]
 - [[entra-app-registration-vs-enterprise-app]]
 - [[entra-audit-permissions-sp]]
-- [[OAuth 2.0 - OpenID]]
+- [[oauth-2-0-openid]]

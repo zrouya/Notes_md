@@ -4,7 +4,7 @@ tags: [angular, structure, fondamentaux]
 
 # Structure de fichiers d'une application Angular
 
-Une application [[angular|Angular]] générée par la CLI suit une arborescence standardisée, centrée sur le dossier `src`.
+Une application [[angular-overview|Angular]] générée par la CLI suit une arborescence standardisée, centrée sur le dossier `src`.
 
 ## Arborescence
 
@@ -20,5 +20,5 @@ Une application [[angular|Angular]] générée par la CLI suit une arborescence 
 
 ## Voir aussi
 
-- [[angular]]
+- [[angular-overview]]
 - [[modules-angular]]

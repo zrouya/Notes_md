@@ -76,5 +76,5 @@ public async Task<Category> GetCategoryAsync(
 
 ## Voir aussi
 
-- [[graphql]]
+- [[graphql-overview]]
 - [[hot-chocolate]]

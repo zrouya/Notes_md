@@ -8,7 +8,7 @@ Map of Content pour les notes bash.
 
 ## Fondamentaux
 
-- [[bash]] — Shell Bourne Again, amélioration du Bourne Shell original
+- [[bash-overview]] — Shell Bourne Again, amélioration du Bourne Shell original
 - [[terminal-shell]] — Terminal et shell, notions de base
 - [[types-de-shell]] — Panorama des différents shells (sh, csh, ksh, zsh, fish, PowerShell)
 

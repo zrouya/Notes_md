@@ -14,7 +14,7 @@ On définit un volume Docker par une stanza ``VOLUME`` dans le Dockerfile :
 VOLUME /var/lib/mysql
 ```
 
-Cette commande va créer un [[Bind mounts Linux|bind mount]] Linux, un mappage entre le répertoire du conteneur (ici, var/lib/mysql) et un répertoire de l'hôte. Les volumes Docker sont stockés, au sein de l'hôte, dans un emplacement **géré par Docker** (sous Linux, **var/lib/docker/volumes**). **Un process hors Docker ne devrait pas modifier cet emplacement du système de fichier**. Pour cela, il convient d'utiliser plutôt un [[bind-mounts-docker|bind mount Docker]].
+Cette commande va créer un [[bind-mounts-linux|bind mount]] Linux, un mappage entre le répertoire du conteneur (ici, var/lib/mysql) et un répertoire de l'hôte. Les volumes Docker sont stockés, au sein de l'hôte, dans un emplacement **géré par Docker** (sous Linux, **var/lib/docker/volumes**). **Un process hors Docker ne devrait pas modifier cet emplacement du système de fichier**. Pour cela, il convient d'utiliser plutôt un [[bind-mounts-docker|bind mount Docker]].
 
 Après l'exécution du conteneur en question, ce nouveau volume pourra être retrouvé par la commande ``docker volume ls``.
 

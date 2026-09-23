@@ -4,7 +4,7 @@ tags: [angular, angularjs, migration]
 
 # Application hybride AngularJS / Angular
 
-Dans une application hybride [[angular|Angular]]/[[angularjs|AngularJS]], les deux frameworks coexistent au sein de la même application. AngularJS est la version 1.x d'Angular, tandis qu'« Angular » désigne les versions 2 et ultérieures du framework. La coexistence s'appuie généralement sur le module `@angular/upgrade/static`, qui fournit des services permettant de faire interagir composants et services d'Angular et AngularJS.
+Dans une application hybride [[angular-overview|Angular]]/[[angularjs|AngularJS]], les deux frameworks coexistent au sein de la même application. AngularJS est la version 1.x d'Angular, tandis qu'« Angular » désigne les versions 2 et ultérieures du framework. La coexistence s'appuie généralement sur le module `@angular/upgrade/static`, qui fournit des services permettant de faire interagir composants et services d'Angular et AngularJS.
 
 ## Démarrer une application hybride
 
@@ -38,5 +38,5 @@ Ici, `myAngularJSApp` est le nom du module AngularJS, bootstrappé dans `ngDoBoo
 
 ## Voir aussi
 
-- [[angular]]
+- [[angular-overview]]
 - [[angularjs]]

@@ -6,7 +6,7 @@ tags: [azure, cloud, powershell]
 
 Azure CLI est un **outil** en **lignes de commande** **multiplateforme** permettant de se connecter à [[azure-presentation|Azure]] et d'exécuter des **commandes d'administration** sur les ressources Azure.
 
-Il s'agit du pendant [[Bash]] du module [[azure-powershell|Azure PowerShell]], il permet d'implémenter les mêmes actions d'administration du Cloud Azure (à quelques commandes près).
+Il s'agit du pendant [[bash]] du module [[azure-powershell|Azure PowerShell]], il permet d'implémenter les mêmes actions d'administration du Cloud Azure (à quelques commandes près).
 
 ## Exemples de commandes
 

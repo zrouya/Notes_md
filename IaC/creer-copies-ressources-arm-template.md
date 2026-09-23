@@ -4,7 +4,7 @@ tags: [iac, azure, arm]
 
 # Créer des copies de ressources via un ARM Template
 
-Au sein d'un fichier de [[arm-templates|template]] ARM, il est possible d'utiliser la propriété ``copy:`` pour créer des copies d'une [[Resource Azure|ressource]].
+Au sein d'un fichier de [[arm-templates|template]] ARM, il est possible d'utiliser la propriété ``copy:`` pour créer des copies d'une [[resource-azure|ressource]].
 
 ## Exemple
 

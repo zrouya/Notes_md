@@ -4,7 +4,7 @@ tags: [docker, images, build]
 
 # Build multi-stage d'images Docker
 
-La notion de [[build-des-images-docker|build]] multi-stage dans Docker fait référence à une technique utilisée dans les Dockerfile pour **optimiser la construction d'images**. Elle permet de **diviser le processus de build** en plusieurs étapes (ou « stages »), chacune ayant potentiellement une image de base différente et **pouvant copier des artefacts** d'une étape à une autre. Voir un exemple relatif aux [[Conteneurisation d'applications .Net Core|applications .Net Core]].
+La notion de [[build-des-images-docker|build]] multi-stage dans Docker fait référence à une technique utilisée dans les Dockerfile pour **optimiser la construction d'images**. Elle permet de **diviser le processus de build** en plusieurs étapes (ou « stages »), chacune ayant potentiellement une image de base différente et **pouvant copier des artefacts** d'une étape à une autre. Voir un exemple relatif aux [[conteneurisation-d-applications-net-core|applications .Net Core]].
 
 ## Avantages du build multi-stage
 

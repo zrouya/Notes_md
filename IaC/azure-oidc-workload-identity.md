@@ -94,4 +94,4 @@ job:
 
 - [[atmos-azure-auth]]
 - [[atmos-azure-backend]]
-- [[Azure Entra (anciennement Azure Active Directory)]]
+- [[azure-entra]]

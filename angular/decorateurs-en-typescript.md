@@ -4,7 +4,7 @@ tags: [typescript, angular, decorateurs]
 
 # Décorateurs en TypeScript
 
-Les décorateurs sont une fonctionnalité de [[typescript|TypeScript]] permettant d'ajouter des métadonnées ou de modifier le comportement d'un élément (classe, propriété, méthode, accesseur, paramètre) via la syntaxe `@`. Ils constituent l'équivalent TypeScript des [[Attributs en CSharp|attributs en C#]].
+Les décorateurs sont une fonctionnalité de [[typescript|TypeScript]] permettant d'ajouter des métadonnées ou de modifier le comportement d'un élément (classe, propriété, méthode, accesseur, paramètre) via la syntaxe `@`. Ils constituent l'équivalent TypeScript des [[attributs-en-csharp|attributs en C#]].
 
 ## Exemple
 
