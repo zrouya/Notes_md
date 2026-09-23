@@ -55,12 +55,18 @@ Explication concise. Évite la prose longue, préfère les listes.
 | `gitlab-ci/` | Jobs, variables, structure pipeline |
 | `outils/` | yq, jq, apk, etc. |
 | `snippets/` | Blocs de code réutilisables, sans explication longue |
-| `_index/` | Fichiers MOC (Map of Content) par domaine |
 
-Cette liste n'est pas exhaustive : le vault contient de nombreux autres dossiers de domaine (`azure/`, `docker/`, `angular/`, `dotnet/`, `poo/`, `reseau/`, `tls/`, `IaC/`, `graphql/`, `kubernetes/`, `linux/`, `securite/`, `powershell/`, `windows-iis/`, `cache/`, `git/`, `mcp/`, `observabilite/`, `perso/`…). Avant de créer une note, vérifie toujours (Glob) si un dossier de domaine pertinent existe déjà plutôt que d'en créer un nouveau.
+Cette liste n'est pas exhaustive : le vault contient de nombreux autres dossiers de domaine (`azure/`, `docker/`, `angular/`, `dotnet/`, `poo/`, `reseau/`, `tls/`, `IaC/`, `graphql/`, `kubernetes/`, `linux/`, `securite/`, `powershell/`, `windows-iis/`, `cache/`, `git/`, `mcp/`, `observabilite/`, `perso/`…), certains avec des sous-dossiers (ex. `azure/app-service/`, `docker/swarm/`). Avant de créer une note, vérifie toujours (Glob) si un dossier de domaine (ou sous-dossier) pertinent existe déjà plutôt que d'en créer un nouveau.
 
-### Fichiers index (MOC)
-Pour chaque domaine touché, mets à jour (ou crée) un fichier `_index/nom-domaine.md` qui liste les notes du domaine avec une ligne de description et un lien `[[note]]`. N'oublie pas d'ajouter le domaine à `_index/_accueil.md` s'il est nouveau.
+### Fichiers index (MOC) — un par dossier et sous-dossier
+Chaque dossier de domaine et chaque sous-dossier a son propre fichier MOC, **colocalisé dans le dossier lui-même** (pas dans un `_index/` centralisé) et nommé `_index-<nom-du-dossier>.md` — jamais juste `_index.md`, ce nom se répéterait dans chaque dossier et rendrait les liens `[[_index]]` ambigus (Obsidian résout par nom de fichier, pas par chemin).
+
+Exemples : `azure/_index-azure.md` (domaine), `azure/app-service/_index-app-service.md` (sous-dossier), `docker/swarm/_index-swarm.md`.
+
+Pour chaque domaine/sous-dossier touché :
+1. Mets à jour (ou crée) son `_index-<nom>.md` : liste les notes du dossier avec une ligne de description et un lien `[[note]]`.
+2. Si le dossier a des sous-dossiers, le MOC du dossier parent ne liste PAS les notes des sous-dossiers en double — il pointe vers leur `_index-<sous-dossier>.md` via une section "## Sous-dossiers" (ex. `- [[_index-app-service|App Service]]`).
+3. Si un nouveau domaine de premier niveau est créé, ajoute une ligne vers son `_index-<domaine>.md` dans `_index/_accueil.md` (le sommaire global reste seul dans `_index/`, à la racine du vault).
 
 ## Processus
 

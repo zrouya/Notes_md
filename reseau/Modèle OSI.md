@@ -58,4 +58,4 @@ Mécaniquement, cela se traduit par l'[[encapsulation]] : chaque couche ajoute s
 ## Voir aussi
 
 - [[Modèle TCP_IP]] · [[encapsulation]]
-- [[_index/reseau|Index — Réseau]]
+- [[_index-reseau|Index — Réseau]]

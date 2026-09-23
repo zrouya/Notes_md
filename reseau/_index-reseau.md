@@ -104,7 +104,7 @@ Pour HTTP, voir la rubrique dédiée plus bas.
 | [[cout-rtt-connexion-https]] | 3 RTT avant le premier octet utile |
 | [[connexion-https-deroule]] | DNS → TCP → TLS → HTTP, étape par étape |
 
-Tout ce qui touche aux certificats et au handshake : voir **[[_index/tls|index TLS]]**.
+Tout ce qui touche aux certificats et au handshake : voir **[[_index-tls|index TLS]]**.
 
 ## Diagnostic
 

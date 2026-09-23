@@ -46,6 +46,6 @@ TLS repose sur TCP et n'a de sens qu'avec ce qui le précède — résolution de
 
 | Note | Description |
 |------|-------------|
-| [[_index/reseau\|Index — Réseau]] | Le corpus réseau complet |
+| [[_index-reseau\|Index — Réseau]] | Le corpus réseau complet |
 | [[http-versions]] | ALPN, et pourquoi HTTP/3 quitte TCP |
 | [[erreurs-connexion-econnrefused]] | Situer une erreur TLS parmi les autres couches |

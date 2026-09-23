@@ -15,5 +15,5 @@ tags: [index, outils, cli]
 
 ## Réseau / Sécurité
 
-- [[openssl]] — Inspecter handshakes TLS, certificats et chaînes en CLI (voir [[_index/tls|index TLS]])
+- [[openssl]] — Inspecter handshakes TLS, certificats et chaînes en CLI (voir [[_index-tls|index TLS]])
 - [[diagnostic-par-couche]] — `dig`, `traceroute`, `ss`, `tcpdump`, `curl -v` : un outil par couche réseau

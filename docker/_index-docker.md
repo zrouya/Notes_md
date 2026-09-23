@@ -4,6 +4,10 @@ tags: [index, docker]
 
 # Docker — Map of Content
 
+## Sous-dossiers
+
+- [[_index-swarm|Docker Swarm]]
+
 ## Fondamentaux
 
 - [[docker-overview]] — vue d'ensemble, workflow build/ship/run
@@ -52,17 +56,3 @@ tags: [index, docker]
 - [[docker-compose-build]] — paramètres de build dans un service
 - [[docker-compose-cli]] — outil CLI `docker compose`
 - [[extensions-de-docker-compose-files]] — factoriser des configurations communes
-
-## Docker Swarm
-
-- [[swarm/docker-swarm]] — orchestrateur intégré à Docker
-- [[swarm/initialisation-de-docker-swarm]] — `docker swarm init`
-- [[swarm/noeuds-swarm]] — nœuds du cluster
-- [[swarm/manager-swarm]] — gestion du cluster et consensus Raft
-- [[swarm/workers-swarm]] — exécution des tâches
-- [[swarm/services-docker-swarm]] — abstraction de service
-- [[swarm/tasks-docker-swarm]] — instances d'un service
-- [[swarm/mise-a-jour-de-services-docker-swarm]] — mise à jour progressive et rebalancing
-- [[swarm/docker-swarm-secrets]] — gestion des secrets
-- [[swarm/docker-swarm-stacks]] — déploiement via fichier yaml de stack
-- [[swarm/docker-swarm-routing-mesh]] — routage réseau entre nœuds

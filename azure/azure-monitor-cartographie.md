@@ -63,4 +63,4 @@ Pars de **la ressource** → menu **Monitoring** → *Metrics*, *Logs*, *Diagnos
 - [[log-analytics]] · [[log-analytics-cout]]
 - [[appinsights-principe]] · [[appinsights-tables-requests-dependencies]] · [[apm]]
 - [[diagnostic-settings]] · [[apim-gateway-logs]]
-- [[grafana]] · [[_index/observabilite|Index Observabilité]]
+- [[grafana]] · [[_index-observabilite|Index Observabilité]]

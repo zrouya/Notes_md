@@ -1,6 +1,6 @@
 # Observabilité — Map of Content
 
-Concepts généraux d'observabilité (métriques, logs, traces, APM, backends). Les **briques Azure** correspondantes sont dans [[_index/azure|l'index Azure]] (section Monitoring & Observability).
+Concepts généraux d'observabilité (métriques, logs, traces, APM, backends). Les **briques Azure** correspondantes sont dans [[_index-azure|l'index Azure]] (section Monitoring & Observability).
 
 > 🗺️ Pour la vue d'ensemble côté Azure : [[azure-monitor-cartographie]].
 

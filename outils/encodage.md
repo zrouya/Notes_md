@@ -30,4 +30,4 @@ L'encodage est un processus consistant à convertir des données d'un format à 
 
 ## Voir aussi
 
-- [[_index/outils|Index Outils]]
+- [[_index-outils|Index Outils]]
