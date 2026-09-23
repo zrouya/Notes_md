@@ -8,19 +8,19 @@ Fil conducteur recommandé : [[Modèle OSI]] → [[encapsulation]] → [[cidr-no
 
 ## Modèle en couches
 
-| Note | Description |
-|------|-------------|
-| [[Modèle OSI]] | Les 7 couches, modèle de référence |
-| [[Modèle TCP_IP]] | La pile réellement implémentée (4 couches) |
-| [[encapsulation]] | Chaque couche ajoute son en-tête — tailles réelles |
-| [[Couche physique du modèle OSI]] | L1 — signaux |
-| [[Couche de liaison de données du modèle OSI]] | L2 — trames, MAC |
-| [[Couche réseau du modèle OSI]] | L3 — paquets, routage |
-| [[Couche de transport du modèle OSI]] | L4 — segments, ports |
-| [[Couche applicative du modèle OSI]] | L7 — protocoles applicatifs |
-| [[Paquets (couche réseau)]] | Unité de la couche 3 |
-| [[Segments (couche transport)]] | Unité de la couche 4 |
-| [[Frames (couche liaison de données)]] | Unité de la couche 2 |
+| Note                                           | Description                                        |
+| ---------------------------------------------- | -------------------------------------------------- |
+| [[Modèle OSI]]                                 | Les 7 couches, modèle de référence                 |
+| [[Modèle TCP_IP]]                              | La pile réellement implémentée (4 couches)         |
+| [[encapsulation]]                              | Chaque couche ajoute son en-tête — tailles réelles |
+| [[Couche physique du modèle OSI]]              | L1 — signaux                                       |
+| [[Couche de liaison de données du modèle OSI]] | L2 — trames, MAC                                   |
+| [[Couche réseau du modèle OSI]]                | L3 — paquets, routage                              |
+| [[Couche de transport du modèle OSI]]          | L4 — segments, ports                               |
+| [[Couche applicative du modèle OSI]]           | L7 — protocoles applicatifs                        |
+| [[Paquets (couche réseau)]]                    | Unité de la couche 3                               |
+| [[Segments (couche transport)]]                | Unité de la couche 4                               |
+| [[Frames (couche liaison de données)]]         | Unité de la couche 2                               |
 
 ## Couche 2 — accès au support
 
