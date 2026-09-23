@@ -1,5 +1,10 @@
+---
+tags: [dotnet, aspnet-core, middleware]
+---
 
-Le Middleware .Net Core est un composant logiciel intermédiaire qui gère le pipeline de traitement des requêtes HTTP entrantes d'un serveur Web .Net Core.
+# ASP.NET Core — Middlewares
+
+Le Middleware .NET Core est un composant logiciel intermédiaire qui gère le pipeline de traitement des requêtes HTTP entrantes d'un serveur Web .NET Core.
 
 ```csharp
 //Program.cs
@@ -12,9 +17,9 @@ app.MapGet("/", () => "Hello World!");
 
 app.Run();
 ```
-**Note** : Le middleware app.Run() met un terme au pipeline
+**Note** : le middleware `app.Run()` met un terme au pipeline.
 
-Par convention, on définit le middleware en ajoutant une [[Méthodes d'extensions en CSharp|méthode d'extension]] à l'interface IApplicationBuilder : 
+Par convention, on définit le middleware en ajoutant une [[methodes-d-extensions-en-csharp|méthode d'extension]] à l'interface `IApplicationBuilder` :
 ```csharp
 // Définition du middleware
 public class MyCustomMiddleware
@@ -43,20 +48,20 @@ public static class MyCustomMiddlewareExtensions
 }
 ```
 
-**Note** : L'ordre d'exécution des middlewares est important, chaque middleware va traiter la requête HTTP avant de la passer au middleware suivant.
+**Note** : l'ordre d'exécution des middlewares est important, chaque middleware va traiter la requête HTTP avant de la passer au middleware suivant.
 
-Les middlewares les plus courants sont, dans l'ordre : 
+Les middlewares les plus courants sont, dans l'ordre :
 1. Exception Handler
 2. HSTS
 3. HttpsRedirection
 4. StaticFiles
-5. [[Middleware de Routing ASP.NetCore|Routing]]
+5. [[middleware-de-routing-asp-net-core|Routing]]
 6. CORS
 7. Authentication
 8. Authorization
 9. ..puis les Middleware Custom
 
-Exemple : 
+Exemple :
 ```csharp
 app.UseForwardedHeaders();
 
@@ -82,3 +87,9 @@ app.UseJwtTokenMiddleware();
 app.UseSwaggerAuthenticationMiddleware();
 app.UseAuthorization();
 ```
+
+## Voir aussi
+
+- [[middleware-de-routing-asp-net-core]]
+- [[methodes-d-extensions-en-csharp]]
+- [[applicationbuilder-net-core]]

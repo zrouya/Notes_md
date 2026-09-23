@@ -26,5 +26,5 @@ Notes sur l'héritage, la composition et les mécanismes de réutilisation de co
 
 ## Voir aussi
 
-- [[Design Patterns]]
-- [[Méthodes d'extensions en CSharp]] — étendre un type sans en hériter
+- [[design-patterns]]
+- [[methodes-d-extensions-en-csharp]] — étendre un type sans en hériter
