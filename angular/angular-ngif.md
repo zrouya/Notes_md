@@ -1,7 +1,15 @@
+---
+tags: [angular, directives, ngif]
+---
 
-Pour rendre le rendu d'un [[Composants Angular|composants]] conditionnel : 
+# Angular — ngIf
 
-Il faut importer la directive structurelle NgIf  depuis @angular/common au sein du composant (dans l'option Imports du décorateur Component): 
+Directive structurelle permettant de rendre le rendu d'un [[composants-angular|composant]] conditionnel.
+
+## Syntaxe classique (`*ngIf`)
+
+Il faut importer `NgIf` depuis `@angular/common` au sein du composant (option `imports` du décorateur `@Component`) :
+
 ```typescript
 import { Component } from '@angular/core';
 import { NgFor, NgIf } from '@angular/common';
@@ -21,7 +29,6 @@ export class AppComponent {
 }
 ```
 
-Puis, dans le template du composant : 
 ```html
 <main class="users-list">
 	<ul>
@@ -36,8 +43,10 @@ Puis, dans le template du composant :
 </main>
 ```
 
+## Nouvelle syntaxe (Angular 17+)
 
-Depuis la version 17 d'Angular, la syntaxe a été simplifiée :
+Depuis la version 17, la syntaxe a été simplifiée :
+
 ```html
 <main class="users-list">
 	<ul>
@@ -54,3 +63,9 @@ Depuis la version 17 d'Angular, la syntaxe a été simplifiée :
 	}
 </main>
 ```
+
+## Voir aussi
+
+- [[directives-angular]]
+- [[angular-ngfor]]
+- [[composants-angular]]

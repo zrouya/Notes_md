@@ -1,12 +1,12 @@
+---
+tags: [angular, composants, data-binding]
+---
 
-Un composant angular va rendre son template en y gérant les données dynamiques via plusieurs moyens : 
-- String interpolation
-- Property binding
-- Attribute binding
-- Event binding
-- Class binding
+# Composants Angular — Données dynamiques
 
-Exemple : 
+Un composant [[angular|Angular]] rend son template en gérant les données dynamiques via plusieurs moyens : string interpolation, property binding, attribute binding, event binding et class binding.
+
+## Exemple
 
 ```typescript
 import { Component } from '@angular/core';
@@ -37,7 +37,7 @@ export class UserComponent {
 }
 ```
 
-Template user.component.html : 
+Template `user.component.html` :
 ```html
 <div class='user-ui' [class.selected]="isSelected"> <!-- Class binding : 'selected' class is added to the element depending on the binded value -->
 	<button (click)="onSelectUser()"> <!-- Event binding -->
@@ -48,4 +48,10 @@ Template user.component.html :
 </div>
 ```
 
-En cas de modification des données du composant, Angular [[State managment Angular|met à jour]] le DOM.
+En cas de modification des données du composant, Angular [[state-managment-angular|met à jour]] le DOM.
+
+## Voir aussi
+
+- [[composants-angular]]
+- [[angular-signals]] — réécriture de cet exemple avec des Signals (Angular 16+)
+- [[state-managment-angular]]

@@ -1,6 +1,12 @@
+---
+tags: [angular, composants, data-binding]
+---
 
-Pour définir un [[Composants Angular|composant]] ayant une propriété settable par son parent, on utilise les [[Décorateurs en TypeScript|décorateurs]] Inputs.
-De même, pour qu'un évènement du composant soit transmis par son parent, on utilise le décorateur Output, ainsi qu'un objet EventEmitter :
+# Angular — Component Inputs/Outputs
+
+Pour définir un [[composants-angular|composant]] ayant une propriété settable par son parent, on utilise le [[decorateurs-en-typescript|décorateur]] `@Input`. De même, pour qu'un événement du composant soit transmis à son parent, on utilise le décorateur `@Output` avec un objet `EventEmitter`.
+
+## Syntaxe classique (décorateurs)
 
 ```typescript
 import { Component, Input, Output, EventEmitter } from '@angular/core';
@@ -29,7 +35,7 @@ export class UserComponent {
 }
 ```
 
-Template du composant parent :  
+Template du composant parent :
 ```html
 <div class='user-ui'>
 	<user-card [currentUser]="model.selectedUser"
@@ -37,8 +43,9 @@ Template du composant parent :
 </div>
 ```
 
-Depuis la version 16 d'Angular, et l'arrivée de la feature [[Angular Signals|Signals]], la syntaxe diffère (ainsi que l'implémentation technique) :
+## Syntaxe Signals (Angular 16+)
 
+Depuis la version 16 d'Angular, avec l'arrivée des [[angular-signals|Signals]], la syntaxe diffère (ainsi que l'implémentation technique) :
 
 ```typescript
 import { Component, input, output } from '@angular/core';
@@ -66,3 +73,9 @@ export class UserComponent {
 	}	
 }
 ```
+
+## Voir aussi
+
+- [[composants-angular]]
+- [[decorateurs-en-typescript]]
+- [[angular-signals]]

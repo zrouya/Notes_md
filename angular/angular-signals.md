@@ -1,8 +1,14 @@
+---
+tags: [angular, signals, state-management]
+---
 
-A partir de la version 16 d'Angular, le [[State managment Angular|State Managment]] des composants peut être implémenté par des Signals, une feature reposant sur des souscriptions à des événements de mise à jour de données.
-Les classes de type ViewModel (ou tout autre objet incluant des données consommées par les composants Angular) sont wrappées dans un trackable data container, un Signal.
+# Angular Signals
 
-Le code pris en exemple [[Composants Angular - Données dynamiques|ici]] se réécrit alors : 
+À partir de la version 16 d'Angular, la [[state-managment-angular|gestion d'état]] des composants peut être implémentée par des Signals, une feature reposant sur des souscriptions à des événements de mise à jour de données. Les classes de type ViewModel (ou tout autre objet incluant des données consommées par les composants) sont alors wrappées dans un trackable data container, un Signal.
+
+## Exemple
+
+Le code pris en exemple dans [[composants-angular-donnees-dynamiques|Composants Angular - Données dynamiques]] se réécrit ainsi :
 
 ```typescript
 using { signal, computed } from '@angular/core'
@@ -31,7 +37,7 @@ export class UserComponent {
 }
 ```
 
-Template user.component.html : 
+Template `user.component.html` :
 ```html
 <div class='user-ui'>
 	<button (click)="onSelectUser()">
@@ -41,3 +47,9 @@ Template user.component.html :
 	</button>
 </div>
 ```
+
+## Voir aussi
+
+- [[state-managment-angular]]
+- [[composants-angular-donnees-dynamiques]]
+- [[angular-component-inputs-outputs]] — syntaxe Signals pour les Inputs/Outputs

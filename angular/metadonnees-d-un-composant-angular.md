@@ -1,5 +1,12 @@
+---
+tags: [angular, composants, decorateurs]
+---
 
-Dans Angular, les métadonnées d'un composant sont fournies en utilisant un [[Décorateurs en TypeScript|décorateur]] `@Component` qui est attaché à la classe du composant :
+# Métadonnées d'un composant Angular
+
+Dans Angular, les métadonnées d'un composant sont fournies via un [[decorateurs-en-typescript|décorateur]] `@Component` attaché à la classe du composant.
+
+## Exemple
 
 ```js
 import { Component } from '@angular/core'; // Import du décorateur @Component
@@ -18,3 +25,8 @@ export class MonComposantComponent {
   // ...
 }
 ```
+
+## Voir aussi
+
+- [[composants-angular]]
+- [[decorateurs-en-typescript]]

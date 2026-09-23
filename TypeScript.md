@@ -1,1 +1,0 @@
- TypeScript est un sur-ensemble de JavaScript développé par Microsoft.  TypeScript ajoute des types statiques et d'autres fonctionnalités à JavaScript, y compris les [[Décorateurs en TypeScript|décorateurs]].

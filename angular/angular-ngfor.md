@@ -1,7 +1,15 @@
+---
+tags: [angular, directives, ngfor]
+---
 
-Pour générer une liste de [[Composants Angular|composants]] dynamiquement : 
+# Angular — ngFor
 
-Il faut importer la directive structurelle NgFor  depuis @angular/common au sein du composant (dans l'option Imports du décorateur Component): 
+Directive structurelle permettant de générer une liste de [[composants-angular|composants]] dynamiquement, en itérant sur un tableau.
+
+## Syntaxe classique (`*ngFor`)
+
+Il faut importer `NgFor` depuis `@angular/common` au sein du composant (option `imports` du décorateur `@Component`) :
+
 ```typescript
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
@@ -20,7 +28,6 @@ export class AppComponent {
 }
 ```
 
-Puis, dans le template du composant : 
 ```html
 <main class="users-list">
 	<ul>
@@ -31,8 +38,10 @@ Puis, dans le template du composant :
 </main>
 ```
 
+## Nouvelle syntaxe (Angular 17+)
 
-Depuis la version 17 d'Angular, la syntaxe a été simplifiée :
+Depuis la version 17, la syntaxe a été simplifiée :
+
 ```html
 <main class="users-list">
 	<ul>
@@ -44,3 +53,9 @@ Depuis la version 17 d'Angular, la syntaxe a été simplifiée :
 	</ul>
 </main>
 ```
+
+## Voir aussi
+
+- [[directives-angular]]
+- [[angular-ngif]]
+- [[composants-angular]]
