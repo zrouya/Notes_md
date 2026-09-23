@@ -68,6 +68,6 @@ public class Query
 
 ## Voir aussi
 
-- [[GraphQL]]
-- [[GraphQL DataLoader]]
+- [[graphql]]
+- [[graphql-dataloader]]
 - [[ASP.NET Core]]
