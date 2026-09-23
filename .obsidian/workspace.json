@@ -22,16 +22,6 @@
             }
           },
           {
-            "id": "f9b5eedcc30750d9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
             "id": "9c6b3165e6875eae",
             "type": "leaf",
             "state": {
@@ -234,7 +224,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9b5eedcc30750d9",
+  "active": "94d9a3d98df21d83",
   "lastOpenFiles": [
     "azure/container-apps-app-logs.md",
     "azure/apim-gateway-logs.md",
