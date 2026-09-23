@@ -1,0 +1,5 @@
+---
+tags: [windows]
+---
+
+# Windows Server
