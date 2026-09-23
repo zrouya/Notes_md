@@ -20,6 +20,8 @@ tags: [index, tls, https, securite]
 | [[autorite-certification]] | CA, trust store, rôle des intermédiaires |
 | [[chaine-de-certificats]] | Root/Intermediate/Leaf, validation côté client |
 | [[revocation-certificat]] | CRL, OCSP, OCSP stapling |
+| [[certificat-ssl]] | Placeholder |
+| [[ssl]] | Placeholder |
 
 ## Handshake & connexion
 

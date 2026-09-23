@@ -1,7 +1,14 @@
+---
+tags: [iac, azure, arm]
+---
 
-Pour obtenir un [[ARM Templates|template ARM]] type pour la création d'une [[Machines virtuelles Azure|machine virtuelle]] Azure, il est possible, via **portail Azure**, de créer une ressource de type **Custom deployment**, et de sélectionner l'option correspondante dans "**Common templates**", puis **Edit template**.
+# Création de VM Azure via ARM Templates
 
-Exemple de template pour une VM Linux : 
+Pour obtenir un [[arm-templates|template ARM]] type pour la création d'une [[Machines virtuelles Azure|machine virtuelle]] Azure, il est possible, via **portail Azure**, de créer une ressource de type **Custom deployment**, et de sélectionner l'option correspondante dans "**Common templates**", puis **Edit template**.
+
+## Exemple : VM Linux
+
+Exemple de template pour une VM Linux :
 
 ```json
 {
@@ -330,3 +337,7 @@ Exemple de template pour une VM Linux :
 
 Note : l'option ``dependsOn:`` est importante pour **maitriser** l'**ordre de création** des ressources (certaines devant être créée avant d'autres faute de quoi une erreur sera levée).
 Cette option attendant comme valeur l'**identifiant** Azure **de la ressource**, il est possible d'utiliser l'**expression** ``[resourceId('typeDeRessource', 'nomDeLaRessource')]``.
+
+## Voir aussi
+
+- [[arm-templates]]

@@ -141,7 +141,18 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index/tls|index T
 
 | Note | Description |
 |------|-------------|
-| [[Gestion du réseau Docker]] | Vue d'ensemble |
-| [[Drivers réseau Docker]] | bridge, host, overlay, none |
-| [[Réseaux Docker Overlay]] | Multi-hôtes |
-| [[DNS Docker]] | Résolution par nom de service |
+| [[gestion-reseau-docker]] | Vue d'ensemble |
+| [[drivers-reseau-docker]] | bridge, host, overlay, none |
+| [[reseaux-docker-overlay]] | Multi-hôtes |
+| [[dns-docker]] | Résolution par nom de service |
+
+## Équipements et services réseau physiques
+
+| Note | Description |
+|------|-------------|
+| [[serveur-dhcp]] | Attribution dynamique d'adresses IP |
+| [[wireless-access-point-wap]] | Équivalent switch pour le sans-fil, niveau 2 OSI |
+| [[wireless-range-extenders-repeteurs-wifi]] | Extension de portée Wifi |
+| [[modems-modulateurs-demodulateurs]] | Passerelle LAN ↔ WAN, conversion analogique/numérique |
+| [[reseaux-informatiques-physiques]] | Topologie physique — équipements, câblage |
+| [[network-security-group-nsg-azure]] | Placeholder — NSG Azure |

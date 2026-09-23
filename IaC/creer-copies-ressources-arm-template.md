@@ -1,7 +1,14 @@
+---
+tags: [iac, azure, arm]
+---
 
-Au sein d'un fichier de [[ARM Templates|template]] ARM, il est possible d'utiliser la propriété ``copy:`` pour créer des copies d'une [[Resource Azure|ressource]].
+# Créer des copies de ressources via un ARM Template
 
-Exemple de fichier de template : 
+Au sein d'un fichier de [[arm-templates|template]] ARM, il est possible d'utiliser la propriété ``copy:`` pour créer des copies d'une [[Resource Azure|ressource]].
+
+## Exemple
+
+Exemple de fichier de template :
 ```json
 {
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
@@ -32,3 +39,7 @@ Note : Pour les ressources nécessitant un **nom unique** (comme c'est le cas ic
 Dans l'expression, il est possible d'utiliser des **fonctions** de manipulation de **chaînes de caractères**, comme ``concat()`` pour former un nom de ressource.
 
 La propriété **copy** donne accès à la fonction ``copyIndex()`` qui retourne l'**indice de base zéro** de la copie créée. On obtient donc un **nom dynamique unique** pour chaque copie de la ressource.
+
+## Voir aussi
+
+- [[arm-templates]]

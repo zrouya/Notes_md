@@ -26,6 +26,13 @@ Notes sur l'Infrastructure as Code : Atmos, OpenTofu/Terraform, Azure.
 - [[opentofu-import]] — Import de ressources existantes dans l'état
 - [[terraform-dynamic-blocks]] — Blocs imbriqués conditionnels/répétés avec `dynamic`
 
+## ARM Templates
+
+- [[azure-resource-manager-arm]] — Service de déploiement et gestion des ressources Azure
+- [[arm-templates]] — Fichiers json déclaratifs, structure, déploiement via PowerShell ou portail
+- [[creation-vm-azure-via-arm-templates]] — Template type pour une VM Linux via le portail Azure
+- [[creer-copies-ressources-arm-template]] — Propriété `copy:` et `copyIndex()` pour dupliquer une ressource
+
 ## Atmos — Authentification Azure
 
 - [[atmos-azure-auth]] — Pipe d'auth final (sans bloc auth:), variables requises, pièges MSAL
