@@ -1,5 +1,0 @@
-
-Pour ajouter une fonctionnalité de login / logout ([[OAuth 2.0 - OpenID Connect#OpenID Connect|OIDC]] via [[Microsoft Entra ID (ex. Azure Active Directory)|Microsoft Entra]]) à une application Web :
-- [Inscrire](https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-sign-user-app-registration?tabs=aspnetcore) l'application auprès de Microsoft Entra (par ex. via les APIs [[Microsoft Graph|Microsoft Graph]]).
-- [Configurer](https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-sign-user-app-configuration?tabs=aspnetcore) l'application (packages à installer, fichiers de conf à modifier, code d'initialisation de l'application à modifier).
-- [Intégrer](https://learn.microsoft.com/en-us/entra/identity-platform/scenario-web-app-sign-user-sign-in?tabs=aspnetcore) le code de sign-in et sign-out à l'application.
