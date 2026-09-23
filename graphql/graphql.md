@@ -45,5 +45,5 @@ query {
 
 ## Voir aussi
 
-- [[GraphQL DataLoader]]
-- [[Hot Chocolate]]
+- [[graphql-dataloader]]
+- [[hot-chocolate]]

@@ -6,6 +6,6 @@ tags: [index, graphql]
 
 | Note | Description |
 |------|-------------|
-| [[GraphQL]] | Concept général, fonctionnement, avantages vs REST |
-| [[GraphQL DataLoader]] | Problème N+1, batching, caching, implémentation |
-| [[Hot Chocolate]] | Stack .NET — setup ASP.NET Core, code-first, EF |
+| [[graphql]] | Concept général, fonctionnement, avantages vs REST |
+| [[graphql-dataloader]] | Problème N+1, batching, caching, implémentation |
+| [[hot-chocolate]] | Stack .NET — setup ASP.NET Core, code-first, EF |
