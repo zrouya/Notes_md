@@ -1,7 +1,12 @@
+---
+tags: [dotnet, aspnet-core, mvc]
+---
 
-ASP .Net Core MVC fournit une logique de validation des données transmises aux Controllers par le [[Model Binding .NetCore|model binding]].
+# Model Validation — .NET Core
 
-On peut ajouter des attributs de validation aux propriétés des classes Model qui sont passées aux actions des Controllers : 
+ASP.NET Core MVC fournit une logique de validation des données transmises aux Controllers par le [[model-binding-net-core|model binding]].
+
+On peut ajouter des attributs de validation aux propriétés des classes Model qui sont passées aux actions des Controllers :
 
 ```csharp
 using System.ComponentModel.DataAnnotations; // namespace des attributs
@@ -25,7 +30,7 @@ public class User
 }
 ```
 
-La classe Controller possède une propriété ``ModelState`` qui représente l'état de validation du modèle : 
+La classe Controller possède une propriété `ModelState` qui représente l'état de validation du modèle :
 ```csharp
 public class UserAccountController : Controller
 {
@@ -48,7 +53,7 @@ public class UserAccountController : Controller
 }
 ```
 
-Il est possible de créer des attributs de validation custom : 
+Il est possible de créer des attributs de validation custom :
 ```csharp
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
@@ -83,7 +88,7 @@ public CustomValidationAttribute : ValidationAttribute
 }
 ```
 
-Pour des validations qui n'ont pas vocation à être réutilisées, il peut être plus simple d'implémenter la logique directement dans l'objet Model, en implémentant l'interface ``IValidatableObject``.
+Pour des validations qui n'ont pas vocation à être réutilisées, il peut être plus simple d'implémenter la logique directement dans l'objet Model, en implémentant l'interface `IValidatableObject`.
 
 ```csharp
 public class User : IValidatableObject
@@ -94,3 +99,8 @@ public class User : IValidatableObject
 	}
 }
 ```
+
+## Voir aussi
+
+- [[model-binding-net-core]]
+- [[attributs-en-csharp]]
