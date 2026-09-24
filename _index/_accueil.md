@@ -26,6 +26,7 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 |-------|---------|
 | [[_index-dotnet\|.NET / NuGet]] | Écosystème .NET, ASP.NET Core |
 | [[_index-poo\|POO & Conception]] | Design patterns, principes |
+| [[_index-architecture\|Architecture]] | Event Sourcing, CQRS, DDD, cohérence à terme, outbox |
 | [[_index-graphql\|GraphQL]] | Schéma, résolveurs |
 | [[_index-cache\|Cache]] | Stratégies d'invalidation |
 | [[_index-angular\|Angular]] | Composants, routing, data binding, TypeScript |
