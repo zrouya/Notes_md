@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "019b0f6747e364b5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notes de version 1.13.7"
-            }
-          },
-          {
             "id": "e3b2b53222197d2f",
             "type": "leaf",
             "state": {
@@ -236,7 +224,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "019b0f6747e364b5",
+  "active": "e3b2b53222197d2f",
   "lastOpenFiles": [
     "azure/gestion-administration/azure-powershell.md",
     "azure/generalites-cloud/azure-cli.md",
