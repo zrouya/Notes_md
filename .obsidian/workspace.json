@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/generalites-cloud/azure-cli.md",
+                "file": "architecture/agregat-ddd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "azure-cli"
+              "title": "agregat-ddd"
             }
           },
           {
@@ -226,6 +226,10 @@
   },
   "active": "9c6b3165e6875eae",
   "lastOpenFiles": [
+    "architecture/event-sourcing-et-cqrs.md",
+    "architecture/coherence-a-terme.md",
+    "architecture/_index-architecture.md",
+    "azure/generalites-cloud/azure-cli.md",
     "architecture/versioning-evenements.md",
     "architecture/verrouillage-optimiste.md",
     "architecture/snapshot-event-sourcing.md",
@@ -233,15 +237,11 @@
     "architecture/outbox-pattern.md",
     "architecture/event-store.md",
     "architecture/event-sourcing.md",
-    "architecture/event-sourcing-et-cqrs.md",
     "architecture/cqrs.md",
     "architecture/crypto-shredding.md",
-    "architecture/_index-architecture.md",
-    "architecture/coherence-a-terme.md",
     "architecture/agregat-ddd.md",
     "architecture",
     "azure/gestion-administration/azure-powershell.md",
-    "azure/generalites-cloud/azure-cli.md",
     "reseau/Modèle OSI.md",
     "reseau/Switch réseau.md",
     "reseau/Modèle TCP_IP.md",
