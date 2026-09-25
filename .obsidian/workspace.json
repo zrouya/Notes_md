@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/agregat-ddd.md",
+                "file": "observabilite/opentelemetry-collector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agregat-ddd"
+              "title": "opentelemetry-collector"
             }
           },
           {
@@ -226,6 +226,10 @@
   },
   "active": "9c6b3165e6875eae",
   "lastOpenFiles": [
+    "observabilite/stack-lgtm.md",
+    "observabilite/opentelemetry-collector.md",
+    "azure/container-apps-otel-agent.md",
+    "architecture/agregat-ddd.md",
     "architecture/event-sourcing-et-cqrs.md",
     "architecture/coherence-a-terme.md",
     "architecture/_index-architecture.md",
@@ -239,7 +243,6 @@
     "architecture/event-sourcing.md",
     "architecture/cqrs.md",
     "architecture/crypto-shredding.md",
-    "architecture/agregat-ddd.md",
     "architecture",
     "azure/gestion-administration/azure-powershell.md",
     "reseau/Modèle OSI.md",
@@ -250,9 +253,6 @@
     "azure/container-apps-app-logs.md",
     "Entretiens/Patterns entretien.md",
     "azure/apim-gateway-logs.md",
-    "azure/diagnostic-settings.md",
-    "azure/log-analytics.md",
-    "azure/azure-monitor-cartographie.md",
     "observabilite",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
