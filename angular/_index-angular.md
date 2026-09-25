@@ -27,6 +27,7 @@ tags: [index, angular]
 - [[angular-component-inputs-outputs]] — `@Input`/`@Output` (classique et syntaxe Signals)
 - [[angular-signals]] — Gestion réactive de l'état depuis Angular 16
 - [[state-managment-angular]] — Zone.js vs Signals
+- [[angular-styles-scss]] — Styles de composant, encapsulation, `:host`, SCSS et `angular.json`
 
 ## Directives & Data Binding
 
@@ -45,3 +46,11 @@ tags: [index, angular]
 - [[routes-imbriquees-en-angular]] — (à compléter)
 - [[routeroutlet-angular]] — Directive `router-outlet`
 - [[routeroutlet-nommes]] — Outlets nommés pour vues multiples
+
+## Rendu serveur (SSR)
+
+- [[csr-ssr-ssg]] — Stratégies de rendu web : CSR, SSR, SSG, critères de choix
+- [[angular-ssr]] — `@angular/ssr` : mise en place, fichiers générés, `server.ts`, build et exécution
+- [[angular-hydratation]] — Hydratation, event replay, hydratation incrémentale `@defer`, transfer cache
+- [[angular-ssr-render-modes]] — `RenderMode` Server / Prerender / Client par route
+- [[angular-ssr-pieges]] — Code isomorphe : API navigateur, `afterNextRender`, auth, stabilité

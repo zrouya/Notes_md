@@ -29,7 +29,8 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 | [[_index-architecture\|Architecture]] | Event Sourcing, CQRS, DDD, cohérence à terme, outbox |
 | [[_index-graphql\|GraphQL]] | Schéma, résolveurs |
 | [[_index-cache\|Cache]] | Stratégies d'invalidation |
-| [[_index-angular\|Angular]] | Composants, routing, data binding, TypeScript |
+| [[_index-angular\|Angular]] | Composants, routing, data binding, TypeScript, SSR |
+| [[_index-css\|CSS / SCSS]] | Sass : variables, imbrication, mixins, modules |
 | [[_index-securite\|Sécurité applicative]] | CSRF, OAuth/OpenID, SOP, anti-forgery |
 
 ## Outillage

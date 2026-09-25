@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "observabilite/opentelemetry-collector.md",
+                "file": "azure/generalites-cloud/azure-cli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "opentelemetry-collector"
+              "title": "azure-cli"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -224,27 +224,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9c6b3165e6875eae",
+  "active": "e3b2b53222197d2f",
   "lastOpenFiles": [
-    "observabilite/stack-lgtm.md",
-    "observabilite/opentelemetry-collector.md",
-    "azure/container-apps-otel-agent.md",
-    "architecture/agregat-ddd.md",
-    "architecture/event-sourcing-et-cqrs.md",
-    "architecture/coherence-a-terme.md",
-    "architecture/_index-architecture.md",
-    "azure/generalites-cloud/azure-cli.md",
-    "architecture/versioning-evenements.md",
-    "architecture/verrouillage-optimiste.md",
-    "architecture/snapshot-event-sourcing.md",
-    "architecture/projection-event-sourcing.md",
-    "architecture/outbox-pattern.md",
-    "architecture/event-store.md",
-    "architecture/event-sourcing.md",
-    "architecture/cqrs.md",
-    "architecture/crypto-shredding.md",
-    "architecture",
+    "css/_index-css.md",
+    "css/_index-css.md.tmp.21768.6cd921120613",
+    "angular/angular-ssr-pieges.md",
+    "angular/angular-ssr-render-modes.md",
+    "angular/angular-hydratation.md",
+    "angular/angular-hydratation.md.tmp.21768.627d587faf73",
+    "angular/angular-ssr.md",
+    "angular/angular-ssr.md.tmp.21768.ec84c5eed525",
+    "angular/csr-ssr-ssg.md",
+    "angular/csr-ssr-ssg.md.tmp.21768.11c9e6a03f49",
+    "angular/angular-styles-scss.md",
+    "angular/angular-styles-scss.md.tmp.21768.17850b9814b1",
+    "css/scss-modules-use-forward.md",
+    "css/scss-modules-use-forward.md.tmp.21768.028d10f12ded",
+    "css/scss-fonctions-et-controle.md",
+    "css/scss-fonctions-et-controle.md.tmp.21768.68c4a2c75f6b",
+    "css/scss-extend-placeholders.md",
+    "css/scss-mixins.md",
+    "css/scss-nesting.md",
+    "css/scss-variables.md",
+    "css/scss-overview.md",
+    "css",
     "azure/gestion-administration/azure-powershell.md",
+    "azure/generalites-cloud/azure-cli.md",
     "reseau/Modèle OSI.md",
     "reseau/Switch réseau.md",
     "reseau/Modèle TCP_IP.md",
@@ -253,15 +258,10 @@
     "azure/container-apps-app-logs.md",
     "Entretiens/Patterns entretien.md",
     "azure/apim-gateway-logs.md",
+    "azure/diagnostic-settings.md",
+    "azure/log-analytics.md",
     "observabilite",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
-    "_index/tls.md.tmp.35404.ab0c6d7544a2",
-    "Modèle OSI.md.tmp.35404.23ba5c69840d",
-    "Firewall.md.tmp.35404.f9a7c3378c86",
-    "Masque de sous-réseau.md.tmp.35404.b0cf7e18392f",
-    "IPv6.md.tmp.35404.82dc724599c7",
-    "IPv4.md.tmp.35404.3161ebbdc3fe",
-    "Requêtes HTTP.md.tmp.35404.5c0456c2312f",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
