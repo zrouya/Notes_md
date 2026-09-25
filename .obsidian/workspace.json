@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,8 +224,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b2b53222197d2f",
+  "active": "9c6b3165e6875eae",
   "lastOpenFiles": [
+    "architecture/versioning-evenements.md",
+    "architecture/verrouillage-optimiste.md",
+    "architecture/snapshot-event-sourcing.md",
+    "architecture/projection-event-sourcing.md",
+    "architecture/outbox-pattern.md",
+    "architecture/event-store.md",
+    "architecture/event-sourcing.md",
+    "architecture/event-sourcing-et-cqrs.md",
+    "architecture/cqrs.md",
+    "architecture/crypto-shredding.md",
+    "architecture/_index-architecture.md",
+    "architecture/coherence-a-terme.md",
+    "architecture/agregat-ddd.md",
+    "architecture",
     "azure/gestion-administration/azure-powershell.md",
     "azure/generalites-cloud/azure-cli.md",
     "reseau/Modèle OSI.md",
@@ -239,19 +253,6 @@
     "azure/diagnostic-settings.md",
     "azure/log-analytics.md",
     "azure/azure-monitor-cartographie.md",
-    "azure/container-apps-otel-agent.md",
-    "observabilite/opentelemetry-collector.md",
-    "observabilite/opentelemetry.md",
-    "observabilite/apm.md",
-    "IaC/appinsights-principe.md",
-    "_index/azure.md",
-    "_index/observabilite.md",
-    "azure/log-analytics-cout.md",
-    "azure/appinsights-tables-requests-dependencies.md",
-    "observabilite/poc-observabilite-si-hybride.md",
-    "observabilite/stack-lgtm.md",
-    "observabilite/grafana-tempo.md",
-    "observabilite/grafana.md",
     "observabilite",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
     "_index/tls.md.tmp.35404.ab0c6d7544a2",
@@ -261,7 +262,6 @@
     "IPv6.md.tmp.35404.82dc724599c7",
     "IPv4.md.tmp.35404.3161ebbdc3fe",
     "Requêtes HTTP.md.tmp.35404.5c0456c2312f",
-    "HTTP(S).md.tmp.35404.1d2f6ca4dde5",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
