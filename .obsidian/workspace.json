@@ -226,6 +226,7 @@
   },
   "active": "9c6b3165e6875eae",
   "lastOpenFiles": [
+    "css/desktop.ini",
     "css/specificite-css.md",
     "css/selecteurs-css-simples.md",
     "css/selecteurs-css-shadow-dom.md",
@@ -252,7 +253,6 @@
     "angular/angular-styles-scss.md",
     "angular/angular-ssr.md",
     "angular/angular-ssr-render-modes.md",
-    "angular/angular-ssr-pieges.md",
     "architecture",
     "observabilite",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
