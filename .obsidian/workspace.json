@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "observabilite/opentelemetry-collector.md",
+                "file": "reseau/_index-reseau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "opentelemetry-collector"
+              "title": "_index-reseau"
             }
           },
           {
@@ -226,6 +226,7 @@
   },
   "active": "9c6b3165e6875eae",
   "lastOpenFiles": [
+    "observabilite/opentelemetry-collector.md",
     "css/desktop.ini",
     "css/specificite-css.md",
     "css/selecteurs-css-simples.md",
@@ -261,7 +262,6 @@
     "Firewall.md.tmp.35404.f9a7c3378c86",
     "Masque de sous-réseau.md.tmp.35404.b0cf7e18392f",
     "IPv6.md.tmp.35404.82dc724599c7",
-    "IPv4.md.tmp.35404.3161ebbdc3fe",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",
