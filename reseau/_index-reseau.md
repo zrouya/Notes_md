@@ -125,6 +125,7 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index-tls|index T
 | [[Passerelle réseau]] | Sortie vers les autres réseaux |
 | [[Routage réseau]] | Table de routage, plus long préfixe |
 | [[Firewall]] | Filtrage — `DROP` vs `REJECT` |
+| [[filtrage-stateful-stateless]] | Pourquoi on n'écrit que l'aller ; table d'état |
 | [[Bastion]] | Point d'entrée d'administration |
 | [[Carte d'interface réseau]] · [[Interface réseau]] · [[Network Adapter (Interface) Card]] | NIC et interfaces logiques |
 | [[Application-Specific Integrated Circuitery (ASIC)]] | Puce dédiée — ce qui rend un switch rapide |
@@ -136,6 +137,10 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index-tls|index T
 | [[Topologies réseaux]] | Vue d'ensemble |
 | [[Topologies de réseaux câblés]] | [[Topologie réseau bus\|bus]], [[Topologie réseau en anneau\|anneau]], [[Topologie réseau en étoile\|étoile]], [[Topologie réseau en arbre\|arbre]], [[Topologie réseau mesh\|mesh]] |
 | [[Topologies de réseaux sans fils]] | [[Topologie réseau ad hoc\|ad hoc]], [[Topologie réseau infrastructure\|infrastructure]] |
+
+## Réseau Azure
+
+VNet, subnets, NSG, peering, hub-and-spoke, private endpoints : voir **[[_index-reseau-vnet|index Réseau Azure]]**.
 
 ## Réseau Docker
 
@@ -155,4 +160,3 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index-tls|index T
 | [[wireless-range-extenders-repeteurs-wifi]] | Extension de portée Wifi |
 | [[modems-modulateurs-demodulateurs]] | Passerelle LAN ↔ WAN, conversion analogique/numérique |
 | [[reseaux-informatiques-physiques]] | Topologie physique — équipements, câblage |
-| [[network-security-group-nsg-azure]] | Placeholder — NSG Azure |

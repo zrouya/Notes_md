@@ -12,7 +12,7 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 |-------|---------|
 | [[_index-reseau\|Réseau]] | OSI, adressage, DNS, TCP/UDP, HTTP, diagnostic |
 | [[_index-tls\|TLS / HTTPS]] | Handshakes, certificats, chaîne de confiance |
-| [[_index-azure\|Azure]] | APIM, Entra, managed identities, monitoring, App Service, Functions, VM, stockage |
+| [[_index-azure\|Azure]] | VNet & réseau, APIM, Entra, managed identities, monitoring, App Service, Functions, VM, stockage |
 | [[_index-observabilite\|Observabilité]] | Piliers, OpenTelemetry, Grafana, Tempo, APM |
 | [[_index-iac\|IaC]] | Terraform, Atmos, backends, ARM Templates |
 | [[_index-docker\|Docker]] | Images, volumes, réseau, Compose, Swarm |

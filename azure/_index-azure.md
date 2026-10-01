@@ -14,6 +14,7 @@ tags: [index, azure]
 - [[_index-compte-iam|Comptes & IAM]]
 - [[_index-generalites-cloud|Généralités Cloud]]
 - [[_index-gestion-administration|Gestion & Administration (PowerShell)]]
+- [[_index-reseau-vnet|Réseau (VNet, NSG, peering, private endpoints)]]
 
 ## API Management (APIM)
 
