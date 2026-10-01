@@ -48,7 +48,7 @@ Template du composant parent :
 Depuis la version 16 d'Angular, avec l'arrivée des [[angular-signals|Signals]], la syntaxe diffère (ainsi que l'implémentation technique) :
 
 ```typescript
-import { Component, input, output } from '@angular/core';
+import { Component, input, output, model, computed } from '@angular/core';
 
 interface User {
 	id: number;
@@ -56,23 +56,35 @@ interface User {
 	avatarUrl: string;
 }
 @Component({
-	selector: 'user-card'
+	selector: 'user-card',
 	templateUrl: 'user/user.component.html'
 })
 export class UserComponent {
-	currentUser = input.Required<User>();
+	currentUser = input.required<User>();   // input obligatoire
+	taille = input(64);                     // input avec valeur par défaut
 	select = output<User>();
-	
-	// get accessors can be used for computed values : 
-	get imagePath() {
-		return 'assets/Users/' + this.currentUser().avatar;
-	}
+	favori = model(false);                  // two-way binding : [(favori)]="..."
+
+	// un input étant un signal, on en dérive directement un computed (plus besoin de ngOnChanges)
+	imagePath = computed(() => 'assets/Users/' + this.currentUser().avatarUrl);
 
 	onSelectUser() {
-		this.select.emit(this.currenUser);
-	}	
+		this.select.emit(this.currentUser());
+	}
+
+	toggleFavori() {
+		this.favori.update(f => !f);   // notifie aussi le parent
+	}
 }
 ```
+
+| Décorateur | Équivalent signal |
+|---|---|
+| `@Input() x!: T` (required) | `x = input.required<T>()` |
+| `@Input() x = 10` | `x = input(10)` |
+| `@Output() e = new EventEmitter<T>()` | `e = output<T>()` |
+| `@Input` + `@Output xChange` | `x = model<T>()` |
+| `@ViewChild('ref')` | `ref = viewChild<ElementRef>('ref')` |
 
 ## Voir aussi
 

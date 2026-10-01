@@ -10,22 +10,38 @@ Dans les scénarios les plus courants, il y a un [[routeroutlet-angular|router-o
 
 ```html
 <!-- app.component.html -->
-<router-outlet></router-outlet> <!-- outlet par défaut -->
-<router-outlet name="sidebar"></router-outlet> <!-- outlet nommé 'sidebar' -->
+<router-outlet />                   <!-- outlet par défaut (primary) -->
+<router-outlet name="panneau" />    <!-- outlet nommé -->
 ```
 
 [[configuration-des-routes-en-angular|Configuration des routes]] :
 
-```js
+```ts
 const routes: Routes = [
-  { path: 'accueil', component: AccueilComponent },
-  { path: 'sidebar', component: SidebarComponent, outlet: 'sidebar' }
+  { path: 'produits/:id', component: ProductDetailComponent },
+  { path: 'chat/:id', component: ChatComponent, outlet: 'panneau' }
 ];
 ```
 
-Avec cette configuration, naviguer vers `/accueil` affiche `AccueilComponent` dans l'outlet par défaut, et naviguer vers `/sidebar` affiche `SidebarComponent` dans l'outlet nommé « sidebar ».
+## Syntaxe d'URL et navigation
+
+```
+/produits/42(panneau:chat/7)
+```
+
+```ts
+this.router.navigate([{ outlets: { panneau: ['chat', 7] } }]);   // ouvrir
+this.router.navigate([{ outlets: { panneau: null } }]);          // fermer
+```
+
+## Quand l'utiliser ?
+
+- Plusieurs zones **indépendantes** qui doivent chacune être pilotées par l'URL.
+- Rarement nécessaire : les URL deviennent peu lisibles.
+- Alternatives plus simples : état dans un **service** ou un **query param** (`?chat=7`), voir [[etat-partage-service-vs-url]].
 
 ## Voir aussi
 
 - [[routeroutlet-angular]]
 - [[configuration-des-routes-en-angular]]
+- [[arbre-composants-vs-arbre-routes]]

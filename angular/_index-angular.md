@@ -16,18 +16,30 @@ tags: [index, angular]
 ## Modules & Services
 
 - [[modules-angular]] — Conteneurs de composants/directives/services, `AppModule`, `@NgModule`
-- [[services-angular]] — (à compléter)
-- [[injection-de-dependances-en-angular]] — (à compléter)
+- [[services-angular]] — `@Injectable`, portée (`providedIn: 'root'` = singleton), usages
+- [[injection-de-dependances-en-angular]] — Principe (IoC), token/provider/injecteur, `inject()`, contexte d'injection
+- [[angular-di-providers]] — `useClass`/`useValue`/`useFactory`/`useExisting`, `InjectionToken`, `multi`
+- [[angular-di-hierarchie-injecteurs]] — Arbre d'injecteurs, résolution, portée, `optional`/`self`/`skipSelf`/`host`
+- [[angular-di-tests-erreurs]] — Mocks avec TestBed, `NullInjectorError`, NG0203, dépendances circulaires
 
 ## Composants
 
 - [[composants-angular]] — Blocs de base d'une application Angular, anatomie d'un composant
 - [[metadonnees-d-un-composant-angular]] — Décorateur `@Component`
 - [[composants-angular-donnees-dynamiques]] — Interpolation, property/attribute/event/class binding
-- [[angular-component-inputs-outputs]] — `@Input`/`@Output` (classique et syntaxe Signals)
-- [[angular-signals]] — Gestion réactive de l'état depuis Angular 16
-- [[state-managment-angular]] — Zone.js vs Signals
+- [[angular-component-inputs-outputs]] — `@Input`/`@Output` et `input()`/`output()`/`model()`
+- [[arbre-composants-vs-arbre-routes]] — Composition par template vs routes enfants, composant racine
 - [[angular-styles-scss]] — Styles de composant, encapsulation, `:host`, SCSS et `angular.json`
+
+## Réactivité & état
+
+- [[state-managment-angular]] — Zone.js vs Signals, mode zoneless
+- [[angular-signals]] — `signal`, `computed`, `effect` : principes et usage
+- [[angular-signals-avance]] — `linkedSignal`, `resource`/`httpResource`, `untracked`
+- [[angular-signals-pieges]] — Mutation, effect mal utilisé, parenthèses, dépendances
+- [[signals-vs-rxjs]] — Valeur vs flux d'événements, glitch, quand utiliser quoi
+- [[rxjs-signals-interop]] — `toSignal`, `toObservable`, pattern recherche avec debounce
+- [[etat-partage-service-vs-url]] — Service singleton + signaux vs query param / URL
 
 ## Directives & Data Binding
 
@@ -39,13 +51,16 @@ tags: [index, angular]
 
 ## Routing
 
-- [[routing-angular]] — Vue d'ensemble : RouterModule, Routes, RouterOutlet, guards, lazy loading
-- [[module-router-angular]] — (à compléter)
+- [[routing-angular]] — Vue d'ensemble, mise en place standalone, cycle de navigation
+- [[routing-navigateur-history-api]] — API History, `pushState`/`popstate`, F5, fallback serveur
+- [[module-router-angular]] — `provideRouter` vs `RouterModule.forRoot`, features `with*`
 - [[routes-angular]] — Objet `Routes`, redirections, route joker
-- [[configuration-des-routes-en-angular]] — (à compléter)
-- [[routes-imbriquees-en-angular]] — (à compléter)
+- [[configuration-des-routes-en-angular]] — Propriétés d'une route, lazy loading, ordre, `pathMatch`
+- [[routes-imbriquees-en-angular]] — `children`, layout parent + outlet enfant
+- [[parametres-de-route-angular]] — `ActivatedRoute`, input binding, `navigate`, réutilisation
+- [[router-guards-angular]] — Guards fonctionnels, `canMatch`/`canActivate`, resolvers
 - [[routeroutlet-angular]] — Directive `router-outlet`
-- [[routeroutlet-nommes]] — Outlets nommés pour vues multiples
+- [[routeroutlet-nommes]] — Outlets nommés, syntaxe d'URL, alternatives
 
 ## Rendu serveur (SSR)
 

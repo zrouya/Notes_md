@@ -4,52 +4,59 @@ tags: [angular, signals, state-management]
 
 # Angular Signals
 
-À partir de la version 16 d'Angular, la [[state-managment-angular|gestion d'état]] des composants peut être implémentée par des Signals, une feature reposant sur des souscriptions à des événements de mise à jour de données. Les classes de type ViewModel (ou tout autre objet incluant des données consommées par les composants) sont alors wrappées dans un trackable data container, un Signal.
+Un signal est une **valeur réactive** : quand on la lit, Angular enregistre qui l'a lue ; quand elle change, il met à jour **uniquement** ces consommateurs. Base de la [[state-managment-angular|détection de changements]] moderne (mode zoneless).
 
-## Exemple
+## Les trois primitives
 
-Le code pris en exemple dans [[composants-angular-donnees-dynamiques|Composants Angular - Données dynamiques]] se réécrit ainsi :
+```ts
+import { signal, computed, effect } from '@angular/core';
 
-```typescript
-using { signal, computed } from '@angular/core'
+const prix = signal(100);                  // valeur modifiable
+const quantite = signal(3);
 
-interface User {
-	id: number;
-	name: string;
-	avatarUrl: string;
-}
-@Component({
-	templateUrl: 'user/user.component.html'
-})
-export class UserComponent {
-	currentUser: User = signal({ // Initialisation d'un objet Signal
-		id: 1,
-		name: 'Bob',
-		avatar: 'BobThumb.png'
-	});
-	
-	imagePath = computed(() => { 'assets/Users/' + currentUser().avatar; });
+prix();                                    // lecture → 100
+prix.set(120);                             // remplacement
+quantite.update(q => q + 1);               // à partir de l'ancienne valeur
 
-	onSelectUser() {
-		// Pour mettre à jour la valeur d'un Signal, on appelle la fonction set
-		currentUser.set(new User() { id: 2, name: 'Alice', avatar:'Alice.png'});
-	}	
+const total = computed(() => prix() * quantite());   // dérivée, lecture seule
+
+effect(() => localStorage.setItem('total', String(total())));  // effet de bord
+```
+
+## `computed`
+
+- Dépendances **détectées automatiquement** à l'exécution
+- **Paresseux** : calculé seulement quand on le lit
+- **Mémorisé** : recalculé seulement si une dépendance change
+- **Sans glitch** : jamais d'état intermédiaire incohérent
+
+## Dans un composant
+
+```ts
+export class PanierComponent {
+  articles = signal<Article[]>([]);
+  total = computed(() => this.articles().reduce((s, a) => s + a.prix, 0));
+
+  retirer(id: number) {
+    this.articles.update(list => list.filter(a => a.id !== id));
+  }
 }
 ```
 
-Template `user.component.html` :
 ```html
-<div class='user-ui'>
-	<button (click)="onSelectUser()">
-		<!-- Property binding, based on Signal computed value -->
-		<img [src]="imagePath()" [alt]="currentUser().name"/> 
-		<span class='user-name'>{{ currentUser().name }} </span> <!-- Accessing Signal value -->
-	</button>
-</div>
+<p>Total : {{ total() }} €</p>
+@if (total() > 100) { <p>Livraison offerte</p> }
 ```
+
+## Règle d'usage
+
+- `signal` pour l'**état**
+- `computed` pour tout ce qui en **découle**
+- `effect` uniquement pour **sortir** du monde Angular (storage, logs, lib tierce)
 
 ## Voir aussi
 
-- [[state-managment-angular]]
-- [[composants-angular-donnees-dynamiques]]
-- [[angular-component-inputs-outputs]] — syntaxe Signals pour les Inputs/Outputs
+- [[angular-signals-avance]] — linkedSignal, resource, untracked
+- [[angular-signals-pieges]]
+- [[signals-vs-rxjs]]
+- [[angular-component-inputs-outputs]] — `input()`, `output()`, `model()`

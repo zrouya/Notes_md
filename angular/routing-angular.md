@@ -4,29 +4,55 @@ tags: [angular, routing, fondamentaux]
 
 # Routing Angular
 
-Le système de routage d'[[angular-overview|Angular]] est un mécanisme qui permet de naviguer d'une vue à une autre dans une application tout en gérant l'état de navigation.
+Le Router associe **l'URL** au **composant affiché** dans une SPA, sans rechargement de page, tout en conservant le comportement du navigateur (historique, favoris, liens partageables, F5).
 
-## Concepts clés
+## Mise en place (standalone)
 
-1. **[[module-router-angular|RouterModule]]** : module fournissant les outils nécessaires pour implémenter le routage.
-2. **[[routes-angular|Routes]]** : objets associant des chemins d'URL à des composants.
-3. **[[routeroutlet-angular|RouterOutlet]]** : directive servant de conteneur pour les composants à afficher selon la route active.
-4. **RouterLink** : directive liant un chemin de navigation à un élément HTML.
-5. **RouterLinkActive** : directive gérant l'ajout de classes CSS aux éléments de navigation selon l'activation de leur route.
-6. **ActivatedRoute** : service contenant les informations sur la route active (paramètres, URL, données statiques ou dynamiques).
-7. **Service `Router`** : permet de naviguer programmablement (`navigate`, `navigateByUrl`).
-8. **Guards** (`CanActivate`, `CanDeactivate`, `Resolve`, etc.) : contrôlent l'accès aux routes et la validation avant navigation.
-9. **Lazy loading** : chargement à la demande des modules de route, améliorant les performances de démarrage.
-10. **Stratégies de location** : gestion de l'historique de navigation (`HashLocationStrategy`, `PathLocationStrategy`).
-11. **Data et Resolve** : données statiques ou dynamiques associées à des routes, pré-chargées ou résolues avant navigation.
-12. **ParamMap** : gestion des paramètres d'URL (chemin et requête).
+```ts
+// app.routes.ts
+export const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'produits/:id', component: ProductDetailComponent },
+  { path: '**', component: NotFoundComponent },
+];
 
-## Fonctionnement
+// main.ts
+bootstrapApplication(AppComponent, {
+  providers: [provideRouter(routes, withComponentInputBinding())]
+});
+```
 
-Au démarrage, le système de routage utilise la configuration des routes pour présenter la vue initiale, puis écoute les changements de l'URL du navigateur pour afficher le composant associé (clic sur un lien, navigation arrière, ou appel programmatique du service `Router`). Les guards sont vérifiés avant l'activation ou la désactivation d'une route pour valider les permissions ou résoudre les données nécessaires. Le lazy loading ne charge les modules de fonctionnalités que lorsqu'ils sont réellement nécessaires, réduisant le temps de chargement initial.
+```html
+<a routerLink="/produits" routerLinkActive="actif">Produits</a>
+<router-outlet />
+```
+
+## Briques
+
+| Élément | Rôle |
+|---|---|
+| `Routes` | Table URL → composant ([[configuration-des-routes-en-angular]]) |
+| `provideRouter()` / `RouterModule.forRoot()` | Active le router ([[module-router-angular]]) |
+| `<router-outlet>` | Zone d'affichage ([[routeroutlet-angular]]) |
+| `routerLink` / `Router.navigate()` | Navigation sans rechargement |
+| `ActivatedRoute` | Paramètres de la route active ([[parametres-de-route-angular]]) |
+| Guards / resolvers | Autoriser, précharger ([[router-guards-angular]]) |
+| `loadComponent` / `loadChildren` | Lazy loading |
+
+## Cycle d'une navigation
+
+1. Parsing de l'URL (chemin, params, query params, fragment)
+2. **Matching** : première route qui correspond, dans l'ordre de déclaration
+3. Redirections (`redirectTo`)
+4. Guards (`canMatch`, `canActivate`, `canDeactivate`…)
+5. Resolvers
+6. Activation des composants dans les outlets + mise à jour de l'URL (`pushState`)
+
+Événements observables via `router.events` : `NavigationStart`, `NavigationEnd`, `NavigationError`…
 
 ## Voir aussi
 
-- [[module-router-angular]]
+- [[routing-navigateur-history-api]]
 - [[routes-angular]]
-- [[routeroutlet-angular]]
+- [[routes-imbriquees-en-angular]]
+- [[arbre-composants-vs-arbre-routes]]
