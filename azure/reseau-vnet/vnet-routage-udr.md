@@ -2,7 +2,7 @@
 tags: [azure, reseau, vnet, routage]
 ---
 
-# VNet — routage, routes système et UDR
+# VNet — routage, routes système et User Defined Routes
 
 Le **routage** répond à une seule question : « ce paquet va vers telle IP, **par où** je l'envoie ? ». Azure y répond avec une table de routage attachée à chaque subnet.
 
