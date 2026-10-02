@@ -49,3 +49,4 @@ Propagation native du `traceparent` dans les *application properties*. Le hop as
 **Fondations** : [[opentelemetry]] · [[opentelemetry-collector]] · [[container-apps-otel-agent]] · [[observabilite-piliers]] · [[correlation-traces-distribuees]] · [[cardinalite-metriques]] · [[vendor-lock-in]]
 **Briques Azure** : [[log-analytics]] · [[appinsights-principe]] · [[apm]] · [[diagnostic-settings]] · [[apim-gateway-logs]] · [[appinsights-tables-requests-dependencies]] · [[log-analytics-cout]]
 **Visualisation** : [[grafana]] · [[grafana-tempo]] · [[stack-lgtm]]
+**Collecteur central & réseau** : [[collecteur-otel-central-acces-reseau]] · [[collecteur-otel-chemin-reseau]] · [[opentelemetry-collecteurs-multi-niveaux]] · [[opentelemetry-dotnet-framework]]

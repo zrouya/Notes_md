@@ -40,6 +40,10 @@ Le DNS du bureau ne connaît pas les zones privées Azure et ne peut pas joindre
 Poste on-prem → DNS on-prem → (redirection conditionnelle *.privatelink.*) → Private Resolver (IP 10.0.x.x) → zone privée → 10.10.4.5
 ```
 
+## Cas d'un Container Apps Environment interne
+
+Pas de private endpoint ici, mais le même besoin : le `defaultDomain` d'un env interne n'est résolu nulle part en public. Créer une zone privée **au nom du `defaultDomain`** avec un enregistrement A **`*` → `staticIp` de l'env** (le wildcard couvre toutes les apps). Voir [[container-apps-environnement-externe-vs-interne]].
+
 ## Symptôme typique d'un DNS mal configuré
 
 « Ça marche avec l'IP, pas avec le nom », ou le nom résout vers une **IP publique** et la connexion est refusée ou part en timeout.

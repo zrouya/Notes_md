@@ -1,0 +1,30 @@
+---
+tags: [index, azure, container-apps]
+---
+
+# Azure — Container Apps
+
+Notes sur Azure Container Apps : réseau de l'Environment, logs et instrumentation OpenTelemetry. Première lecture conseillée **dans l'ordre**.
+
+## Parcours de lecture
+
+| # | Note | Ce qu'on y apprend |
+|---|------|--------------------|
+| 1 | [[container-apps-environnement-externe-vs-interne]] | Le mode de l'env = où est sa porte d'entrée ; pourquoi « externe » complique l'accès privé |
+| 2 | [[container-apps-ingress-dns-interne]] | Flag `external` d'une app, HTTP vs TCP, noms DNS automatiques, domaine perso |
+| 3 | [[container-apps-choix-irreversibles]] | Ce qui est figé à la création (mode, type d'env, zones) |
+| 4 | [[container-apps-app-logs]] | Modèle de logs (`appLogsConfiguration`), tables `_CL` |
+| 5 | [[container-apps-logs-finops]] | `log-analytics` vs `azure-monitor` : impacts coût et leviers |
+| 6 | [[container-apps-otel-agent]] | Agent OTel managé : config Bicep, variables injectées, limites |
+| 7 | [[container-apps-otel-collector-self-hosted]] | Héberger son propre collecteur, piège de la dépendance circulaire |
+
+## Cas pratique
+
+- [[collecteur-otel-central-acces-reseau]] — collecteur joignable depuis une Web App d'une autre souscription et l'on-prem
+- [[collecteur-otel-chemin-reseau]] — le chemin réseau pas à pas
+
+## Voir aussi
+
+- [[_index-observabilite|Index Observabilité]] (OpenTelemetry, collecteur, SDK)
+- [[_index-reseau-vnet|Index Réseau Azure]]
+- [[_index-azure|Index Azure]]

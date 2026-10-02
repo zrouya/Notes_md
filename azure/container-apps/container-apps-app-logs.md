@@ -50,8 +50,13 @@ ContainerAppConsoleLogs_CL
 
 Les logs console ≠ l'équivalent des `GatewayLogs` de l'APIM : ce sont des logs bruts, pas de l'observabilité applicative structurée. Pour celle-ci → instrumentation [[opentelemetry|OTel]].
 
+## Choisir entre `log-analytics` et `azure-monitor`
+
+Le réglage est **commun à toutes les apps de l'Environment**. Impacts coût et leviers (catégories, plan Basic, transformations) : [[container-apps-logs-finops]].
+
 ## Voir aussi
 
+- [[container-apps-logs-finops]]
 - [[container-apps-otel-agent]]
 - [[diagnostic-settings]]
 - [[log-analytics]]

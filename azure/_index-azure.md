@@ -9,6 +9,7 @@ tags: [index, azure]
 - [[_index-app-service|App Service]]
 - [[_index-functions|Functions]]
 - [[_index-conteneurs|Conteneurs]]
+- [[_index-container-apps|Container Apps]] (environnement externe/interne, ingress, logs, OTel)
 - [[_index-vm-iaas|VM / IaaS]]
 - [[_index-stockage-bdd|Stockage & Bases de données]]
 - [[_index-compte-iam|Comptes & IAM]]
@@ -30,8 +31,7 @@ tags: [index, azure]
 - [[azure-monitor-cartographie]] — **Vue d'ensemble** : ombrelle Azure Monitor, stores vs sources vs produits, confusions à dissiper
 - [[appinsights-principe]] — Principe général d'Application Insights : connection string, flux de données, SDK vs codeless
 - [[appinsights-auto-instrumentation]] — Auto-instrumentation codeless sur Azure Container Apps (.NET et Java sans modifier le code)
-- [[container-apps-otel-agent]] — Agent OpenTelemetry managé au niveau de l'Environment : routage par signal, contraintes
-- [[container-apps-app-logs]] — Modèle de logs Container Apps (`appLogsConfiguration`) : pourquoi pas de diagnostic settings, tables `_CL`
+- Container Apps (logs, agent OTel, collecteur) : voir [[_index-container-apps|l'index Container Apps]]
 - [[log-analytics]] — Le magasin de logs Azure Monitor (tables, KQL) ; App Insights écrit dedans
 - [[log-analytics-cout]] — Modèle de coût (ingestion au Go), leviers de réduction
 - [[diagnostic-settings]] — Router les logs/métriques d'une ressource vers Log Analytics
@@ -50,4 +50,4 @@ tags: [index, azure]
 - [[entra-audit-permissions-sp]] — Vérifier les permissions réelles d'un compte de service (portail + CLI), pièges `Group.Create`
 - [[azure-entra]] — Vue d'ensemble d'Azure Entra (anciennement Azure Active Directory) comme fournisseur d'identités
 
-Le détail des sous-domaines App Service, Functions, Conteneurs, VM/IaaS, Stockage & Bases de données, Comptes & IAM, Généralités Cloud et Gestion & Administration se trouve dans leur index respectif (voir "Sous-domaines" ci-dessus), colocalisé avec les notes dans leur sous-dossier.
+Le détail des sous-domaines App Service, Functions, Conteneurs, Container Apps, VM/IaaS, Stockage & Bases de données, Comptes & IAM, Généralités Cloud et Gestion & Administration se trouve dans leur index respectif (voir "Sous-domaines" ci-dessus), colocalisé avec les notes dans leur sous-dossier.

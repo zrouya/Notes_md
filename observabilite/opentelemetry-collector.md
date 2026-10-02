@@ -23,6 +23,12 @@ receivers → processors → exporters
 - Un **agent managé** (ex. [[container-apps-otel-agent]]) est un Collector **bridé** : destinations + routage par signal, mais pas de pipeline arbitraire.
 - Pour du traitement avancé : **agent managé → Collector auto-hébergé (OTLP)** portant la vraie pipeline, qui fan-out vers les backends.
 
+## Pour aller plus loin
+
+- [[opentelemetry-collector-config]] — fichier de config type commenté
+- [[container-apps-otel-collector-self-hosted]] — l'héberger en Container App
+- [[opentelemetry-collecteurs-multi-niveaux]] — relais locaux + collecteur central
+
 ## Voir aussi
 
 - [[opentelemetry]]

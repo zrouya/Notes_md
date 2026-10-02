@@ -16,7 +16,12 @@ Concepts généraux d'observabilité (métriques, logs, traces, APM, backends). 
 
 - [[opentelemetry]] — Standard ouvert, modèle en 3 couches, niveaux d'instrumentation
 - [[opentelemetry-collector]] — Pipeline receivers→processors→exporters, managé vs complet
-- [[container-apps-otel-agent]] — Agent OTel managé Azure Container Apps *(voir index Azure)*
+- [[opentelemetry-sdk-config-otlp]] — Variables `OTEL_*` et mise en place du SDK par langage
+- [[opentelemetry-dotnet-framework]] — Instrumenter une app ASP.NET .NET Framework 4.8 (pièges gRPC, agent App Insights)
+- [[opentelemetry-collector-config]] — Config YAML type commentée (memory_limiter, filtre FinOps, auth, export)
+- [[opentelemetry-collecteurs-multi-niveaux]] — Relais locaux + collecteur central, file persistante, tail sampling
+- [[container-apps-otel-agent]] — Agent OTel managé Azure Container Apps *(voir [[_index-container-apps|index Container Apps]])*
+- [[container-apps-otel-collector-self-hosted]] — Collecteur auto-hébergé en Container App *(idem)*
 
 ## Visualisation & backends neutres
 
@@ -27,3 +32,5 @@ Concepts généraux d'observabilité (métriques, logs, traces, APM, backends). 
 ## Mise en pratique
 
 - [[poc-observabilite-si-hybride]] — Stratégie d'un POC hybride Azure/OnPrem en couches (hub du sujet)
+- [[collecteur-otel-central-acces-reseau]] — Rendre le collecteur joignable par tout le SI : options et recommandation (env interne dédié)
+- [[collecteur-otel-chemin-reseau]] — Le chemin réseau pas à pas (VNet Integration, peering, firewall, DNS, test)
