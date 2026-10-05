@@ -241,6 +241,8 @@
   },
   "active": "e3b2b53222197d2f",
   "lastOpenFiles": [
+    "git/git-push-set-upstream.md",
+    "git/git-switch-create-branch.md",
     "observabilite/opentelemetry-collector.md",
     "reseau/Interface réseau.md",
     "reseau/Routage réseau.md",
@@ -266,8 +268,6 @@
     "angular/signals-vs-rxjs.md",
     "angular/rxjs-signals-interop.md",
     "angular/routing-navigateur-history-api.md",
-    "angular/router-guards-angular.md",
-    "angular/parametres-de-route-angular.md",
     "azure/reseau-vnet/network-security-group-nsg-azure.md.tmp.49480.f80442c9ba74",
     "azure/reseau-vnet",
     "css/desktop.ini",
