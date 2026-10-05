@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dfd84dd382fcc27b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "azure/azure-monitor-cartographie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "azure-monitor-cartographie"
-            }
-          },
-          {
             "id": "9c6b3165e6875eae",
             "type": "leaf",
             "state": {
@@ -36,63 +22,20 @@
             }
           },
           {
-            "id": "d035bd7d5c007b42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reseau/Routage réseau.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Routage réseau"
-            }
-          },
-          {
             "id": "e3b2b53222197d2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git-switch-create-branch.md",
+                "file": "azure/reseau-vnet/hub-and-spoke.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git-switch-create-branch"
-            }
-          },
-          {
-            "id": "b11de13fffa040fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "azure/container-apps-otel-agent.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "container-apps-otel-agent"
-            }
-          },
-          {
-            "id": "53b3c8add4717cc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "azure/container-apps-app-logs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "container-apps-app-logs"
+              "title": "hub-and-spoke"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -147,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,16 +181,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e3b2b53222197d2f",
+  "active": "9c6b3165e6875eae",
   "lastOpenFiles": [
-    "git/git-push-set-upstream.md",
+    "azure/reseau-vnet/hub-and-spoke.md",
+    "azure/reseau-vnet/vnet-routage-udr.md",
+    "reseau/Routage réseau.md",
+    "azure/azure-monitor-cartographie.md",
     "git/git-switch-create-branch.md",
+    "git/git-push-set-upstream.md",
     "observabilite/opentelemetry-collector.md",
     "reseau/Interface réseau.md",
-    "reseau/Routage réseau.md",
     "reseau/Passerelle réseau.md",
-    "azure/reseau-vnet/vnet-routage-udr.md",
-    "azure/reseau-vnet/hub-and-spoke.md",
     "observabilite/collecteur-otel-central-acces-reseau.md",
     "azure/container-apps/container-apps-choix-irreversibles.md",
     "observabilite/opentelemetry-collecteurs-multi-niveaux.md",
@@ -267,7 +210,6 @@
     "azure/container-apps",
     "angular/signals-vs-rxjs.md",
     "angular/rxjs-signals-interop.md",
-    "angular/routing-navigateur-history-api.md",
     "azure/reseau-vnet/network-security-group-nsg-azure.md.tmp.49480.f80442c9ba74",
     "azure/reseau-vnet",
     "css/desktop.ini",
