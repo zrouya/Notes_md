@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/reseau-vnet/vpn-gateway-expressroute.md",
+                "file": "azure/reseau-vnet/vnet-principe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vpn-gateway-expressroute"
+              "title": "vnet-principe"
             }
           },
           {
@@ -240,6 +240,7 @@
   },
   "active": "72e063cc6e50a1c6",
   "lastOpenFiles": [
+    "azure/reseau-vnet/vpn-gateway-expressroute.md",
     "reseau/diagnostic-par-couche.md",
     "reseau/Firewall.md",
     "azure/reseau-vnet/network-security-group-nsg-azure.md",
@@ -265,7 +266,6 @@
     "observabilite/collecteur-otel-chemin-reseau.md",
     "observabilite/opentelemetry-dotnet-framework.md",
     "observabilite/opentelemetry-sdk-config-otlp.md",
-    "observabilite/opentelemetry-collector-config.md",
     "azure/container-apps",
     "azure/reseau-vnet/network-security-group-nsg-azure.md.tmp.49480.f80442c9ba74",
     "azure/reseau-vnet",
