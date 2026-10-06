@@ -32,6 +32,7 @@ La VNet Integration exige un **subnet délégué** : on le réserve à un servic
 - Un subnet délégué **ne peut rien accueillir d'autre**.
 - Le dimensionner selon le nombre d'instances maximum (scale-out). `/26` est une taille confortable pour App Service.
 - D'autres services délèguent aussi : Container Apps, SQL Managed Instance, NetApp…
+- Le détail (règles, pièges, liste des services) : [[subnet-delegation]].
 
 ## Ce que la sortie peut atteindre
 

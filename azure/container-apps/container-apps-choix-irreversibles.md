@@ -11,7 +11,7 @@ Certains paramètres d'un Environment sont **figés à la création** : l'infras
 | Décision | Options | Recommandation landing zone |
 |---|---|---|
 | **Mode** (`internal`) | Externe / Interne | **Interne** → [[container-apps-environnement-externe-vs-interne]] |
-| **Type d'env** | *Consumption only* (legacy) / *Workload profiles* | **Workload profiles** |
+| **Type d'env** | *Consumption only* (legacy) / *Workload profiles* | **Workload profiles** → [[container-apps-workload-profiles]] |
 | **Redondance de zone** (`zoneRedundant`) | Oui / Non | **Oui** pour un service critique (si la région le permet) |
 | **Subnet** | Taille, VNet d'accueil | Penser au scaling futur |
 
@@ -21,8 +21,9 @@ Certains paramètres d'un Environment sont **figés à la création** : l'infras
 |---|---|---|
 | Taille mini du subnet | **/23** | **/27** |
 | Profils dédiés (CPU/RAM réservés) | ❌ | ✅ (optionnel) |
-| UDR, NAT Gateway sur le subnet | Limité | ✅ |
+| UDR, NAT Gateway sur le subnet | ❌ | ✅ |
 | Private endpoint sur l'env | ❌ | ✅ |
+| [[subnet-delegation|Délégation du subnet]] | ❌ Non délégué | ✅ `Microsoft.App/environments` |
 | Coût fixe | Non | Non si on n'utilise que le profil *Consumption* |
 
 ```bicep
@@ -33,6 +34,8 @@ workloadProfiles: [
 
 Indice : un env déployé avec une vieille API (ex. `2022-03-01`) sans `workloadProfiles` est du *Consumption only*.
 
+Détails (profils, détection, migration) : [[container-apps-workload-profiles]] · facturation : [[container-apps-plan-consumption]].
+
 ## Contourner sans recréer
 
 Quand l'env existant a un mauvais choix (ex. externe), on peut souvent **ajouter un nouvel env** à côté pour le besoin concerné plutôt que tout recréer (ex. [[collecteur-otel-central-acces-reseau|un env interne dédié au collecteur OTel]]).
@@ -41,3 +44,5 @@ Quand l'env existant a un mauvais choix (ex. externe), on peut souvent **ajouter
 
 - [[container-apps-environnement-externe-vs-interne]]
 - [[vnet-subnets-adressage]]
+- [[container-apps-workload-profiles]]
+- [[subnet-delegation]]

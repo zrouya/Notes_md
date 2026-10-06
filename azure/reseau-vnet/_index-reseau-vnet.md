@@ -25,6 +25,7 @@ Bases réseau générales (IP, CIDR, routage, DNS) : voir [[_index-reseau|l'inde
 | 10 | [[service-endpoint-vs-private-endpoint]] | Rendre un PaaS privé |
 | 11 | [[private-dns-zone]] | Le DNS qui fait marcher les private endpoints |
 | 12 | [[vnet-integration-subnet-delegation]] | La sortie d'un PaaS vers le VNet ; entrée vs sortie |
+| 12b | [[subnet-delegation]] | Réserver un subnet à un service PaaS : règles, services, pièges |
 | 13 | [[sortie-internet-nat-gateway]] | Sortir sur Internet avec une IP fixe |
 | 14 | [[routage-asymetrique]] | Le piège du firewall qui ne voit que l'aller |
 
@@ -37,6 +38,7 @@ Bases réseau générales (IP, CIDR, routage, DNS) : voir [[_index-reseau|l'inde
 - **NSG sur le subnet et sur la NIC** : il faut passer les deux → [[network-security-group-nsg-azure]]
 - **`AllowVnetInBound` inclut les peerings** : on ouvre plus que prévu → [[nsg-service-tags-asg]]
 - **VNet Integration ≠ application privée** : l'entrée reste publique → [[vnet-integration-subnet-delegation]]
+- **Subnet délégué indélébile** : un *Service Association Link* bloque la suppression → [[subnet-delegation]]
 - **Plus de sortie Internet implicite** sur les subnets récents → [[sortie-internet-nat-gateway]]
 
 ## Mémo : « je veux… → j'utilise »

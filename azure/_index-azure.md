@@ -9,7 +9,7 @@ tags: [index, azure]
 - [[_index-app-service|App Service]]
 - [[_index-functions|Functions]]
 - [[_index-conteneurs|Conteneurs]]
-- [[_index-container-apps|Container Apps]] (environnement externe/interne, ingress, logs, OTel)
+- [[_index-container-apps|Container Apps]] (environnement externe/interne, Consumption vs Workload profiles, ingress, logs, OTel)
 - [[_index-vm-iaas|VM / IaaS]]
 - [[_index-stockage-bdd|Stockage & Bases de données]]
 - [[_index-compte-iam|Comptes & IAM]]
