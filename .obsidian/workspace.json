@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/reseau-vnet/subnet-delegation.md",
+                "file": "azure/reseau-vnet/private-dns-zone.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "subnet-delegation"
+              "title": "private-dns-zone"
             }
           },
           {
@@ -269,9 +269,9 @@
   },
   "active": "d6fd5ff829b65f7b",
   "lastOpenFiles": [
-    "azure/container-apps/container-apps-consumption-only-architecture.md",
     "azure/reseau-vnet/vnet-integration-subnet-delegation.md",
     "azure/reseau-vnet/subnet-delegation.md",
+    "azure/container-apps/container-apps-consumption-only-architecture.md",
     "azure/container-apps/container-apps-workload-profiles.md",
     "azure/container-apps/container-apps-workload-profiles.md.tmp.145696.2f58cfe457c0",
     "azure/container-apps/container-apps-plan-consumption.md",
