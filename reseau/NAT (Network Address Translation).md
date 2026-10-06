@@ -10,3 +10,9 @@
 3. **Utilité** :
     
     - NAT aide à économiser les adresses IP publiques et ajoute une couche de sécurité, car les adresses IP des dispositifs internes ne sont pas exposées directement sur Internet.
+
+## Voir aussi
+
+- [[ip-publique-vs-privee]]
+- [[acheminement-ip-publique-privee]]
+- [[plages-ip-reservees]] — dont le CGNAT `100.64.0.0/10`

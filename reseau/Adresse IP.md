@@ -10,3 +10,10 @@ Elles peuvent être statiques, ou dynamiques (affectées par un [[serveur-dhcp|D
 Elles sont de 2 types :
 - [[IPv4]]  ex : 192.255.0.1
 - [[IPv6]]  ex : 2001:0db8:3c4d:0015:0000:d234::3eee:0000
+
+## Publique ou privée
+
+- **Publique** : unique au niveau mondial, routée sur Internet.
+- **Privée** : plages RFC 1918, unique seulement dans un réseau donné, jamais routée sur Internet.
+
+Détails : [[ip-publique-vs-privee]] · [[plages-ip-reservees]] · [[acheminement-ip-publique-privee]]

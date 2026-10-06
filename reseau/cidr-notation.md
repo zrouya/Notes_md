@@ -33,7 +33,7 @@ Les deux adresses extrêmes sont **toujours réservées** : d'où le `- 2`.
 
 **Raccourci mental** : chaque bit retiré au préfixe **double** la taille du bloc.
 
-## Plages privées (RFC 1918)
+## Plages privées (RFC 1918) et spéciales
 
 | Plage | Où on la croise |
 |-------|-----------------|
@@ -43,6 +43,8 @@ Les deux adresses extrêmes sont **toujours réservées** : d'où le `- 2`.
 | `127.0.0.0/8` | Boucle locale, ne quitte jamais la machine |
 | `169.254.0.0/16` | Link-local — **symptôme d'un DHCP en échec** |
 
+Seules les trois premières sont **privées** au sens RFC 1918 ; liste complète des plages spéciales : [[plages-ip-reservees]].
+
 Azure réserve en plus **5 adresses par subnet** (les 4 premières et la dernière) : un `/29` n'offre que 3 IP utilisables.
 
 ## Voir aussi
@@ -50,4 +52,5 @@ Azure réserve en plus **5 adresses par subnet** (les 4 premières et la derniè
 - [[Masque de sous-réseau]]
 - [[Sous-réseau]]
 - [[NAT (Network Address Translation)]]
+- [[plages-ip-reservees]] · [[ip-publique-vs-privee]]
 - [[Routage réseau]]

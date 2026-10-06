@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reseau/Ports réseaux.md",
+                "file": "reseau/Adresse IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ports réseaux"
+              "title": "Adresse IP"
             }
           },
           {
@@ -269,6 +269,11 @@
   },
   "active": "d6fd5ff829b65f7b",
   "lastOpenFiles": [
+    "reseau/acheminement-ip-publique-privee.md",
+    "reseau/plages-ip-reservees.md",
+    "reseau/ip-publique-vs-privee.md",
+    "reseau/ip-publique-vs-privee.md.tmp.134640.752761ad1906",
+    "reseau/Ports réseaux.md",
     "azure/reseau-vnet/network-security-group-nsg-azure.md",
     "azure/reseau-vnet/nsg-service-tags-asg.md",
     "azure/reseau-vnet/_index-reseau-vnet.md",
@@ -288,14 +293,10 @@
     "azure/reseau-vnet/vpn-gateway-expressroute.md",
     "reseau/diagnostic-par-couche.md",
     "reseau/Firewall.md",
-    "reseau/Ports réseaux.md",
     "reseau/Protocole TCP.md",
     "reseau/http-versions.md",
     "reseau/cidr-notation.md",
     "azure/reseau-vnet/vnet-subnets-adressage.md",
-    "azure/reseau-vnet/vnet-routage-udr.md",
-    "azure/reseau-vnet/hub-and-spoke.md",
-    "reseau/Routage réseau.md",
     "azure/container-apps",
     "azure/reseau-vnet/network-security-group-nsg-azure.md.tmp.49480.f80442c9ba74",
     "azure/reseau-vnet",
@@ -304,7 +305,6 @@
     "architecture",
     "observabilite",
     "POC Observabilité SI hybride.md.tmp.44524.113fa353af02",
-    "_index/tls.md.tmp.35404.ab0c6d7544a2",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",

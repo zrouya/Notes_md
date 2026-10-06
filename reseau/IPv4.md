@@ -39,3 +39,4 @@ Les ~4,3 milliards d'adresses sont épuisées depuis 2011. Deux réponses coexis
 - [[Adresse IP]] · [[cidr-notation]]
 - [[Protocole IP (Internet Protocol)]]
 - [[Routage réseau]]
+- [[ip-publique-vs-privee]] · [[plages-ip-reservees]]

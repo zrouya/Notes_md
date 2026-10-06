@@ -36,6 +36,9 @@ Fil conducteur recommandé : [[Modèle OSI]] → [[encapsulation]] → [[cidr-no
 | Note | Description |
 |------|-------------|
 | [[Adresse IP]] | Identifie une **interface** sur un réseau |
+| [[ip-publique-vs-privee]] | Même format ; la différence est le routage (BGP vs domaine privé) |
+| [[plages-ip-reservees]] | RFC 1918, CGNAT, loopback, link-local, doc, multicast — IPv4 et IPv6 |
+| [[acheminement-ip-publique-privee]] | DNS → routage (plus long préfixe, BGP) → ARP : comment une IP est atteinte |
 | [[cidr-notation]] | `/24`, masques, calcul, plages privées RFC 1918 |
 | [[Masque de sous-réseau]] | Séparation réseau / hôte |
 | [[Sous-réseau]] | Découpage d'un réseau |
