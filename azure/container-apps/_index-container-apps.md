@@ -15,6 +15,7 @@ Notes sur Azure Container Apps : réseau et types d'Environment, plan Consumptio
 | 3 | [[container-apps-choix-irreversibles]] | Ce qui est figé à la création (mode, type d'env, zones) |
 | 4 | [[container-apps-workload-profiles]] | *Consumption only* vs *Workload profiles* : réseau, profils, détection, migration |
 | 5 | [[container-apps-plan-consumption]] | Le serverless : facturation à la seconde, scale to zero, tarif idle, limites |
+| 5b | [[container-apps-consumption-only-architecture]] | AKS sous-jacent, IP pré-réservées par nœud, diagnostic du subnet |
 | 6 | [[container-apps-app-logs]] | Modèle de logs (`appLogsConfiguration`), tables `_CL` |
 | 7 | [[container-apps-logs-finops]] | `log-analytics` vs `azure-monitor` : impacts coût et leviers |
 | 8 | [[container-apps-otel-agent]] | Agent OTel managé : config Bicep, variables injectées, limites |

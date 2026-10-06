@@ -53,6 +53,7 @@ az network vnet subnet update -g <rg> --vnet-name <vnet> -n <snet> --delegations
 
 - **Suppression bloquée** : le service pose un *Service Association Link* sur le subnet. Tant que la ressource PaaS existe (ou si son nettoyage a échoué), le subnet ne peut être ni supprimé ni dé-délégué.
 - **Ne pas déléguer quand le service ne le demande pas.** Exemple : un env Container Apps *Consumption only* attend un subnet **non** délégué.
+- **Non délégué ≠ partageable** : certains services exigent un subnet dédié sans délégation, uniquement par convention (rien ne bloque techniquement). Voir [[container-apps-consumption-only-architecture]].
 - **Dimensionner pour le scale-out maximal** : chaque instance ou nœud consomme une IP du subnet, en plus des 5 IP réservées par Azure ([[vnet-subnets-adressage]]).
 
 ## Voir aussi

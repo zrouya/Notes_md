@@ -11,7 +11,7 @@ Il existe **deux types** d'environnement Container Apps. *Workload profiles* est
 | | **Consumption only** (legacy) | **Workload profiles** |
 |---|---|---|
 | Profils disponibles | Serverless uniquement | Profil `Consumption` + profils Dedicated optionnels |
-| Taille mini du subnet | **/23** | **/27** |
+| Taille mini du subnet | **/23** (IP par lots, voir [[container-apps-consumption-only-architecture]]) | **/27** |
 | [[subnet-delegation\|Délégation du subnet]] | ❌ Ne pas déléguer | ✅ Obligatoire : `Microsoft.App/environments` |
 | [[vnet-routage-udr\|UDR]] (route vers un firewall) | ❌ Non respectées | ✅ |
 | [[sortie-internet-nat-gateway\|NAT Gateway]] | ❌ | ✅ |
@@ -76,3 +76,4 @@ Le type d'environnement est **immuable** : pas de conversion sur place.
 - [[container-apps-choix-irreversibles]]
 - [[container-apps-environnement-externe-vs-interne]]
 - [[subnet-delegation]]
+- [[container-apps-consumption-only-architecture]]

@@ -269,6 +269,7 @@
   },
   "active": "d6fd5ff829b65f7b",
   "lastOpenFiles": [
+    "azure/container-apps/container-apps-consumption-only-architecture.md",
     "azure/reseau-vnet/vnet-integration-subnet-delegation.md",
     "azure/reseau-vnet/subnet-delegation.md",
     "azure/container-apps/container-apps-workload-profiles.md",
@@ -295,7 +296,6 @@
     "git/git-push-set-upstream.md",
     "observabilite/opentelemetry-collector.md",
     "reseau/Interface réseau.md",
-    "reseau/Passerelle réseau.md",
     "azure/container-apps",
     "azure/reseau-vnet/network-security-group-nsg-azure.md.tmp.49480.f80442c9ba74",
     "azure/reseau-vnet",
