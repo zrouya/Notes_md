@@ -12,7 +12,9 @@ Le **peering** relie deux VNets pour que leurs machines communiquent en IP priv�
 - **Inter-régions possible** (*global peering*), et inter-abonnements.
 - **Pas de chevauchement d'adresses** entre les deux VNets, sinon le peering est refusé. Voir [[vnet-subnets-adressage#Le piège n°1 : le chevauchement]].
 - **Payant au Go** échangé, dans chaque sens.
-- Aucun équipement à gérer : pas de gateway, pas de goulet d'étranglement.
+- Aucun équipement à gérer : pas de gateway, pas de goulet d'étranglement. Mécanisme détaillé : [[vnet-peering-fonctionnement]].
+- **Ne crée aucune UDR** et **ne partage pas le DNS** : appairé au hub ne veut pas dire routé via le firewall. Vérifier : [[verifier-routage-subnet-azure]].
+- Après un agrandissement de l'address space : action **Sync** sur le peering.
 
 ## Le point clé : le peering n'est PAS transitif
 
@@ -44,6 +46,7 @@ Une fois le peering établi, le tag `VirtualNetwork` inclut le VNet d'en face : 
 
 ## Voir aussi
 
+- [[vnet-peering-fonctionnement]] · [[verifier-routage-subnet-azure]]
 - [[hub-and-spoke]]
 - [[vnet-routage-udr]]
 - [[vpn-gateway-expressroute]]

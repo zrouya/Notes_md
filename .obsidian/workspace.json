@@ -269,6 +269,8 @@
   },
   "active": "4e4fd46001a2e7c7",
   "lastOpenFiles": [
+    "azure/reseau-vnet/verifier-routage-subnet-azure.md",
+    "azure/reseau-vnet/vnet-peering-fonctionnement.md",
     "reseau/serveur-dhcp.md",
     "reseau/ip-publique-vs-privee.md",
     "reseau/plages-ip-reservees.md",
@@ -295,8 +297,6 @@
     "reseau/Firewall.md",
     "reseau/Protocole TCP.md",
     "reseau/http-versions.md",
-    "reseau/cidr-notation.md",
-    "azure/reseau-vnet/vnet-subnets-adressage.md",
     "azure/container-apps",
     "azure/reseau-vnet/network-security-group-nsg-azure.md.tmp.49480.f80442c9ba74",
     "azure/reseau-vnet",

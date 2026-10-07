@@ -20,6 +20,7 @@ Bases réseau générales (IP, CIDR, routage, DNS) : voir [[_index-reseau|l'inde
 | 5 | [[network-security-group-nsg-azure]] | Règles, priorités, règles par défaut |
 | 6 | [[nsg-service-tags-asg]] | Écrire des règles par nom plutôt que par IP |
 | 7 | [[vnet-peering]] | Relier deux VNets ; **non-transitivité** |
+| 7b | [[vnet-peering-fonctionnement]] | Sous le capot : routes injectées, SDN, états, ce que le peering ne fait pas |
 | 8 | [[hub-and-spoke]] | L'architecture de référence |
 | 9 | [[vpn-gateway-expressroute]] | Relier Azure et l'on-prem |
 | 10 | [[service-endpoint-vs-private-endpoint]] | Rendre un PaaS privé |
@@ -28,11 +29,13 @@ Bases réseau générales (IP, CIDR, routage, DNS) : voir [[_index-reseau|l'inde
 | 12b | [[subnet-delegation]] | Réserver un subnet à un service PaaS : règles, services, pièges |
 | 13 | [[sortie-internet-nat-gateway]] | Sortir sur Internet avec une IP fixe |
 | 14 | [[routage-asymetrique]] | Le piège du firewall qui ne voit que l'aller |
+| 15 | [[verifier-routage-subnet-azure]] | Diagnostic : peering, route table, effective routes (portail + CLI) |
 
 ## Les pièges classiques, en une ligne
 
 - **Plages qui se chevauchent** : impossible de relier les réseaux ensuite → [[vnet-subnets-adressage]]
 - **Peering non transitif** : A↔B et B↔C ne donnent pas A↔C → [[vnet-peering]]
+- **Appairé au hub ≠ routé par le firewall** : le peering ne crée pas d'UDR → [[verifier-routage-subnet-azure]]
 - **DNS des private endpoints** : ça marche par IP mais pas par nom → [[private-dns-zone]]
 - **Aller et retour par des chemins différents** : timeouts → [[routage-asymetrique]]
 - **NSG sur le subnet et sur la NIC** : il faut passer les deux → [[network-security-group-nsg-azure]]
