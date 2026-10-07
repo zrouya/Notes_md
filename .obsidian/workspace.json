@@ -78,18 +78,6 @@
             }
           },
           {
-            "id": "c4727e7a19d14d02",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notes de version 1.14.4"
-            }
-          },
-          {
             "id": "4e4fd46001a2e7c7",
             "type": "leaf",
             "state": {
@@ -279,7 +267,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c4727e7a19d14d02",
+  "active": "4e4fd46001a2e7c7",
   "lastOpenFiles": [
     "reseau/ip-publique-vs-privee.md",
     "reseau/plages-ip-reservees.md",
