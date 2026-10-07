@@ -78,6 +78,18 @@
             }
           },
           {
+            "id": "c4727e7a19d14d02",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notes de version 1.14.4"
+            }
+          },
+          {
             "id": "4e4fd46001a2e7c7",
             "type": "leaf",
             "state": {
@@ -120,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -257,9 +269,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Créer un nouveau canvas": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
@@ -267,7 +279,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d6fd5ff829b65f7b",
+  "active": "c4727e7a19d14d02",
   "lastOpenFiles": [
     "reseau/ip-publique-vs-privee.md",
     "reseau/plages-ip-reservees.md",
