@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/reseau-vnet/network-security-group-nsg-azure.md",
+                "file": "azure/reseau-vnet/vnet-subnets-adressage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "network-security-group-nsg-azure"
+              "title": "vnet-subnets-adressage"
             }
           },
           {
@@ -282,6 +282,7 @@
   },
   "active": "cb92c7d84cad0953",
   "lastOpenFiles": [
+    "azure/reseau-vnet/network-security-group-nsg-azure.md",
     "azure/reseau-vnet/nsg-service-tags-asg.md",
     "azure/reseau-vnet/vnet-peering-fonctionnement.md",
     "reseau/NAT (Network Address Translation).md",
@@ -293,7 +294,6 @@
     "reseau/acheminement-ip-publique-privee.md",
     "reseau/ip-publique-vs-privee.md.tmp.134640.752761ad1906",
     "reseau/Ports réseaux.md",
-    "azure/reseau-vnet/network-security-group-nsg-azure.md",
     "azure/reseau-vnet/_index-reseau-vnet.md",
     "azure/_index-azure.md",
     "reseau/_index-reseau.md",
