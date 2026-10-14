@@ -182,7 +182,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bgp",
+                "query": "firbgp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -295,7 +295,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7ac7f557c9fe774",
+  "active": "e85768a37c52157f",
   "lastOpenFiles": [
     "reseau/plages-ip-reservees.md",
     "reseau/ip-publique-vs-privee.md",
