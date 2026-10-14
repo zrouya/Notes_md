@@ -51,6 +51,6 @@ Azure réserve en plus **5 adresses par subnet** (les 4 premières et la derniè
 
 - [[Masque de sous-réseau]]
 - [[Sous-réseau]]
-- [[NAT (Network Address Translation)]]
+- [[nat-network-address-translation|NAT (Network Address Translation)]]
 - [[plages-ip-reservees]] · [[ip-publique-vs-privee]]
 - [[Routage réseau]]

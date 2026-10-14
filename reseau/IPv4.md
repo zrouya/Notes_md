@@ -32,7 +32,7 @@ Le TTL à 0 déclenche un ICMP `Time Exceeded` vers l'émetteur : c'est exacteme
 
 ## Épuisement
 
-Les ~4,3 milliards d'adresses sont épuisées depuis 2011. Deux réponses coexistent : le [[NAT (Network Address Translation)|NAT]] avec les plages privées RFC 1918, et [[IPv6]].
+Les ~4,3 milliards d'adresses sont épuisées depuis 2011. Deux réponses coexistent : le [[nat-network-address-translation|NAT]] avec les plages privées RFC 1918, et [[IPv6]].
 
 ## Voir aussi
 

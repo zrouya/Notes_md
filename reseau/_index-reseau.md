@@ -46,7 +46,7 @@ Fil conducteur recommandé : [[Modèle OSI]] → [[encapsulation]] → [[cidr-no
 | [[Adresses MAC]] | Adresse physique de couche 2 |
 | [[Adress Resolution Protocol (ARP)]] | IP → MAC sur le lien local |
 | [[Adresses IP Virtuelles (VIP)]] | IP flottante, failover, load balancing |
-| [[NAT (Network Address Translation)]] | Traduction privé ↔ public |
+| [[nat-network-address-translation\|NAT (Network Address Translation)]] | Traduction privé ↔ public, table de traduction, PAT, SNAT / DNAT |
 
 ## Protocoles
 

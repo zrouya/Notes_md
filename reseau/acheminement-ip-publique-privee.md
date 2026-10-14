@@ -53,5 +53,5 @@ tracert / traceroute 20.50.1.1  # par où ça passe
 
 - [[ip-publique-vs-privee]] · [[plages-ip-reservees]]
 - [[Routage réseau]] · [[Passerelle réseau]]
-- [[NAT (Network Address Translation)]]
+- [[nat-network-address-translation|NAT (Network Address Translation)]]
 - [[private-dns-zone]] · [[diagnostic-par-couche]]

@@ -39,5 +39,5 @@ Conséquence pratique pour le filtrage (allow-list d'un service public) : on aut
 
 - [[plages-ip-reservees]]
 - [[acheminement-ip-publique-privee]]
-- [[NAT (Network Address Translation)]]
+- [[nat-network-address-translation|NAT (Network Address Translation)]]
 - [[cidr-notation]] · [[IPv4]] · [[Adresse IP]]

@@ -4,7 +4,7 @@ tags: [azure, reseau, vnet, nat, internet]
 
 # Sortie vers Internet depuis un VNet : NAT Gateway
 
-Une machine en IP privée (`10.x`) ne peut pas parler directement à Internet : il faut qu'un équipement **remplace son IP privée par une IP publique** à la sortie. C'est le [[NAT (Network Address Translation)|NAT]], exactement comme la box internet d'une maison.
+Une machine en IP privée (`10.x`) ne peut pas parler directement à Internet : il faut qu'un équipement **remplace son IP privée par une IP publique** à la sortie. C'est le [[nat-network-address-translation|NAT]], exactement comme la box internet d'une maison.
 
 ## Les façons de sortir
 
@@ -35,6 +35,6 @@ snet-app (10.10.1.0/24) ──> NAT Gateway ──> IP publique 20.50.x.x ──
 
 ## Voir aussi
 
-- [[NAT (Network Address Translation)]]
+- [[nat-network-address-translation|NAT (Network Address Translation)]]
 - [[vnet-routage-udr]] : la route `0.0.0.0/0 → Internet`
 - [[vnet-integration-subnet-delegation]]

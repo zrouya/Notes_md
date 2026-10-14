@@ -24,7 +24,7 @@ Dans une URL, l'adresse se met entre crochets pour ne pas confondre avec le port
 | Taille | 32 bits | 128 bits |
 | En-tête | 20–60 o, variable | **40 o, fixe** |
 | Fragmentation | Par les routeurs | Par l'émetteur uniquement |
-| [[NAT (Network Address Translation)\|NAT]] | Omniprésent | **Aucun** |
+| [[nat-network-address-translation\|NAT]] | Omniprésent | **Aucun** |
 | Config auto | DHCP | SLAAC (autoconfiguration) |
 | Broadcast | Oui | Remplacé par le multicast |
 
