@@ -8,13 +8,13 @@ Aucune différence de **format** : rien dans le paquet ne dit qu'une adresse est
 
 ## Comparaison
 
-| | IP publique | IP privée |
-|---|---|---|
-| Plages | Tout ce qui n'est pas réservé | RFC 1918 (`10/8`, `172.16/12`, `192.168/16`) |
-| Unicité | **Mondiale** | Seulement **au sein d'un réseau** |
-| Attribution | IANA → RIR (RIPE, ARIN…) → opérateur / cloud | Libre, par l'administrateur du réseau |
-| Routage | Annoncée en **BGP**, routée sur Internet | **Filtrée** par les opérateurs, jamais routée sur Internet |
-| Joignable depuis | N'importe où sur Internet | Uniquement un réseau qui a une route vers elle (LAN, VNet, peering, VPN) |
+|                  | IP publique                                  | IP privée                                                                |
+| ---------------- | -------------------------------------------- | ------------------------------------------------------------------------ |
+| Plages           | Tout ce qui n'est pas réservé                | RFC 1918 (`10/8`, `172.16/12`, `192.168/16`)                             |
+| Unicité          | **Mondiale**                                 | Seulement **au sein d'un réseau**                                        |
+| Attribution      | IANA → RIR (RIPE, ARIN…) → opérateur / cloud | Libre, par l'administrateur du réseau                                    |
+| Routage          | Annoncée en **BGP**, routée sur Internet     | **Filtrée** par les opérateurs, jamais routée sur Internet               |
+| Joignable depuis | N'importe où sur Internet                    | Uniquement un réseau qui a une route vers elle (LAN, VNet, peering, VPN) |
 
 Voir [[plages-ip-reservees]] pour la liste complète des plages spéciales.
 
