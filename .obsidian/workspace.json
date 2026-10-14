@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reseau/bgp-border-gateway-protocol.md",
+                "file": "reseau/plages-ip-reservees.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bgp-border-gateway-protocol"
+              "title": "plages-ip-reservees"
             }
           },
           {
@@ -217,8 +217,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -311,6 +310,11 @@
   },
   "active": "74f659462879240d",
   "lastOpenFiles": [
+    "reseau/Adresse IP.md",
+    "reseau/Adresses IP Virtuelles (VIP).md",
+    "reseau/Adress Resolution Protocol (ARP).md",
+    "reseau/acheminement-ip-publique-privee.md",
+    "reseau/bgp-border-gateway-protocol.md",
     "azure/reseau-vnet/dns-hybride-azure.md",
     "azure/reseau-vnet/dns-private-resolver-azure.md",
     "azure/reseau-vnet/vnet-dns-azure-168-63-129-16.md",
@@ -322,7 +326,6 @@
     "reseau/Firewall.md",
     "reseau/acl-liste-controle-acces.md",
     "azure/reseau-vnet/network-security-group-nsg-azure.md",
-    "reseau/bgp-border-gateway-protocol.md",
     "reseau/cidr-notation.md",
     "reseau/plages-ip-reservees.md",
     "reseau/ip-publique-vs-privee.md",
@@ -333,10 +336,6 @@
     "azure/reseau-vnet/vpn-gateway-expressroute.md",
     "azure/reseau-vnet/vnet-peering.md",
     "azure/reseau-vnet/verifier-routage-subnet-azure.md",
-    "azure/reseau-vnet/nsg-service-tags-asg.md",
-    "azure/reseau-vnet/vnet-peering-fonctionnement.md",
-    "reseau/NAT (Network Address Translation).md",
-    "reseau/serveur-dhcp.md",
     "reseau/ip-publique-vs-privee.md.tmp.134640.752761ad1906",
     "azure/container-apps/container-apps-workload-profiles.md.tmp.145696.2f58cfe457c0",
     "azure/container-apps",
