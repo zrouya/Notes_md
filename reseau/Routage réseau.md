@@ -19,3 +19,9 @@ Les routeurs et les tables de routage jouent un rôle crucial dans la gestion du
 2. **Contenu** :
     
     - Une table de routage typique inclut l'adresse de destination, le [[Masque de sous-réseau|masque de sous-réseau]], la [[Passerelle réseau|passerelle]], l'[[Interface réseau|interface]] à utiliser, et parfois la distance ou le coût du chemin.
+
+## Voir aussi
+
+- [[routes-statiques-vs-dynamiques]] : routes écrites à la main ou apprises, et comment choisir
+- [[bgp-border-gateway-protocol]] : le protocole de routage dynamique d'Internet
+- Déclinaison Azure : [[vnet-routage-udr]] · [[routes-bgp-azure]]

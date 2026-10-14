@@ -38,5 +38,6 @@ La plupart des firewalls bloquent l'**ICMP** par défaut, Azure compris. Deux co
 
 ## Voir aussi
 
+- [[acl-liste-controle-acces]] : le filtrage par règles au plus près des segments
 - [[Ports réseaux]] · [[Cession TCP]]
 - [[Bastion]]

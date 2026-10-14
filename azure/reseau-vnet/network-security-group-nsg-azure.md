@@ -6,6 +6,9 @@ tags: [azure, reseau, vnet, securite, nsg]
 
 Un NSG est une **liste de règles "autoriser / refuser"** qui filtre le trafic entrant et sortant d'un subnet ou d'une carte réseau. C'est le [[Firewall]] de base d'Azure : il travaille aux couches 3 et 4 (IP et ports), sans lire le contenu HTTP.
 
+> [!abstract] Portée : spécifique Azure
+> Concept général : [[acl-liste-controle-acces]]. Un NSG est une ACL **stateful** (voir [[filtrage-stateful-stateless]]), avec en plus des étiquettes Azure : service tags et ASG.
+
 ## Anatomie d'une règle
 
 ```
@@ -50,6 +53,7 @@ Network Watcher → **IP flow verify** (quelle règle bloque ?) et **Effective s
 
 ## Voir aussi
 
+- [[acl-liste-controle-acces]] : le concept réseau général
 - [[nsg-service-tags-asg]] : écrire des règles sans lister d'IP
 - [[vnet-routage-udr]] : le chemin, avant le filtrage
 - [[erreurs-connexion-econnrefused]]

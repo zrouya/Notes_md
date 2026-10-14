@@ -46,7 +46,7 @@ Souvent on combine les deux : **ExpressRoute en principal, VPN en secours**.
 
 ## Comment les routes sont échangées
 
-Via **BGP**, un protocole par lequel deux routeurs s'annoncent mutuellement « voici les réseaux que je sais joindre ». Les plages on-prem apparaissent alors dans les routes du VNet. Voir [[vnet-routage-udr]].
+Via **BGP**, un protocole par lequel deux routeurs s'annoncent mutuellement « voici les réseaux que je sais joindre » (concept général : [[bgp-border-gateway-protocol]]). Les plages on-prem apparaissent alors dans les routes du VNet : ce sont les [[routes-bgp-azure|routes BGP]]. Voir aussi [[vnet-routage-udr]].
 
 ## Rappel
 

@@ -127,8 +127,11 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index-tls|index T
 | [[Hub réseau]] | Répéteur, couche 1 (obsolète) |
 | [[Passerelle réseau]] | Sortie vers les autres réseaux |
 | [[Routage réseau]] | Table de routage, plus long préfixe |
+| [[routes-statiques-vs-dynamiques]] | Routes écrites à la main ou apprises, distance administrative |
+| [[bgp-border-gateway-protocol]] | Échange de routes entre routeurs, AS, eBGP / iBGP |
 | [[Firewall]] | Filtrage — `DROP` vs `REJECT` |
 | [[filtrage-stateful-stateless]] | Pourquoi on n'écrit que l'aller ; table d'état |
+| [[acl-liste-controle-acces]] | Règles ordonnées sur le 5-tuple, première correspondance, refus implicite |
 | [[Bastion]] | Point d'entrée d'administration |
 | [[Carte d'interface réseau]] · [[Interface réseau]] · [[Network Adapter (Interface) Card]] | NIC et interfaces logiques |
 | [[Application-Specific Integrated Circuitery (ASIC)]] | Puce dédiée — ce qui rend un switch rapide |
@@ -144,6 +147,16 @@ Tout ce qui touche aux certificats et au handshake : voir **[[_index-tls|index T
 ## Réseau Azure
 
 VNet, subnets, NSG, peering, hub-and-spoke, private endpoints : voir **[[_index-reseau-vnet|index Réseau Azure]]**.
+
+Les notes de ce dossier sont **génériques** (indépendantes du fournisseur). Leurs déclinaisons Azure, dans `azure/reseau-vnet/` :
+
+| Notion générique | Déclinaison Azure |
+|------------------|-------------------|
+| [[routes-statiques-vs-dynamiques\|Route statique]] | [[vnet-routage-udr\|UDR]] (User Defined Route) |
+| [[bgp-border-gateway-protocol\|BGP]] | [[routes-bgp-azure\|Routes BGP]] apprises par la gateway |
+| [[acl-liste-controle-acces\|ACL]] | [[network-security-group-nsg-azure\|NSG]] |
+| [[Virtual Private Network (VPN)\|VPN]] | [[vpn-gateway-expressroute\|VPN Gateway / ExpressRoute]] |
+| [[filtrage-stateful-stateless\|Filtrage stateful]] et routage symétrique | [[routage-asymetrique]] |
 
 ## Réseau Docker
 

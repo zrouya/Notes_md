@@ -8,6 +8,15 @@ Notes pour comprendre le réseau dans Azure. Chaque note suppose connues les pr�
 
 Bases réseau générales (IP, CIDR, routage, DNS) : voir [[_index-reseau|l'index Réseau]].
 
+Les notes de ce dossier sont **spécifiques à Azure**. Chacune renvoie au concept réseau général qu'elle décline :
+
+| Notion Azure | Concept général (`reseau/`) |
+|--------------|-----------------------------|
+| [[vnet-routage-udr\|UDR]] | [[routes-statiques-vs-dynamiques\|Route statique]] |
+| [[routes-bgp-azure\|Routes BGP]] | [[bgp-border-gateway-protocol\|BGP]] |
+| [[network-security-group-nsg-azure\|NSG]] | [[acl-liste-controle-acces\|ACL]] |
+| [[vpn-gateway-expressroute\|VPN Gateway]] | [[Virtual Private Network (VPN)\|VPN]] |
+
 ## Parcours de lecture
 
 | # | Note | Ce qu'on y apprend |
@@ -16,6 +25,7 @@ Bases réseau générales (IP, CIDR, routage, DNS) : voir [[_index-reseau|l'inde
 | 1 | [[vnet-principe]] | Ce qu'est un VNet, l'analogie avec le réseau d'un bureau |
 | 2 | [[vnet-subnets-adressage]] | Address space, subnets, IP réservées, chevauchement |
 | 3 | [[vnet-routage-udr]] | Routes système, UDR, préfixe le plus long |
+| 3b | [[routes-bgp-azure]] | Routes apprises de l'on-prem, Propagate gateway routes, priorité UDR > BGP |
 | 4 | [[filtrage-stateful-stateless]] | Prérequis au NSG : pourquoi on n'écrit que l'aller |
 | 5 | [[network-security-group-nsg-azure]] | Règles, priorités, règles par défaut |
 | 6 | [[nsg-service-tags-asg]] | Écrire des règles par nom plutôt que par IP |
