@@ -92,6 +92,9 @@ Pour HTTP, voir la rubrique dédiée plus bas.
 | Note | Description |
 |------|-------------|
 | [[Domain Name System (DNS)]] | Résolution hiérarchique, récursion |
+| [[dns-roles-resolveur-autorite]] | Client, résolveur récursif, serveur faisant autorité ; quel résolveur est utilisé |
+| [[dns-redirection-conditionnelle]] | Redirecteurs, redirection conditionnelle, chaînage et pièges |
+| [[dns-split-horizon]] | Un nom, deux réponses selon qui demande ; domaine public en interne |
 | [[DNS record]] | Types A, AAAA, CNAME, MX, TXT, NS, SRV |
 | [[dns-ttl-migration]] | TTL, stratégie de bascule, piège TCP/53 |
 | [[Round Robin DNS]] | Répartition de charge par le DNS |
@@ -156,6 +159,9 @@ Les notes de ce dossier sont **génériques** (indépendantes du fournisseur). L
 | [[bgp-border-gateway-protocol\|BGP]] | [[routes-bgp-azure\|Routes BGP]] apprises par la gateway |
 | [[acl-liste-controle-acces\|ACL]] | [[network-security-group-nsg-azure\|NSG]] |
 | [[Virtual Private Network (VPN)\|VPN]] | [[vpn-gateway-expressroute\|VPN Gateway / ExpressRoute]] |
+| [[dns-roles-resolveur-autorite\|Résolveur DNS]] | [[vnet-dns-azure-168-63-129-16\|DNS d'un VNet (168.63.129.16)]] |
+| [[dns-redirection-conditionnelle\|Redirection conditionnelle]] | [[dns-private-resolver-azure\|DNS Private Resolver]] |
+| [[dns-split-horizon\|DNS split-horizon]] | [[private-dns-zone\|Private DNS Zone]] · [[dns-hybride-azure\|DNS hybride]] |
 | [[filtrage-stateful-stateless\|Filtrage stateful]] et routage symétrique | [[routage-asymetrique]] |
 
 ## Réseau Docker

@@ -8,6 +8,9 @@ Annuaire réparti d'Internet. **Aucun paquet ne voyage jamais vers un nom de dom
 
 C'est la première étape de toute connexion — et la première chose qui casse.
 
+> [!abstract] Portée : notion générique (réseau)
+> Déclinaisons Azure : [[vnet-dns-azure-168-63-129-16]], [[private-dns-zone]], [[dns-private-resolver-azure]], [[dns-hybride-azure]].
+
 ## La hiérarchie
 
 Le nom se lit **de droite à gauche**, du plus général au plus précis :
@@ -48,6 +51,9 @@ Resolve-DnsName api.exemple.com # Windows
 
 ## Voir aussi
 
+- [[dns-roles-resolveur-autorite]] — client, résolveur récursif, serveur faisant autorité
+- [[dns-redirection-conditionnelle]] — relier des DNS qui ne se voient pas
+- [[dns-split-horizon]] — un nom, deux réponses selon qui demande
 - [[DNS record]] — types d'enregistrements
 - [[dns-ttl-migration]] — TTL et stratégie de bascule
 - [[Round Robin DNS]]

@@ -10,3 +10,9 @@ Un enregistrement [[Domain Name System (DNS)|DNS]] (Domain Name System record) e
 - **NS (Name Server Record)** : Indique quels serveurs DNS sont autoritatifs pour le domaine. Cela permet de **déléguer la gestion des sous-domaines** à d'autres serveurs DNS.
 - **TXT (Text Record)** : Permet aux administrateurs de domaine d'insérer du texte arbitraire dans le DNS, souvent utilisé pour des **vérifications de propriété de domaine** ou des **politiques de sécurité** comme SPF (Sender Policy Framework) et DKIM (DomainKeys Identified Mail).
 - **SRV (Service Record)** : Fournit des informations sur les services disponibles dans le domaine, y compris le nom du service, le protocole, le port, et le poids pour l'équilibrage de charge.
+
+## Voir aussi
+
+- [[Domain Name System (DNS)]] · [[dns-roles-resolveur-autorite]]
+- [[dns-split-horizon]] : une même zone, deux contenus
+- [[private-dns-zone]] : enregistrements A et CNAME dans les zones privées Azure
