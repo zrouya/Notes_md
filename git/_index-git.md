@@ -26,3 +26,11 @@ Notes sur l'usage quotidien de git.
 - [[git-pull-rebase]] — récupérer le distant sans commit de merge
 - [[git-push-force-with-lease]] — pousser après réécriture d'historique sans écraser autrui
 - [[git-reflog]] — filet de sécurité pour revenir à un état précédant un rebase
+
+## Remotes & SSH
+
+- [[git-ssh-fonctionnement]] — ce que git exécute via ssh (`git-upload-pack` / `git-receive-pack`), flux d'un push
+- [[git-ssh-vs-https]] — reconnaître le transport d'un remote, en changer, diagnostiquer
+- [[git-ssh-plusieurs-comptes]] — deux comptes sur la même forge avec des alias `~/.ssh/config`
+- [[ssh-agent-windows]] — ne plus retaper la passphrase (service Windows + `core.sshCommand`)
+- Protocole SSH en détail : [[_index-ssh|Index — SSH]]

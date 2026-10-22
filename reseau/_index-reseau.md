@@ -65,7 +65,7 @@ Fil conducteur recommandé : [[Modèle OSI]] → [[encapsulation]] → [[cidr-no
 
 | Note | Description |
 |------|-------------|
-| [[Secure shell (SSH)]] | Accès distant chiffré — port 22 |
+| [[Secure shell (SSH)]] | Accès distant chiffré — port 22 (détail : [[_index-ssh\|Index SSH]]) |
 | [[File Transfert Protocol (FTP)]] | Transfert de fichiers — ports 20/21 |
 | [[Remote Desktop Protocol (RDP)]] | Bureau à distance — port 3389 |
 
