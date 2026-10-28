@@ -20,14 +20,19 @@ Sa force : il lit de nombreuses sources — **Azure Monitor / [[log-analytics|Lo
 
 ## Le waterfall de traces
 
-Le panel *Traces* s'alimente soit depuis **[[appinsights-principe|App Insights]]** (requête *Traces* de la datasource Azure Monitor, lit [[appinsights-tables-requests-dependencies|AppRequests/AppDependencies]]), soit depuis **[[grafana-tempo|Tempo]]**.
+Le panel *Traces* s'alimente soit depuis **[[appinsights-principe|App Insights]]** (requête *Traces* de la datasource Azure Monitor, lit [[appinsights-tables-requests-dependencies|AppRequests/AppDependencies]]), soit depuis **[[grafana-tempo|Tempo]]**. Mise en place et dépannage : [[grafana-waterfall-azure-monitor]].
 
 ## Accès à Azure
 
 Via **Managed Identity** (aucun secret) quand Grafana tourne dans Azure, avec le rôle `Monitoring Reader`.
 
+## Plugins
+
+Datasources, panels et apps supplémentaires s'ajoutent par plugins : [[grafana-plugins]].
+
 ## Voir aussi
 
+- [[grafana-plugins]]
 - [[grafana-tempo]]
 - [[stack-lgtm]]
 - [[log-analytics]]

@@ -43,3 +43,5 @@ union AppRequests, AppDependencies
 
 - [[correlation-traces-distribuees]]
 - [[appinsights-principe]]
+- [[appinsights-modele-donnees-otel]] — les autres tables (`AppTraces` = logs) et le mapping OTel
+- [[appinsights-schema-classique-vs-workspace]] — `requests` vs `AppRequests`

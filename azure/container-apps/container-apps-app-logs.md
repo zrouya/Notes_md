@@ -48,7 +48,7 @@ ContainerAppConsoleLogs_CL
 2. **[[container-apps-otel-agent|Agent OpenTelemetry managé]]** — OTLP (traces / logs / métriques vers App Insights ou un endpoint OTLP).
 3. **Métriques natives** — dans le blade *Metrics*, toujours dispo (requêtes/s, CPU, mémoire, réplicas), indépendamment du reste.
 
-Les logs console ≠ l'équivalent des `GatewayLogs` de l'APIM : ce sont des logs bruts, pas de l'observabilité applicative structurée. Pour celle-ci → instrumentation [[opentelemetry|OTel]].
+Les logs console ≠ l'équivalent des `GatewayLogs` de l'APIM : ce sont des logs bruts, pas de l'observabilité applicative structurée. Pour celle-ci → instrumentation [[opentelemetry|OTel]]. Comparaison avec `AppTraces` : [[container-apps-console-logs-vs-apptraces]].
 
 ## Choisir entre `log-analytics` et `azure-monitor`
 

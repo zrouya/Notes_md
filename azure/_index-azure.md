@@ -37,6 +37,8 @@ tags: [index, azure]
 - [[diagnostic-settings]] — Router les logs/métriques d'une ressource vers Log Analytics
 - [[apim-gateway-logs]] — Table `ApiManagementGatewayLogs` : une ligne par requête, split `TotalTime`/`BackendTime`
 - [[appinsights-tables-requests-dependencies]] — Tables `AppRequests` / `AppDependencies` et reconstruction d'une trace
+- [[appinsights-modele-donnees-otel]] — Correspondance OTel ↔ tables App Insights ; `AppTraces` = logs, pas des spans
+- [[appinsights-schema-classique-vs-workspace]] — Deux schémas KQL (`requests` vs `AppRequests`) selon la portée de la requête
 
 ## Identity & IAM
 

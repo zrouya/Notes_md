@@ -26,6 +26,11 @@ Concepts généraux d'observabilité (métriques, logs, traces, APM, backends). 
 ## Visualisation & backends neutres
 
 - [[grafana]] — Dashboards, panels, multi-datasource
+- [[grafana-waterfall-azure-monitor]] — Waterfall de traces App Insights dans Azure Managed Grafana : config du panel et checklist si rien ne s'affiche
+- [[grafana-plugins]] — Les 3 types de plugins (data source / panel / app) et leur usage
+- [[grafana-plugin-structure]] — plugin.json, frontend React, backend Go (gRPC), signature
+- [[grafana-plugin-installation]] — grafana-cli, Docker, limites du catalogue managé
+- [[grafana-infinity]] — Data source générique JSON/CSV/XML sur HTTP, alternative à un plugin maison
 - [[grafana-tempo]] — Backend de traces open-source (OTLP, TraceQL)
 - [[stack-lgtm]] — Loki / Grafana / Tempo / Mimir
 
