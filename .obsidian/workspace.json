@@ -120,16 +120,6 @@
             }
           },
           {
-            "id": "74f659462879240d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vue graphique"
-            }
-          },
-          {
             "id": "1228fda82b66068a",
             "type": "leaf",
             "state": {
@@ -304,7 +294,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74f659462879240d",
+  "active": "1228fda82b66068a",
   "lastOpenFiles": [
     "git/git-push-set-upstream.md",
     "ssh/_index-ssh.md",
