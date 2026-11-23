@@ -11,7 +11,8 @@ Parcours conseillé : structure → claims → signature → audience/issuer →
 - [[jwt-structure]] — header.payload.signature, Base64URL, signé ≠ chiffré, bearer token
 - [[jwt-claims]] — claims standards (`iss`, `aud`, `sub`, `exp`…) et d'autorisation (`scp`, `roles`)
 - [[jwt-signature-jwks]] — RS256 vs HS256, `kid`, JWKS, document de découverte OpenID, rotation des clés
-- [[jwt-audience-issuer]] — à qui est destiné le jeton, qui l'a émis, attaque du *confused deputy*
+- [[jwt-audience-issuer]] — à qui est destiné le jeton, qui l'a émis ; analogie du chèque, les 4 acteurs (`iss`/`azp`/`sub`/`aud`)
+- [[jwt-audience-attaques]] — *confused deputy*, rôle qui change de sens, pourquoi `aud` n'est pas une autorisation
 
 ## Validation et sécurité
 

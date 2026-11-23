@@ -4,48 +4,67 @@ tags: [securite, jwt, oauth, audience, issuer]
 
 # JWT — Audience (`aud`) et Issuer (`iss`)
 
-Ce sont les deux claims qui répondent aux questions de **confiance** : « est-ce que je fais confiance à celui qui a émis ce jeton ? » (`iss`) et « est-ce que ce jeton m'est bien destiné ? » (`aud`). Une API doit vérifier **les deux**.
+**L'audience indique à qui le jeton est destiné, c'est-à-dire quelle API a le droit de l'accepter.** L'issuer indique qui l'a fabriqué. Une API doit vérifier **les deux** : « le jeton vient-il d'un émetteur de confiance ? » et « a-t-il été fait pour moi ? ».
+
+## L'analogie du chèque
+
+| Chèque | JWT |
+|---|---|
+| Signature de la banque : le chèque est authentique | Signature + `iss` |
+| « À l'ordre de Mme Durand » : seule elle peut l'encaisser | **`aud`** |
+| Date de validité | `exp` / `nbf` |
+
+Un guichetier qui ne vérifie que la signature de la banque paie n'importe quel chèque authentique à n'importe qui. Vérifier l'audience, c'est se demander **« ce chèque est-il à mon ordre ? »**.
+
+## Les 4 acteurs d'un jeton
+
+| Claim | Question | Exemple (appel service à service) |
+|---|---|---|
+| `iss` | **Qui a fabriqué** le jeton ? | Entra ID (le tenant) |
+| `azp` / `appid` | **Qui l'a demandé** et l'envoie ? | L'application cliente |
+| `sub` / `oid` | **Au sujet de qui** est-il ? | L'application cliente, ou l'utilisateur en délégué |
+| `aud` | **Pour qui** est-il fabriqué ? | **L'API appelée** |
+
+**Confusion classique** : l'audience n'est **pas l'appelant**, c'est le **destinataire**. L'appelant est `azp` / `appid`.
+
+## Comment `aud` arrive dans le jeton
+
+1. Le client demande au fournisseur d'identité un jeton **pour** une ressource : `scope=api://mon-api/.default`.
+2. Le fournisseur d'identité inscrit `aud = <identifiant de mon-api>` dans le jeton, puis le **signe**.
+3. Le client ne peut plus modifier `aud` : toute modification casserait la signature.
+
+L'audience est donc **choisie par le client** au moment de la demande, puis **garantie par l'émetteur**.
+
+Chez Entra ID :
+- jeton **v2** : `aud` = client ID (GUID) de l'API ;
+- jeton **v1** : `aud` = la valeur demandée, souvent l'App ID URI (`api://...`).
+
+Voir [[entra-access-token-versions]].
 
 ## Issuer (`iss`) — qui a émis le jeton
 
 - C'est l'URL de l'autorité qui a émis le jeton. Chez Entra ID, elle contient l'identifiant du tenant : `https://login.microsoftonline.com/<tenant>/v2.0`.
-- Vérifier `iss` revient à n'accepter **que les jetons de son propre fournisseur d'identité ou de son propre tenant**.
-- **Piège multi-tenant** : la signature est faite par des clés **communes à tous les tenants** Entra ID. Une signature valide ne prouve donc pas que le jeton vient de **votre** tenant : c'est le contrôle de `iss` (ou de `tid`) qui le prouve.
+- Le contrôler revient à n'accepter **que les jetons de son propre fournisseur d'identité ou de son propre tenant**.
 
-## Audience (`aud`) — à qui le jeton est destiné
+## Pourquoi la signature ne suffit pas
 
-Un jeton est émis **pour une ressource précise** (une API). L'audience est l'identifiant de cette ressource.
+**Un même émetteur signe les jetons de toutes les API, avec les mêmes clés.** Chez Entra ID, ces clés sont même **communes à tous les tenants**. Une signature valide prouve seulement « Entra ID a émis ce jeton » :
 
-Exemple chez Entra ID :
+- elle ne prouve **pas** que le jeton vient de mon tenant : c'est `iss` (ou `tid`) qui le prouve ;
+- elle ne prouve **pas** que le jeton a été fait pour moi : c'est `aud` qui le prouve.
 
-```text
-Le client demande  : scope=api://mon-api/.default
-Il reçoit un jeton : "aud": "api://mon-api"   (jeton v1)
-                ou : "aud": "<client-id-de-mon-api>"   (jeton v2)
-```
-
-Le client **ne choisit pas `aud` directement** : il demande un *scope* et le fournisseur d'identité en déduit l'audience.
-
-## Pourquoi l'audience est indispensable : le *confused deputy*
-
-Le scénario, si l'API A **ne vérifie pas** l'audience :
-
-1. Un utilisateur appelle l'API B avec un jeton destiné à B.
-2. L'API B, malveillante ou compromise, réutilise ce jeton pour appeler l'API A.
-3. L'API A accepte le jeton, car la signature et l'émetteur sont valides.
-
-Résultat : B agit sur A au nom de l'utilisateur, sans y avoir été autorisée.
-
-La règle : **une API n'accepte que les jetons dont `aud` est son propre identifiant**. Pour appeler A, B doit obtenir un nouveau jeton destiné à A, par exemple via le flux *On-Behalf-Of*.
+Les attaques possibles sans ces contrôles sont détaillées dans [[jwt-audience-attaques]].
 
 ## Détails
 
 - `aud` peut être une liste. Le jeton est accepté si **l'une** des valeurs correspond.
-- Il est courant d'accepter à la fois l'*App ID URI* et le client ID de l'API, pour couvrir les jetons v1 et v2. Voir [[entra-access-token-versions]].
-- Un *ID token* a pour audience **le client** lui-même. Contrôler l'audience permet donc aussi de rejeter un ID token présenté à une API. Voir [[access-token-vs-id-token]].
+- Une API qui reçoit des jetons v1 et v2 accepte souvent **l'App ID URI et le client ID**.
+- Un *ID token* a pour audience **le client** lui-même : le contrôle de `aud` le rejette automatiquement. Voir [[access-token-vs-id-token]].
+- `aud` **n'autorise pas** l'appelant : il garantit seulement que le jeton est destiné à l'API. L'autorisation repose sur `roles` / `scp`. Voir [[authentification-vs-autorisation]].
 
 ## Voir aussi
 
+- [[jwt-audience-attaques]]
 - [[jwt-claims]]
 - [[jwt-validation-checklist]]
 - [[entra-access-token-versions]]

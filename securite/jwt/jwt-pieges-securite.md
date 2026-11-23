@@ -13,7 +13,7 @@ La plupart des failles liées aux JWT ne cassent pas la cryptographie : elles ex
 | **`alg: none`** | Jeton sans signature, que certaines bibliothèques acceptent | Liste blanche d'algorithmes, `none` toujours refusé |
 | **Confusion d'algorithme** | `alg` modifié de `RS256` en `HS256` : la clé **publique** sert alors de secret HMAC | Imposer l'algorithme côté validateur, ne jamais lire `alg` dans le jeton |
 | **`jku` / `x5u` / `kid` injectés** | Le header désigne une clé contrôlée par l'attaquant | Ne récupérer les clés **que** depuis la metadata URL configurée |
-| **Audience non vérifiée** | Rejeu d'un jeton destiné à une autre API | Contrôle de `aud`. Voir [[jwt-audience-issuer]] |
+| **Audience non vérifiée** | Rejeu d'un jeton destiné à une autre API | Contrôle de `aud`. Voir [[jwt-audience-attaques]] |
 | **Issuer non vérifié** | Jeton d'un autre tenant, signé par les mêmes clés partagées | Contrôle de `iss` / `tid` |
 | **Autorisation oubliée** | Toute application du tenant est acceptée | Exiger `roles` / `scp`. Voir [[authentification-vs-autorisation]] |
 
