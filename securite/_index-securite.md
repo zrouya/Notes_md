@@ -9,3 +9,7 @@ tags: [index, securite]
 - [[token-anti-forgery]] — protection des requêtes POST contre le CSRF
 - [[attaques-csrf-xsrf]] — placeholder
 - [[same-origin-policy-sop]] — placeholder
+
+## Sous-dossiers
+
+- [[_index-jwt|JWT & jetons OAuth]] — structure, claims, audience, validation, pièges, flux OAuth

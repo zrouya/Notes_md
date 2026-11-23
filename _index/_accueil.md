@@ -32,7 +32,7 @@ Point d'entrée du vault. Chaque domaine a son *Map of Content* qui liste ses no
 | [[_index-cache\|Cache]] | Stratégies d'invalidation |
 | [[_index-angular\|Angular]] | Composants, routing, signaux & RxJS, data binding, TypeScript, SSR |
 | [[_index-css\|CSS / SCSS]] | Sélecteurs, spécificité, cascade ; Sass : variables, imbrication, mixins, modules |
-| [[_index-securite\|Sécurité applicative]] | CSRF, OAuth/OpenID, SOP, anti-forgery |
+| [[_index-securite\|Sécurité applicative]] | CSRF, OAuth/OpenID, JWT (claims, audience, validation), SOP, anti-forgery |
 
 ## Outillage
 

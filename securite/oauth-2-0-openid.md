@@ -35,3 +35,6 @@ OpenID Connect est une extension de OAuth 2.0 qui permet l'authentification de l
 
 - [[authentification]]
 - [[token-anti-forgery]]
+- [[oauth-grant-types]]
+- [[access-token-vs-id-token]]
+- [[_index-jwt|JWT & jetons OAuth]]

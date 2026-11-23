@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IaC/azure-oidc-workload-identity.md",
+                "file": "securite/jwt/jwt-claims.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "azure-oidc-workload-identity"
+              "title": "jwt-claims"
             }
           }
         ],
@@ -203,8 +203,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -297,6 +296,23 @@
   },
   "active": "e3b2b53222197d2f",
   "lastOpenFiles": [
+    "securite/jwt/_index-jwt.md",
+    "IaC/azure-oidc-workload-identity.md",
+    "azure/apim-validate-jwt.md",
+    "azure/entra-scopes-vs-app-roles.md",
+    "azure/entra-access-token-versions.md",
+    "azure/entra-access-token-claims.md",
+    "securite/jwt/jwt-decoder.md",
+    "securite/jwt/jwt-pieges-securite.md",
+    "securite/jwt/oauth-grant-types.md",
+    "securite/jwt/access-token-vs-id-token.md",
+    "securite/jwt/authentification-vs-autorisation.md",
+    "securite/jwt/jwt-validation-checklist.md",
+    "securite/jwt/jwt-audience-issuer.md",
+    "securite/jwt/jwt-signature-jwks.md",
+    "securite/jwt/jwt-claims.md",
+    "securite/jwt/jwt-structure.md",
+    "securite/jwt",
     "azure/reseau-vnet/hub-and-spoke.md",
     "git/git-push-set-upstream.md",
     "ssh/_index-ssh.md",
@@ -307,23 +323,7 @@
     "ssh/ssh-config.md",
     "ssh/ssh-agent-windows.md",
     "ssh/ssh-agent.md",
-    "ssh/ssh-cles-types-generation.md",
-    "ssh/ssh-authentification-cle-publique.md",
-    "ssh/ssh-host-key-known-hosts.md",
-    "ssh/ssh-connexion-deroule.md",
-    "ssh/ssh-architecture-protocole.md",
-    "ssh/ssh-vue-ensemble.md",
     "ssh",
-    "reseau/plages-ip-reservees.md",
-    "reseau/Adresse IP.md",
-    "reseau/Adresses IP Virtuelles (VIP).md",
-    "reseau/Adress Resolution Protocol (ARP).md",
-    "reseau/acheminement-ip-publique-privee.md",
-    "reseau/bgp-border-gateway-protocol.md",
-    "azure/reseau-vnet/dns-hybride-azure.md",
-    "azure/reseau-vnet/dns-private-resolver-azure.md",
-    "azure/reseau-vnet/vnet-dns-azure-168-63-129-16.md",
-    "reseau/dns-split-horizon.md",
     "reseau/ip-publique-vs-privee.md.tmp.134640.752761ad1906",
     "azure/container-apps/container-apps-workload-profiles.md.tmp.145696.2f58cfe457c0",
     "azure/container-apps",
@@ -332,7 +332,6 @@
     "css/desktop.ini",
     "css",
     "architecture",
-    "observabilite",
     "Untitled.canvas",
     "gitrepo/screenshot-www.udemy.com-2024.04.05-11_24_50.png",
     "gitrepo/Untitled.canvas",

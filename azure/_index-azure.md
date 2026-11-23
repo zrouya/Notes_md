@@ -23,6 +23,7 @@ tags: [index, azure]
 - [[apim-caching]] — Vue d'ensemble du cache APIM : mode interne vs externe (Redis)
 - [[apim-cache-policies]] — Politiques cache-lookup, cache-store, cache-remove-value et leurs paramètres
 - [[apim-cache-bonnes-pratiques]] — Bonnes pratiques, limites, et approche ETag manuelle
+- [[apim-validate-jwt]] — Policy `validate-jwt` : openid-config, audiences, required-claims, fragment global, suppression du header
 
 ## Monitoring & Observability
 
@@ -50,6 +51,10 @@ tags: [index, azure]
 - [[entra-permissions-vs-roles]] — Différences conceptuelles des deux référentiels, recouvrement et règle de choix
 - [[entra-app-registration-vs-enterprise-app]] — Objets `application` vs `servicePrincipal`, relation 1→N, cas des managed identities
 - [[entra-audit-permissions-sp]] — Vérifier les permissions réelles d'un compte de service (portail + CLI), pièges `Group.Create`
+- [[entra-access-token-claims]] — Claims propres à Entra ID dans un access token (`tid`, `oid`, `azp`, `idtyp`…)
+- [[entra-access-token-versions]] — Jetons v1 vs v2 : issuer, audience, `accessTokenAcceptedVersion`
+- [[entra-scopes-vs-app-roles]] — Exposer une API : scopes délégués (`scp`) vs app roles (`roles`), octroi
+- Concepts JWT génériques : voir [[_index-jwt|l'index JWT]]
 - [[azure-entra]] — Vue d'ensemble d'Azure Entra (anciennement Azure Active Directory) comme fournisseur d'identités
 
 Le détail des sous-domaines App Service, Functions, Conteneurs, Container Apps, VM/IaaS, Stockage & Bases de données, Comptes & IAM, Généralités Cloud et Gestion & Administration se trouve dans leur index respectif (voir "Sous-domaines" ci-dessus), colocalisé avec les notes dans leur sous-dossier.
