@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "securite/jwt/jwt-claims.md",
+                "file": "azure/entra-access-token-claims.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jwt-claims"
+              "title": "entra-access-token-claims"
             }
           }
         ],
@@ -296,6 +296,7 @@
   },
   "active": "e3b2b53222197d2f",
   "lastOpenFiles": [
+    "securite/jwt/jwt-claims.md",
     "securite/jwt/_index-jwt.md",
     "IaC/azure-oidc-workload-identity.md",
     "azure/apim-validate-jwt.md",
@@ -310,7 +311,6 @@
     "securite/jwt/jwt-validation-checklist.md",
     "securite/jwt/jwt-audience-issuer.md",
     "securite/jwt/jwt-signature-jwks.md",
-    "securite/jwt/jwt-claims.md",
     "securite/jwt/jwt-structure.md",
     "securite/jwt",
     "azure/reseau-vnet/hub-and-spoke.md",
